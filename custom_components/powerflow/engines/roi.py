@@ -1,1 +1,72 @@
-IiIiUk9JIGVuZ2luZSBmb3IgUG93ZXJmbG93LiIiIgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQgbG9nZ2luZwpmcm9tIGRhdGV0aW1lIGltcG9ydCBkYXRlLCBkYXRldGltZQpmcm9tIHR5cGluZyBpbXBvcnQgQW55Cgpmcm9tIGhvbWVhc3Npc3RhbnQuY29yZSBpbXBvcnQgSG9tZUFzc2lzdGFudAoKZnJvbSAuLmNvbnN0IGltcG9ydCBDT05GX0lOU1RBTExfQ09TVCwgQ09ORl9JTlNUQUxMX0RBVEUsIENPTkZfQ0FSUllfSU5fU0FWSU5HUwoKX0xPR0dFUiA9IGxvZ2dpbmcuZ2V0TG9nZ2VyKF9fbmFtZV9fKQoKClNBVklOR1NfU0VOU09SX0NBTkRJREFURVMgPSBbCiAgICAic2Vuc29yLnBvd2VyZmxvd19zb2xhcl9wdXJlX3VzYWdlX3NhdmluZ3NfYWNjdW11bGF0aXZlIiwKICAgICJzZW5zb3Iuc29sYXJfc2F2aW5nc190b3RhbCIsCiAgICAic2Vuc29yLmVuZXJneV9zYXZpbmdzX3RvdGFsIiwKXQoKCmNsYXNzIFJPSUVuZ2luZToKICAgICIiIlRyYWNrcyBzb2xhci9iYXR0ZXJ5IFJPSSBhbmQgcGF5YmFjayBwcm9ncmVzcy4iIiIKCiAgICBkZWYgX19pbml0X18oc2VsZiwgaGFzczogSG9tZUFzc2lzdGFudCwgY29uZmlnX2RhdGE6IGRpY3Rbc3RyLCBBbnldKSAtPiBOb25lOgogICAgICAgICIiIkluaXRpYWxpemUgUk9JIGVuZ2luZS4iIiIKICAgICAgICBzZWxmLmhhc3MgPSBoYXNzCiAgICAgICAgc2VsZi5jb25maWcgPSBjb25maWdfZGF0YQoKICAgIGRlZiBfcmVhZF9zYXZpbmdzX3NlbnNvcihzZWxmKSAtPiBmbG9hdDoKICAgICAgICAiIiJBdXRvLWRldGVjdCBhY2N1bXVsYXRlZCBzYXZpbmdzIGZyb20gSEEgc3RhdGVzLiIiIgogICAgICAgIGZvciBzZW5zb3JfaWQgaW4gU0FWSU5HU19TRU5TT1JfQ0FORElEQVRFUzoKICAgICAgICAgICAgc3RhdGUgPSBzZWxmLmhhc3Muc3RhdGVzLmdldChzZW5zb3JfaWQpCiAgICAgICAgICAgIGlmIHN0YXRlIGFuZCBzdGF0ZS5zdGF0ZSBub3QgaW4gKCJ1bmtub3duIiwgInVuYXZhaWxhYmxlIik6CiAgICAgICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIGZsb2F0KHN0YXRlLnN0YXRlKQogICAgICAgICAgICAgICAgZXhjZXB0IFZhbHVlRXJyb3I6CiAgICAgICAgICAgICAgICAgICAgcGFzcwogICAgICAgIHJldHVybiAwLjAKCiAgICBhc3luYyBkZWYgYXN5bmNfZ2V0X3N0YXRzKHNlbGYpIC0+IGRpY3Q6CiAgICAgICAgIiIiR2V0IFJPSSBzdGF0aXN0aWNzLiIiIgogICAgICAgIGluc3RhbGxfY29zdCA9IGZsb2F0KHNlbGYuY29uZmlnLmdldChDT05GX0lOU1RBTExfQ09TVCwgMC4wKSkKICAgICAgICBjYXJyeV9pbiA9IGZsb2F0KHNlbGYuY29uZmlnLmdldChDT05GX0NBUlJZX0lOX1NBVklOR1MsIDAuMCkpCiAgICAgICAgaW5zdGFsbF9kYXRlX3N0ciA9IHNlbGYuY29uZmlnLmdldChDT05GX0lOU1RBTExfREFURSkKCiAgICAgICAgc2F2aW5nc19zZW5zb3JfdmFsdWUgPSBzZWxmLl9yZWFkX3NhdmluZ3Nfc2Vuc29yKCkKICAgICAgICB0b3RhbF9zYXZlZCA9IGNhcnJ5X2luICsgc2F2aW5nc19zZW5zb3JfdmFsdWUKCiAgICAgICAgcGF5YmFja19wZXJjZW50ID0gKHRvdGFsX3NhdmVkIC8gaW5zdGFsbF9jb3N0ICogMTAwLjApIGlmIGluc3RhbGxfY29zdCA+IDAgZWxzZSAxMDAuMAogICAgICAgIHBheWJhY2tfcmVtYWluaW5nID0gbWF4KDAuMCwgaW5zdGFsbF9jb3N0IC0gdG90YWxfc2F2ZWQpCgogICAgICAgICMgQ2FsY3VsYXRlIG1vbnRobHkgYXZlcmFnZSBpZiB3ZSBoYXZlIGFuIGluc3RhbGwgZGF0ZQogICAgICAgIG1vbnRobHlfYXZnID0gMC4wCiAgICAgICAgaWYgaW5zdGFsbF9kYXRlX3N0ciBhbmQgdG90YWxfc2F2ZWQgPiAwOgogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICBpbnN0YWxsX2R0ID0gZGF0ZS5mcm9taXNvZm9ybWF0KGluc3RhbGxfZGF0ZV9zdHIpCiAgICAgICAgICAgICAgICBtb250aHNfZWxhcHNlZCA9ICgKICAgICAgICAgICAgICAgICAgICAoZGF0ZXRpbWUubm93KCkueWVhciAtIGluc3RhbGxfZHQueWVhcikgKiAxMgogICAgICAgICAgICAgICAgICAgICsgZGF0ZXRpbWUubm93KCkubW9udGggLSBpbnN0YWxsX2R0Lm1vbnRoCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICBpZiBtb250aHNfZWxhcHNlZCA+IDA6CiAgICAgICAgICAgICAgICAgICAgbW9udGhseV9hdmcgPSB0b3RhbF9zYXZlZCAvIG1vbnRoc19lbGFwc2VkCiAgICAgICAgICAgIGV4Y2VwdCAoVmFsdWVFcnJvciwgT3ZlcmZsb3dFcnJvcik6CiAgICAgICAgICAgICAgICBwYXNzCgogICAgICAgIHJldHVybiB7CiAgICAgICAgICAgICJpbnN0YWxsX2Nvc3QiOiBpbnN0YWxsX2Nvc3QsCiAgICAgICAgICAgICJpbnN0YWxsX2RhdGUiOiBpbnN0YWxsX2RhdGVfc3RyLAogICAgICAgICAgICAiY2FycnlfaW5fc2F2aW5ncyI6IGNhcnJ5X2luLAogICAgICAgICAgICAidG90YWxfc2F2ZWQiOiByb3VuZCh0b3RhbF9zYXZlZCwgMiksCiAgICAgICAgICAgICJwYXliYWNrX3BlcmNlbnQiOiByb3VuZChwYXliYWNrX3BlcmNlbnQsIDEpLAogICAgICAgICAgICAicGF5YmFja19yZW1haW5pbmdfZG9sbGFycyI6IHJvdW5kKHBheWJhY2tfcmVtYWluaW5nLCAyKSwKICAgICAgICAgICAgIm1vbnRobHlfc2F2aW5nc19hdmciOiByb3VuZChtb250aGx5X2F2ZywgMiksCiAgICAgICAgfQo=
+"""ROI engine for Powerflow."""
+from __future__ import annotations
+
+import logging
+from datetime import date, datetime
+from typing import Any
+
+from homeassistant.core import HomeAssistant
+
+from ..const import CONF_INSTALL_COST, CONF_INSTALL_DATE, CONF_CARRY_IN_SAVINGS
+
+_LOGGER = logging.getLogger(__name__)
+
+SAVINGS_SENSOR_CANDIDATES = [
+    "sensor.powerflow_solar_pure_usage_savings_accumulative",
+    "sensor.solar_savings_total",
+    "sensor.energy_savings_total",
+]
+
+
+class ROIEngine:
+    """Tracks solar/battery ROI and payback progress."""
+
+    def __init__(self, hass: HomeAssistant, config_data: dict[str, Any]) -> None:
+        """Initialise ROI engine."""
+        self.hass = hass
+        self.config = config_data
+
+    def _read_savings_sensor(self) -> float:
+        """Auto-detect accumulated savings from HA states."""
+        for sensor_id in SAVINGS_SENSOR_CANDIDATES:
+            state = self.hass.states.get(sensor_id)
+            if state and state.state not in ("unknown", "unavailable"):
+                try:
+                    return float(state.state)
+                except ValueError:
+                    pass
+        return 0.0
+
+    async def async_get_stats(self) -> dict:
+        """Calculate and return ROI statistics."""
+        install_cost = float(self.config.get(CONF_INSTALL_COST, 0.0))
+        carry_in = float(self.config.get(CONF_CARRY_IN_SAVINGS, 0.0))
+        install_date_str = self.config.get(CONF_INSTALL_DATE)
+
+        savings_sensor_value = self._read_savings_sensor()
+        total_saved = carry_in + savings_sensor_value
+        payback_percent = (total_saved / install_cost * 100.0) if install_cost > 0 else 100.0
+        payback_remaining = max(0.0, install_cost - total_saved)
+
+        monthly_avg = 0.0
+        if install_date_str and total_saved > 0:
+            try:
+                install_dt = date.fromisoformat(install_date_str)
+                months_elapsed = (
+                    (datetime.now().year - install_dt.year) * 12
+                    + datetime.now().month - install_dt.month
+                )
+                if months_elapsed > 0:
+                    monthly_avg = total_saved / months_elapsed
+            except (ValueError, OverflowError):
+                pass
+
+        return {
+            "install_cost": install_cost,
+            "install_date": install_date_str,
+            "carry_in_savings": carry_in,
+            "total_saved": round(total_saved, 2),
+            "payback_percent": round(payback_percent, 1),
+            "payback_remaining_dollars": round(payback_remaining, 2),
+            "monthly_savings_avg": round(monthly_avg, 2),
+        }

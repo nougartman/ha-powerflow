@@ -1,1 +1,151 @@
-IiIiRnVlbCBzYXZpbmdzIGVuZ2luZSBmb3IgUG93ZXJmbG93LiIiIgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQgbG9nZ2luZwppbXBvcnQgYXN5bmNpbwpmcm9tIGRhdGV0aW1lIGltcG9ydCBkYXRldGltZQpmcm9tIHR5cGluZyBpbXBvcnQgQW55CgppbXBvcnQgYWlvaHR0cAoKZnJvbSBob21lYXNzaXN0YW50LmNvcmUgaW1wb3J0IEhvbWVBc3Npc3RhbnQKCmZyb20gLi5jb25zdCBpbXBvcnQgKAogICAgRlVFTF9TT1VSQ0VfTUFOVUFMLAogICAgRlVFTF9TT1VSQ0VfSEFfU0VOU09SLAogICAgRlVFTF9TT1VSQ0VfTlNXX0ZVRUxDSEVDSywKICAgIEZVRUxfU09VUkNFX1FVQVJURVJMWV9BVkcsCiAgICBISVNUT1JJQ0FMX1VMUDkxX1BSSUNFLAogICAgQ09ORl9GVUVMX1BSSUNFX1NPVVJDRSwKICAgIENPTkZfRlVFTF9QUklDRV9NQU5VQUwsCiAgICBOU1dfRlVFTENIRUNLX0FQSV9CQVNFLAopCmZyb20gLi5zdG9yYWdlLmhhX3N0b3JlIGltcG9ydCBQb3dlcmZsb3dTdG9yZQoKX0xPR0dFUiA9IGxvZ2dpbmcuZ2V0TG9nZ2VyKF9fbmFtZV9fKQoKCmNsYXNzIEZ1ZWxTYXZpbmdzRW5naW5lOgogICAgIiIiVHJhY2tzIEVWIGZ1ZWwgc2F2aW5ncyB2cyBJQ0UgZXF1aXZhbGVudCBwZXIgdmVoaWNsZSBhbmQgZmxlZXQuIiIiCgogICAgZGVmIF9faW5pdF9fKHNlbGYsIGhhc3M6IEhvbWVBc3Npc3RhbnQsIGNvbmZpZ19kYXRhOiBkaWN0W3N0ciwgQW55XSkgLT4gTm9uZToKICAgICAgICAiIiJJbml0aWFsaXplIGZ1ZWwgc2F2aW5ncyBlbmdpbmUuIiIiCiAgICAgICAgc2VsZi5oYXNzID0gaGFzcwogICAgICAgIHNlbGYuY29uZmlnID0gY29uZmlnX2RhdGEKICAgICAgICBzZWxmLnN0b3JlID0gUG93ZXJmbG93U3RvcmUoaGFzcykKCiAgICBkZWYgX2N1cnJlbnRfcXVhcnRlcl9rZXkoc2VsZikgLT4gc3RyOgogICAgICAgICIiIlJldHVybiBjdXJyZW50IHllYXItUXVhcnRlciBrZXkuIiIiCiAgICAgICAgbm93ID0gZGF0ZXRpbWUubm93KCkKICAgICAgICBxID0gKG5vdy5tb250aCAtIDEpIC8vIDMgKyAxCiAgICAgICAgcmV0dXJuIGYie25vdy55ZWFyfS1RIHtxfSIKCiAgICBhc3luYyBkZWYgYXN5bmNfZ2V0X2Z1ZWxfcHJpY2Uoc2VsZikgLT4gZmxvYXQ6CiAgICAgICAgIiIiRGV0ZXJtaW5lIGZ1ZWwgcHJpY2UgdXNpbmcgdGllcmVkIHN0cmF0ZWd5LiIiIgogICAgICAgIHNvdXJjZSA9IHNlbGYuY29uZmlnLmdldChDT05GX0ZVRUxfUFJJQ0VfU09VUkNFLCBGVUVMX1NPVVJDRV9RVUFSVEVSTFZFX0FWRykKCiAgICAgICAgaWYgc291cmNlID09IEZVRUVMX1NPVVJDRV9NQU5VQUw6CiAgICAgICAgICAgIHJldHVybiBmbG9hdChzZWxmLmNvbmZpZy5nZXQoQ09ORl9GVUVMX1BSSUNFX01BTlVBTCwgMi4wKSkKCiAgICAgICAgaWYgc291cmNlID09IEZVRUVMX1NPVVJDRV9IQV9TRU5TT1I6CiAgICAgICAgICAgIHNlbnNvcl9pZCA9IHNlbGYuY29uZmlnLmdldCgiZnVlbF9wcmljZV9zZW5zb3IiKQogICAgICAgICAgICBpZiBzZW5zb3JfaWQ6CiAgICAgICAgICAgICAgICBzdGF0ZSA9IHNlbGYuaGFzcy5zdGF0ZXMuZ2V0KHNlbnNvcl9pZCkKICAgICAgICAgICAgICAgIGlmIHN0YXRlIGFuZCBzdGF0ZS5zdGF0ZSBub3QgaW4gKCJ1bmtub3duIiwgInVuYXZhaWxhYmxlIik6CiAgICAgICAgICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gZmxvYXQoc3RhdGUuc3RhdGUpCiAgICAgICAgICAgICAgICAgICAgZXhjZXB0IFZhbHVlRXJyb3I6CiAgICAgICAgICAgICAgICAgICAgICAgIHBhc3MKCiAgICAgICAgaWYgc291cmNlID09IEZVRUVMX1NPVVJDRV9OU1dfRlVFTENIRUNLOgogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICBhcGlfa2V5ID0gc2VsZi5jb25maWcuZ2V0KCJuc3dfZnVlbGNoZWNrX2tleSIpCiAgICAgICAgICAgICAgICBpZiBub3QgYXBpX2tleToKICAgICAgICAgICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJObyBOU1cgRnVlbENoZWNrIEFQSSBrZXkgY29uZmlndXJlZCIpCiAgICAgICAgICAgICAgICBwcmljZSA9IGF3YWl0IHNlbGYuX2ZldGNoX25zd19mdWVsX3ByaWNlKGFwaV9rZXkpCiAgICAgICAgICAgICAgICBpZiBwcmljZSBpcyBub3QgTm9uZToKICAgICAgICAgICAgICAgICAgICByZXR1cm4gcHJpY2UKICAgICAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlcnI6CiAgICAgICAgICAgICAgICBfTE9HR0VSLndhcm5pbmcoIkZhaWxlZCB0byBmZXRjaCBOU1cgRnVlbENoZWNrIHByaWNlOiAlcyIsIGVycikKCiAgICAgICAgIyBGYWxsYmFjazogcXVhcnRlcmx5IGF2ZXJhZ2UKICAgICAgICBrZXkgPSBzZWxmLl9jdXJyZW50X3F1YXJ0ZXJfa2V5KCkKICAgICAgICBwcmljZSA9IEhJU1RPUklDQUxfVUxQOTFfUFJJQ0UuZ2V0KGtleSkKICAgICAgICBpZiBwcmljZSBpcyBub3QgTm9uZToKICAgICAgICAgICAgcmV0dXJuIHByaWNlCiAgICAgICAgIyBVbHRpbWF0ZSBmYWxsYmFjazogbW9zdCByZWNlbnQga25vd24gdmFsdWUKICAgICAgICByZXR1cm4gbGlzdChISVNUT1JJQ0FMX1VMUDkxX1BSSUNFLnZhbHVlcygpKVstMV0gaWYgSElTVE9SSUNBTF9VTFA5MV9QUklDRSBlbHNlIDIuMTAKCiAgICBhc3luYyBkZWYgX2ZldGNoX25zd19mdWVsX3ByaWNlKHNlbGYsIGFwaV9rZXk6IHN0cikgLT4gZmxvYXQgfCBOb25lOgogICAgICAgICIiIkZldGNoIFVMUDkxIHByaWNlIGZyb20gTlNXIEZ1ZWxDaGVjayBBUEkuIiIiCiAgICAgICAgem9uZSA9IHNlbGYuaGFzcy5zdGF0ZXMuZ2V0KCJ6b25lLmhvbWUiKQogICAgICAgIGlmIG5vdCB6b25lOgogICAgICAgICAgICByZXR1cm4gTm9uZQoKICAgICAgICBsYXQgPSB6b25lLmF0dHJpYnV0ZXMuZ2V0KCJsYXRpdHVkZSIpCiAgICAgICAgbG9uID0gem9uZS5hdHRyaWJ1dGVzLmdldCgibG9uZ2l0dWRlIikKICAgICAgICBpZiBub3QgbGF0IG9yIG5vdCBsb246CiAgICAgICAgICAgIHJldHVybiBOb25lCgogICAgICAgIHBhcmFtcyA9IHsKICAgICAgICAgICAgImZ1ZWxUeXBlIjogIlUiLAogICAgICAgICAgICAibGF0aXR1ZGUiOiBzdHIobGF0KSwKICAgICAgICAgICAgImxvbmdpdHVkZSI6IHN0cihsb24pLAogICAgICAgICAgICAicmFkaXVzIjogIjUiLAogICAgICAgICAgICAibm9PZlJlc3VsdHMiOiAiMTAiLAogICAgICAgIH0KICAgICAgICBoZWFkZXJzID0geyJBcGlLZXkiOiBhcGlfa2V5LCAiQ29udGVudC1UeXBlIjogImFwcGxpY2F0aW9uL2pzb24ifQoKICAgICAgICB0aW1lb3V0ID0gYWlvaHR0cC5DbGllbnRUaW1lb3V0KHRvdGFsPTEwKQogICAgICAgIGFzeW5jIHdpdGggYWlvaHR0cC5DbGllbnRTZXNzaW9uKHRpbWVvdXQ9dGltZW91dCkgYXMgc2Vzc2lvbjoKICAgICAgICAgICAgYXN5bmMgd2l0aCBzZXNzaW9uLmdldChOU1dfRlVFTENIRUNLX0FQSV9CQVNFLCBwYXJhbXM9cGFyYW1zLCBoZWFkZXJzPWhlYWRlcnMpIGFzIHJlc3A6CiAgICAgICAgICAgICAgICByZXNwLnJhaXNlX2Zvcl9zdGF0dXMoKQogICAgICAgICAgICAgICAgZGF0YSA9IGF3YWl0IHJlc3AuanNvbigpCgogICAgICAgIHN0YXRpb25zID0gZGF0YS5nZXQoInN0YXRpb25zIiwgW10pIG9yIGRhdGEuZ2V0KCJmc3RhdGlvbnMiLCBbXSkKICAgICAgICBwcmljZXMgPSBbXQogICAgICAgIGZvciBzdGF0aW9uIGluIHN0YXRpb25zOgogICAgICAgICAgICBmb3IgcHJpY2UgaW4gc3RhdGlvbi5nZXQoInByaWNlcyIsIFtdKToKICAgICAgICAgICAgICAgIGlmIHByaWNlLmdldCgidHlwZSIpID09ICJVIjoKICAgICAgICAgICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICAgICAgICAgIHByaWNlcy5hcHBlbmQoZmxvYXQocHJpY2UuZ2V0KCJwcmljZSIsIDApKSAvIDEwMC4wKQogICAgICAgICAgICAgICAgICAgIGV4Y2VwdCAoVHlwZUVycm9yLCBWYWx1ZUVycm9yKToKICAgICAgICAgICAgICAgICAgICAgICAgcGFzcwoKICAgICAgICByZXR1cm4gc3VtKHByaWNlcykgLyBsZW4ocHJpY2VzKSBpZiBwcmljZXMgZWxzZSBOb25lCgogICAgYXN5bmMgZGVmIGFzeW5jX2dldF9zdGF0cyhzZWxmKSAtPiBkaWN0OgogICAgICAgICIiIkdldCBhZ2dyZWdhdGVkIGZsZWV0IGZ1ZWwgc2F2aW5ncyBzdGF0cy4iIiIKICAgICAgICBkYXRhID0gYXdhaXQgc2VsZi5zdG9yZS5hc3luY19sb2FkKCkKICAgICAgICBsb2NhbF9lOTEgPSBhd2FpdCBzZWxmLmFzeW5jX2dldF9mdWVsX3ByaWNlKCkKCiAgICAgICAgZmxlZXRfZnVlbF9zYXZpbmdzID0gMC4wCiAgICAgICAgZmxlZXRfcGV0cm9sX2F2b2lkZWQgPSAwLjAKICAgICAgICBmbGVldF9kaXN0YW5jZV90cmFja2VkID0gMC4wCiAgICAgICAgZmxlZXRfaWNlX2Z1ZWxfY29zdCA9IDAuMAogICAgICAgIGZsZWV0X2V2X2NoYXJnaW5nX2Nvc3QgPSAwLjAKICAgICAgICBwZXJfdmVoaWNsZSA9IHt9CgogICAgICAgIGZvciB2ZWhpY2xlIGluIHNlbGYuY29uZmlnLmdldCgidmVoaWNsZXMiLCBbXSk6CiAgICAgICAgICAgIHZpZCA9IHZlaGljbGVbInZlaGljbGVfaWQiXQogICAgICAgICAgICBpY2VfbCA9IGZsb2F0KHZlaGljbGUuZ2V0KCJpY2VfbGl0cmVzX3Blcl8xMDBrbSIsIDguMykpCiAgICAgICAgICAgIHZfZGF0YSA9IGRhdGEuZ2V0KHZpZCwge30pCgogICAgICAgICAgICBkaXN0YW5jZSA9IGZsb2F0KHZfZGF0YS5nZXQoImRpc3RhbmNlX3RyYWNrZWQiLCAwLjApKQogICAgICAgICAgICBldl9jb3N0ID0gZmxvYXQodl9kYXRhLmdldCgiZXZfY2hhcmdpbmdfY29zdCIsIDAuMCkpCgogICAgICAgICAgICBpY2VfY29zdCA9IGRpc3RhbmNlICogKGljZV9sIC8gMTAwLjApICogbG9jYWxfZTkxCiAgICAgICAgICAgIHNhdmluZ3MgPSBpY2VfY29zdCAtIGV2X2Nvc3QKICAgICAgICAgICAgcGV0cm9sX2F2b2lkZWQgPSBkaXN0YW5jZSAqIChpY2VfbCAvIDEwMC4wKQoKICAgICAgICAgICAgZmxlZXRfZnVlbF9zYXZpbmdzICs9IHNhdmluZ3MKICAgICAgICAgICAgZmxlZXRfcGV0cm9sX2F2b2lkZWQgKz0gcGV0cm9sX2F2b2lkZWQKICAgICAgICAgICAgZmxlZXRfZGlzdGFuY2VfdHJhY2tlZCArPSBkaXN0YW5jZQogICAgICAgICAgICBmbGVldF9pY2VfZnVlbF9jb3N0ICs9IGljZV9jb3N0CiAgICAgICAgICAgIGZsZWV0X2V2X2NoYXJnaW5nX2Nvc3QgKz0gZXZfY29zdAoKICAgICAgICAgICAgcGVyX3ZlaGljbGVbdmlkXSA9IHsKICAgICAgICAgICAgICAgICJmdWVsX3NhdmluZ3MiOiBzYXZpbmdzLAogICAgICAgICAgICAgICAgInBldHJvbF9hdm9pZGVkIjogcGV0cm9sX2F2b2lkZWQsCiAgICAgICAgICAgICAgICAiZGlzdGFuY2VfdHJhY2tlZCI6IGRpc3RhbmNlLAogICAgICAgICAgICAgICAgImljZV9mdWVsX2Nvc3QiOiBpY2VfY29zdCwKICAgICAgICAgICAgICAgICJldl9jaGFyZ2luZ19jb3N0IjogZXZfY29zdCwKICAgICAgICAgICAgfQoKICAgICAgICByZXR1cm4gewogICAgICAgICAgICAiZmxlZXRfZnVlbF9zYXZpbmdzIjogcm91bmQoZmxlZXRfZnVlbF9zYXZpbmdzLCAyKSwKICAgICAgICAgICAgImZsZWV0X3BldHJvbF9hdm9pZGVkIjogcm91bmQoZmxlZXRfcGV0cm9sX2F2b2lkZWQsIDIpLAogICAgICAgICAgICAiZmxlZXRfZGlzdGFuY2VfdHJhY2tlZCI6IHJvdW5kKGZsZWV0X2Rpc3RhbmNlX3RyYWNrZWQsIDEpLAogICAgICAgICAgICAiZmxlZXRfaWNlX2Z1ZWxfY29zdCI6IHJvdW5kKGZsZWV0X2ljZV9mdWVsX2Nvc3QsIDIpLAogICAgICAgICAgICAiZmxlZXRfZXZfY2hhcmdpbmdfY29zdCI6IHJvdW5kKGZsZWV0X2V2X2NoYXJnaW5nX2Nvc3QsIDIpLAogICAgICAgICAgICAicGVyX3ZlaGljbGUiOiBwZXJfdmVoaWNsZSwKICAgICAgICAgICAgImxvY2FsX2U5MV9mdWVsX3ByaWNlIjogbG9jYWxfZTkxLAogICAgICAgIH0K
+"""Fuel savings engine for Powerflow."""
+from __future__ import annotations
+
+import logging
+from datetime import datetime
+from typing import Any
+
+import aiohttp
+
+from homeassistant.core import HomeAssistant
+
+from ..const import (
+    FUEL_SOURCE_MANUAL,
+    FUEL_SOURCE_HA_SENSOR,
+    FUEL_SOURCE_NSW_FUELCHECK,
+    FUEL_SOURCE_QUARTERLY_AVG,
+    HISTORICAL_ULP91_PRICE,
+    CONF_FUEL_PRICE_SOURCE,
+    CONF_FUEL_PRICE_MANUAL,
+    NSW_FUELCHECK_API_BASE,
+)
+from ..storage.ha_store import PowerflowStore
+
+_LOGGER = logging.getLogger(__name__)
+
+
+class FuelSavingsEngine:
+    """Tracks EV fuel savings vs ICE equivalent per vehicle and fleet."""
+
+    def __init__(self, hass: HomeAssistant, config_data: dict[str, Any]) -> None:
+        """Initialise engine."""
+        self.hass = hass
+        self.config = config_data
+        self.store = PowerflowStore(hass)
+
+    def _current_quarter_key(self) -> str:
+        """Return current year-Q key e.g. '2026-Q3'."""
+        now = datetime.now()
+        q = (now.month - 1) // 3 + 1
+        return f"{now.year}-Q{q}"
+
+    async def async_get_fuel_price(self) -> float:
+        """Determine fuel price using tiered 5-source strategy."""
+        source = self.config.get(CONF_FUEL_PRICE_SOURCE, FUEL_SOURCE_QUARTERLY_AVG)
+
+        if source == FUEL_SOURCE_MANUAL:
+            return float(self.config.get(CONF_FUEL_PRICE_MANUAL, 2.10))
+
+        if source == FUEL_SOURCE_HA_SENSOR:
+            sensor_id = self.config.get("fuel_price_sensor")
+            if sensor_id:
+                state = self.hass.states.get(sensor_id)
+                if state and state.state not in ("unknown", "unavailable"):
+                    try:
+                        return float(state.state)
+                    except ValueError:
+                        pass
+
+        if source == FUEL_SOURCE_NSW_FUELCHECK:
+            try:
+                api_key = self.config.get("nsw_fuelcheck_key")
+                if not api_key:
+                    raise ValueError("No NSW FuelCheck API key configured")
+                price = await self._fetch_nsw_fuel_price(api_key)
+                if price is not None:
+                    return price
+            except Exception as err:
+                _LOGGER.warning("Failed to fetch NSW FuelCheck price: %s", err)
+
+        # Quarterly average fallback
+        key = self._current_quarter_key()
+        price = HISTORICAL_ULP91_PRICE.get(key)
+        if price is not None:
+            return price
+        # Ultimate fallback: most recent known value
+        return list(HISTORICAL_ULP91_PRICE.values())[-1] if HISTORICAL_ULP91_PRICE else 2.10
+
+    async def _fetch_nsw_fuel_price(self, api_key: str) -> float | None:
+        """Fetch ULP91 price from NSW FuelCheck API."""
+        zone = self.hass.states.get("zone.home")
+        if not zone:
+            return None
+        lat = zone.attributes.get("latitude")
+        lon = zone.attributes.get("longitude")
+        if not lat or not lon:
+            return None
+
+        params = {"fuelType": "U", "latitude": str(lat), "longitude": str(lon), "radius": "5", "noOfResults": "10"}
+        headers = {"ApiKey": api_key, "Content-Type": "application/json"}
+        timeout = aiohttp.ClientTimeout(total=10)
+        async with aiohttp.ClientSession(timeout=timeout) as session:
+            async with session.get(NSW_FUELCHECK_API_BASE, params=params, headers=headers) as resp:
+                resp.raise_for_status()
+                data = await resp.json()
+
+        stations = data.get("stations", []) or data.get("fstations", [])
+        prices = []
+        for station in stations:
+            for price in station.get("prices", []):
+                if price.get("type") == "U":
+                    try:
+                        prices.append(float(price.get("price", 0)) / 100.0)
+                    except (TypeError, ValueError):
+                        pass
+        return sum(prices) / len(prices) if prices else None
+
+    async def async_get_stats(self) -> dict:
+        """Get aggregated fleet fuel savings stats."""
+        data = await self.store.async_load()
+        local_e91 = await self.async_get_fuel_price()
+
+        fleet_fuel_savings = 0.0
+        fleet_petrol_avoided = 0.0
+        fleet_distance_tracked = 0.0
+        fleet_ice_fuel_cost = 0.0
+        fleet_ev_charging_cost = 0.0
+        per_vehicle = {}
+
+        for vehicle in self.config.get("vehicles", []):
+            vid = vehicle["vehicle_id"]
+            ice_l = float(vehicle.get("ice_litres_per_100km", 8.3))
+            v_data = data.get(vid, {})
+            distance = float(v_data.get("distance_tracked", 0.0))
+            ev_cost = float(v_data.get("ev_charging_cost", 0.0))
+            ice_cost = distance * (ice_l / 100.0) * local_e91
+            savings = ice_cost - ev_cost
+            petrol_avoided = distance * (ice_l / 100.0)
+
+            fleet_fuel_savings += savings
+            fleet_petrol_avoided += petrol_avoided
+            fleet_distance_tracked += distance
+            fleet_ice_fuel_cost += ice_cost
+            fleet_ev_charging_cost += ev_cost
+
+            per_vehicle[vid] = {
+                "fuel_savings": round(savings, 2),
+                "petrol_avoided": round(petrol_avoided, 2),
+                "distance_tracked": round(distance, 1),
+                "ice_fuel_cost": round(ice_cost, 2),
+                "ev_charging_cost": round(ev_cost, 2),
+            }
+
+        return {
+            "fleet_fuel_savings": round(fleet_fuel_savings, 2),
+            "fleet_petrol_avoided": round(fleet_petrol_avoided, 2),
+            "fleet_distance_tracked": round(fleet_distance_tracked, 1),
+            "fleet_ice_fuel_cost": round(fleet_ice_fuel_cost, 2),
+            "fleet_ev_charging_cost": round(fleet_ev_charging_cost, 2),
+            "per_vehicle": per_vehicle,
+            "local_e91_fuel_price": local_e91,
+        }

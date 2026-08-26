@@ -1,1 +1,79 @@
-IiIiVGVzdHMgZm9yIHRoZSBBcmJpdHJhdGlvbkVuZ2luZS4iIiIKZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKaW1wb3J0IHB5dGVzdApmcm9tIHVuaXR0ZXN0Lm1vY2sgaW1wb3J0IE1hZ2ljTW9jawoKZnJvbSBjdXN0b21fY29tcG9uZW50cy5wb3dlcmZsb3cuZW5naW5lcy5hcmJpdHJhdGlvbiBpbXBvcnQgQXJiaXRyYXRpb25FbmdpbmUKCgpkZWYgX21ha2VfaGFzcyhzdGF0ZXMpOgogICAgIiIiQ3JlYXRlIGEgbWluaW1hbCBoYXNzIG1vY2sgd2l0aCBzdGF0ZXMuIiIiCiAgICBoYXNzID0gTWFnaWNNb2NrKCkKICAgIGhhc3Muc3RhdGVzLmdldC5zaWRlX2VmZmVjdCA9IGxhbWJkYSBlbnRpdHlfaWQ6IHN0YXRlcy5nZXQoZW50aXR5X2lkKQogICAgcmV0dXJuIGhhc3MKCgpkZWYgX21ha2Vfc3RhdGUodmFsdWU6IHN0cik6CiAgICBzID0gTWFnaWNNb2NrKCkKICAgIHMuc3RhdGUgPSB2YWx1ZQogICAgcmV0dXJuIHMKCgpAcHl0ZXN0Lm1hcmsuYXN5bmNpbwphc3luYyBkZWYgdGVzdF9wZWFrX2xvY2tvdXQoY29uZmlnX2VudHJ5X2RhdGEpOgogICAgIiIiRHVyaW5nIG1vcm5pbmcgcGVhayBjaGFyZ2VfZGVzaXJlZCBtdXN0IGJlIEZhbHNlLiIiIgogICAgc3RhdGVzID0gewogICAgICAgICJzZW5zb3Iuc29sYXJfcG93ZXIiOiBfbWFrZV9zdGF0ZSgiMy41IiksCiAgICAgICAgInNlbnNvci5ob21lX2xvYWQiOiBfbWFrZV9zdGF0ZSgiMS4yIiksCiAgICAgICAgInNlbnNvci5wd19zb2MiOiBfbWFrZV9zdGF0ZSgiNzUiKSwKICAgIH0KICAgIGhhc3MgPSBfbWFrZV9oYXNzKHN0YXRlcykKICAgIGVuZ2luZSA9IEFyYml0cmF0aW9uRW5naW5lKGhhc3MsIGNvbmZpZ19lbnRyeV9kYXRhKQoKICAgIGFtYmVyX2RhdGEgPSB7ImRlc2NyaXB0b3IiOiAiaCLgaWdoIiwgInNwaWtlX3N0YXR1cyI6ICJwb3RlbnRpYWwifQogICAgcmVzdWx0ID0gYXdhaXQgZW5naW5lLmFzeW5jX2V2YWx1YXRlKGFtYmVyX2RhdGEpCgogICAgYXNzZXJ0ICJob3RfZG9nIiBpbiByZXN1bHQKICAgIGFzc2VydCByZXN1bHRbImhvdF9kb2ciXVsiY2hhcmdlX2Rlc2lyZWQiXSBpcyBGYWxzZQogICAgYXNzZXJ0ICJQZWFrIiBpbiByZXN1bHRbImhvdF9kb2ciXVsicmVhc29uIl0KCgpAcHl0ZXN0Lm1hcmsuYXN5bmNpbwphc3luYyBkZWYgdGVzdF9jaGVhcF9yYXRlX2NoYXJnZXMoY29uZmlnX2VudHJ5X2RhdGEpOgogICAgIiIiV2hlbiBBbWJlciBkZXNjcmlwdG9yIGlzIGV4dHJlbWVseUxvdywgY2hhcmdlIG11c3QgYmUgZGVzaXJlZC4iIiIKICAgIHN0YXRlcyA9IHsKICAgICAgICAic2Vuc29yLnNvbGFyX3Bvd2VyIjogX21ha2Vfc3RhdGUoIjAiKSwKICAgICAgICAic2Vuc29yLmhvbWVfbG9hZCI6IF9tYWtlX3N0YXRlKCIxLjUiKSwKICAgICAgICAic2Vuc29yLnB3X3NvYyI6IF9tYWtlX3N0YXRlKCIzMCIpLAogICAgfQogICAgaGFzcyA9IF9tYWtlX2hhc3Moc3RhdGVzKQogICAgZW5naW5lID0gQXJiaXRyYXRpb25FbmdpbmUoaGFzcywgY29uZmlnX2VudHJ5X2RhdGEpCgogICAgYW1iZXJfZGF0YSA9IHsiZGVzY3JpcHRvciI6ICJleHRyZW1lbHlMb3ciLCAic3Bpa2Vfc3RhdHVzIjogIm5vbmUifQogICAgcmVzdWx0ID0gYXdhaXQgZW5naW5lLmFzeW5jX2V2YWx1YXRlKGFtYmVyX2RhdGEpCgogICAgYXNzZXJ0IHJlc3VsdFsiaG90X2RvZyJdWyJjaGFyZ2VfZGVzaXJlZCJdIGlzIFRydWUKCgpAcHl0ZXN0Lm1hcmsuYXN5bmNpbwphc3luYyBkZWYgdGVzdF9zb2xhcl9zb2FrX2NoYXJnZXMoY29uZmlnX2VudHJ5X2RhdGEpOgogICAgIiIiV2hlbiBzb2xhcl9zb2FrX3ByZWRpY3RlZCBpcyBUcnVlIGFuZCBleGNlc3MgPiAxLjIsIHNvYWsgbW9kZSBzaG91bGQgYWN0aXZhdGUuIiIiCiAgICBzdGF0ZXMgPSB7CiAgICAgICAgInNlbnNvci5zb2xhcl9wb3dlciI6IF9tYWtlX3N0YXRlKCI1LjAiKSwKICAgICAgICAic2Vuc29yLmhvbWVfbG9hZCI6IF9tYWtlX3N0YXRlKCIxLjUiKSwKICAgICAgICAic2Vuc29yLnB3X3NvYyI6IF9tYWtlX3N0YXRlKCI0MCIpLAogICAgfQogICAgaGFzcyA9IF9tYWtlX2hhc3Moc3RhdGVzKQogICAgZW5naW5lID0gQXJiaXRyYXRpb25FbmdpbmUoaGFzcywgY29uZmlnX2VudHJ5X2RhdGEpCgogICAgYW1iZXJfZGF0YSA9IHsKICAgICAgICAiZGVzY3JpcHRvciI6ICJleHRyZW1lbHlMb3ciLAogICAgICAgICJzcGlrZV9zdGF0dXMiOiAibm9uZSIsCiAgICAgICAgInNvbGFyX3NvYWtfcHJlZGljdGVkIjogVHJ1ZSwKICAgIH0KICAgIHJlc3VsdCA9IGF3YWl0IGVuZ2luZS5hc3luY19ldmFsdWF0ZShhbWJlcl9kYXRhKQoKICAgIGFzc2VydCByZXN1bHRbImhvdF9kb2ciXVsiY2hhcmdlX2Rlc2lyZWQiXSBpcyBUcnVlCiAgICBhc3NlcnQgIlNvbGFyIFNvYWsiIGluIHJlc3VsdFsiaG90X2RvZyJdWyJyZWFzb24iXQogICAgYXNzZXJ0IHJlc3VsdFsiaG90X2RvZyJdWyJ0YXJnZXRfYW1wcyJdID09IDMyCgoKQHB5dGVzdC5tYXJrLmFzeW5jaW8KYXN5bmMgZGVmIHRlc3RfaWRsZV93aGVuX25ldXRyYWwoY29uZmlnX2VudHJ5X2RhdGEpOgogICAgIiIiTmV1dHJhbCBwcmljZSBhbmQgbm8gc3BlY2lhbCB3aW5kb3cgLT4gaWRsZS4iIiIKICAgIHN0YXRlcyA9IHsKICAgICAgICAic2Vuc29yLnNvbGFyX3Bvd2VyIjogX21ha2Vfc3RhdGUoIjAiKSwKICAgICAgICAic2Vuc29yLmhvbWVfbG9hZCI6IF9tYWtlX3N0YXRlKCIxLjUiKSwKICAgICAgICAic2Vuc29yLnB3X3NvYyI6IF9tYWtlX3N0YXRlKCI3MCIpLAogICAgfQogICAgaGFzcyA9IF9tYWtlX2hhc3Moc3RhdGVzKQogICAgZW5naW5lID0gQXJiaXRyYXRpb25FbmdpbmUoaGFzcywgY29uZmlnX2VudHJ5X2RhdGEpCgogICAgYW1iZXJfZGF0YSA9IHsiZGVzY3JpcHRvciI6ICJuZXV0cmFsIiwgInNwaWtlX3N0YXR1cyI6ICJub25lIn0KICAgIHJlc3VsdCA9IGF3YWl0IGVuZ2luZS5hc3luY19ldmFsdWF0ZShhbWJlcl9kYXRhKQoKICAgIGFzc2VydCByZXN1bHRbImhvdF9kb2ciXVsiY2hhcmdlX2Rlc2lyZWQiXSBpcyBGYWxzZQo=
+"""Tests for the ArbitrationEngine."""
+from __future__ import annotations
+
+import pytest
+from unittest.mock import MagicMock
+
+from custom_components.powerflow.engines.arbitration import ArbitrationEngine
+
+
+def _make_hass(states):
+    hass = MagicMock()
+    hass.states.get.side_effect = lambda entity_id: states.get(entity_id)
+    return hass
+
+
+def _make_state(value: str):
+    s = MagicMock()
+    s.state = value
+    return s
+
+
+@pytest.mark.asyncio
+async def test_peak_lockout(config_entry_data):
+    """During morning peak charge_desired must be False."""
+    states = {
+        "sensor.solar_power": _make_state("3.5"),
+        "sensor.home_load": _make_state("1.2"),
+        "sensor.pw_soc": _make_state("75"),
+    }
+    engine = ArbitrationEngine(_make_hass(states), config_entry_data)
+    result = await engine.async_evaluate({"descriptor": "high", "spike_status": "potential"})
+    assert "hot_dog" in result
+    assert result["hot_dog"]["charge_desired"] is False
+    assert "Peak" in result["hot_dog"]["reason"]
+
+
+@pytest.mark.asyncio
+async def test_cheap_rate_charges(config_entry_data):
+    """When Amber descriptor is extremelyLow, charge must be desired."""
+    states = {
+        "sensor.solar_power": _make_state("0"),
+        "sensor.home_load": _make_state("1.5"),
+        "sensor.pw_soc": _make_state("30"),
+    }
+    engine = ArbitrationEngine(_make_hass(states), config_entry_data)
+    result = await engine.async_evaluate({"descriptor": "extremelyLow", "spike_status": "none"})
+    assert result["hot_dog"]["charge_desired"] is True
+
+
+@pytest.mark.asyncio
+async def test_solar_soak_charges(config_entry_data):
+    """When solar_soak_predicted and excess > 1.2kW, soak mode activates."""
+    states = {
+        "sensor.solar_power": _make_state("5.0"),
+        "sensor.home_load": _make_state("1.5"),
+        "sensor.pw_soc": _make_state("40"),
+    }
+    engine = ArbitrationEngine(_make_hass(states), config_entry_data)
+    result = await engine.async_evaluate({
+        "descriptor": "extremelyLow",
+        "spike_status": "none",
+        "solar_soak_predicted": True,
+    })
+    assert result["hot_dog"]["charge_desired"] is True
+    assert "Solar Soak" in result["hot_dog"]["reason"]
+    assert result["hot_dog"]["target_amps"] == 32
+
+
+@pytest.mark.asyncio
+async def test_idle_when_neutral(config_entry_data):
+    """Neutral price and no special window -> idle."""
+    states = {
+        "sensor.solar_power": _make_state("0"),
+        "sensor.home_load": _make_state("1.5"),
+        "sensor.pw_soc": _make_state("70"),
+    }
+    engine = ArbitrationEngine(_make_hass(states), config_entry_data)
+    result = await engine.async_evaluate({"descriptor": "neutral", "spike_status": "none"})
+    assert result["hot_dog"]["charge_desired"] is False

@@ -1,1 +1,118 @@
-IiIiU2VydmljZXMgZm9yIFBvd2VyZmxvdyBpbnRlZ3JhdGlvbi4iIiIKZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKaW1wb3J0IGxvZ2dpbmcKZnJvbSB0eXBpbmcgaW1wb3J0IEFueQoKaW1wb3J0IHZvbHVwdHVvdXMgYXMgdm9sCgpmcm9tIGhvbWVhc3Npc3RhbnQuY29yZSBpbXBvcnQgSG9tZUFzc2lzdGFudCwgU2VydmljZUNhbGwKCmZyb20gLmNvbnN0IGltcG9ydCBET01BSU4KZnJvbSAuZW5naW5lcy5yZWltYnVyc2VtZW50IGltcG9ydCBSZWltYnVyc2VtZW50RW5naW5lCmZyb20gLnZlaGljbGVzLnRlc3NpZSBpbXBvcnQgVGVzc2llQ29udHJvbGxlcgpmcm9tIC52ZWhpY2xlcy5vZmZpY2lhbF90ZXNsYSBpbXBvcnQgT2ZmaWNpYWxUZXNsYUNvbnRyb2xsZXIKCl9MT0dHRVIgPSBsb2dnaW5nLmdldExvZ2dlcihfX25hbWVfXykKCgpkZWYgX2dldF9jb29yZGluYXRvcihoYXNzOiBIb21lQXNzaXN0YW50KToKICAgICIiIkhlbHBlciB0byByZXRyaWV2ZSB0aGUgZmlyc3QgYXZhaWxhYmxlIGNvb3JkaW5hdG9yLiIiIgogICAgZW50cmllcyA9IGhhc3MuZGF0YS5nZXQoRE9NQUlOLCB7fSkKICAgIGlmIG5vdCBlbnRyaWVzOgogICAgICAgIF9MT0dHRVIuZXJyb3IoIlBvd2VyZmxvdyBpcyBub3QgY29uZmlndXJlZCIpCiAgICAgICAgcmV0dXJuIE5vbmUKICAgIHJldHVybiBuZXh0KGl0ZXIoZW50cmllcy52YWx1ZXMoKSkpCgoKZGVmIF9nZXRfdmVoaWNsZV9jb250cm9sbGVyKGhhc3M6IEhvbWVBc3Npc3RhbnQsIHZlaGljbGVfaWQ6IHN0cik6CiAgICAiIiJIZWxwZXIgdG8gYnVpbGQgYSB2ZWhpY2xlIGNvbnRyb2xsZXIgZnJvbSBjb25maWcuIiIiCiAgICBjb29yZGluYXRvciA9IF9nZXRfY29vcmRpbmF0b3IoaGFzcykKICAgIGlmIG5vdCBjb29yZGluYXRvcjoKICAgICAgICByZXR1cm4gTm9uZQoKICAgIHZlaGljbGVzID0gY29vcmRpbmF0b3IuZW50cnkuZGF0YS5nZXQoInZlaGljbGVzIiwgW10pCiAgICB2ZWhpY2xlID0gbmV4dCgodiBmb3IgdiBpbiB2ZWhpY2xlcyBpZiB2WyJ2ZWhpY2xlX2lkIl0gPT0gdmVoaWNsZV9pZCksIE5vbmUpCiAgICBpZiBub3QgdmVoaWNsZToKICAgICAgICBfTE9HR0VSLndhcm5pbmcoIlZlaGljbGUgJyVzJyBub3QgZm91bmQgaW4gY29uZmlnIiwgdmVoaWNsZV9pZCkKICAgICAgICByZXR1cm4gTm9uZQoKICAgIGlmIHZlaGljbGUuZ2V0KCJpbnRlZ3JhdGlvbiIpID09ICJ0ZXNzaWUiOgogICAgICAgIHJldHVybiBUZXNzaWVDb250cm9sbGVyKGhhc3MsIHZlaGljbGVbInZlaGljbGVfaWQiXSkKICAgIGVsaWYgdmVoaWNsZS5nZXQoImludGVncmF0aW9uIikgPT0gIm9mZmljaWFsX3Rlc2xhIjoKICAgICAgICByZXR1cm4gT2ZmaWNpYWxUZXNsYUNvbnRyb2xsZXIoaGFzcywgdmVoaWNsZVsiY2hhcmdlX2VudGl0eV9pZCJdKQoKICAgIF9MT0dHRVIud2FybmluZygiVW5rbm93biBpbnRlZ3JhdGlvbiB0eXBlIGZvciB2ZWhpY2xlICclcyciLCB2ZWhpY2xlX2lkKQogICAgcmV0dXJuIE5vbmUKCgphc3luYyBkZWYgYXN5bmNfcmVnaXN0ZXJfc2VydmljZXMoaGFzczogSG9tZUFzc2lzdGFudCkgLT4gTm9uZToKICAgICIiIlJlZ2lzdGVyIGFsbCBQb3dlcmZsb3cgc2VydmljZXMuIiIiCgogICAgaWYgaGFzcy5zZXJ2aWNlcy5oYXNfc2VydmljZShET01BSU4sICJzdGFydF9jaGFyZ2UiKToKICAgICAgICAjIEFscmVhZHkgcmVnaXN0ZXJlZCAoZS5nLiBtdWx0aXBsZSBjb25maWcgZW50cmllcykKICAgICAgICByZXR1cm4KCiAgICBhc3luYyBkZWYgaGFuZGxlX3N0YXJ0X2NoYXJnZShjYWxsOiBTZXJ2aWNlQ2FsbCkgLT4gTm9uZToKICAgICAgICB2aWQgPSBjYWxsLmRhdGFbInZlaGljbGVfaWQiXQogICAgICAgIGNvbnRyb2xsZXIgPSBfZ2V0X3ZlaGljbGVfY29udHJvbGxlcihoYXNzLCB2aWQpCiAgICAgICAgaWYgY29udHJvbGxlcjoKICAgICAgICAgICAgX0xPR0dFUi5pbmZvKCJTdGFydGluZyBjaGFyZ2UgZm9yIHZlaGljbGUgJyVzJyIsIHZpZCkKICAgICAgICAgICAgYXdhaXQgY29udHJvbGxlci5hc3luY193YWtlKCkKICAgICAgICAgICAgYXdhaXQgY29udHJvbGxlci5hc3luY19zdGFydF9jaGFyZ2UoKQoKICAgIGFzeW5jIGRlZiBoYW5kbGVfc3RvcF9jaGFyZ2UoY2FsbDogU2VydmljZUNhbGwpIC0+IE5vbmU6CiAgICAgICAgdmlkID0gY2FsbC5kYXRhWyJ2ZWhpY2xlX2lkIl0KICAgICAgICBjb250cm9sbGVyID0gX2dldF92ZWhpY2xlX2NvbnRyb2xsZXIoaGFzcywgdmlkKQogICAgICAgIGlmIGNvbnRyb2xsZXI6CiAgICAgICAgICAgIF9MT0dHRVIuaW5mbygiU3RvcHBpbmcgY2hhcmdlIGZvciB2ZWhpY2xlICclcyciLCB2aWQpCiAgICAgICAgICAgIGF3YWl0IGNvbnRyb2xsZXIuYXN5bmNfc3RvcF9jaGFyZ2UoKQoKICAgIGFzeW5jIGRlZiBoYW5kbGVfc2V0X2NoYXJnZV9jdXJyZW50KGNhbGw6IFNlcnZpY2VDYWxsKSAtPiBOb25lOgogICAgICAgIHZpZCA9IGNhbGwuZGF0YVsidmVoaWNsZV9pZCJdCiAgICAgICAgYW1wcyA9IGludChjYWxsLmRhdGFbImFtcHMiXSkKICAgICAgICBjb250cm9sbGVyID0gX2dldF92ZWhpY2xlX2NvbnRyb2xsZXIoaGFzcywgdmlkKQogICAgICAgIGlmIGNvbnRyb2xsZXI6CiAgICAgICAgICAgIF9MT0dHRVIuaW5mbygiU2V0dGluZyBjaGFyZ2UgY3VycmVudCBmb3IgJyVzJyB0byAlZEEiLCB2aWQsIGFtcHMpCiAgICAgICAgICAgIGF3YWl0IGNvbnRyb2xsZXIuYXN5bmNfc2V0X2NoYXJnZV9jdXJyZW50KGFtcHMpCgogICAgYXN5bmMgZGVmIGhhbmRsZV9sb2dfYXdheV9jaGFyZ2UoY2FsbDogU2VydmljZUNhbGwpIC0+IE5vbmU6CiAgICAgICAgIiIiTG9nIGEgY2hhcmdpbmcgc2Vzc2lvbiB0aGF0IG9jY3VycmVkIGF3YXkgZnJvbSBob21lLiIiIgogICAgICAgIGNvb3JkaW5hdG9yID0gX2dldF9jb29yZGluYXRvcihoYXNzKQogICAgICAgIGlmIG5vdCBjb29yZGluYXRvcjoKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgZnJvbSAuc3RvcmFnZS5zZXNzaW9uX3N0b3JlIGltcG9ydCBTZXNzaW9uU3RvcmUKICAgICAgICBzdG9yZSA9IFNlc3Npb25TdG9yZShoYXNzKQogICAgICAgIHNlc3Npb24gPSB7CiAgICAgICAgICAgICJ2ZWhpY2xlX2lkIjogY2FsbC5kYXRhLmdldCgidmVoaWNsZV9pZCIpLAogICAgICAgICAgICAiZW5lcmd5X2FkZGVkX2t3aCI6IGZsb2F0KGNhbGwuZGF0YS5nZXQoImVuZXJneV9hZGRlZF9rd2giLCAwKSksCiAgICAgICAgICAgICJzdGFydGluZ19zb2MiOiBpbnQoY2FsbC5kYXRhLmdldCgic3RhcnRpbmdfc29jIiwgMCkpLAogICAgICAgICAgICAiZW5kaW5nX3NvYyI6IGludChjYWxsLmRhdGEuZ2V0KCJlbmRpbmdfc29jIiwgMCkpLAogICAgICAgICAgICAiZ3JpZF9mcmFjdGlvbiI6IGZsb2F0KGNhbGwuZGF0YS5nZXQoImdyaWRfZnJhY3Rpb24iLCAxLjApKSwKICAgICAgICAgICAgImdyaWRfY29zdCI6IGZsb2F0KGNhbGwuZGF0YS5nZXQoImdyaWRfY29zdCIsIDApKSwKICAgICAgICAgICAgImVuZGVkX2F0IjogY2FsbC5kYXRhLmdldCgiZW5kZWRfYXQiKSwKICAgICAgICAgICAgImF3YXkiOiBUcnVlLAogICAgICAgIH0KICAgICAgICBhd2FpdCBzdG9yZS5hc3luY19hcHBlbmRfc2Vzc2lvbihzZXNzaW9uKQogICAgICAgIF9MT0dHRVIuaW5mbygiTG9nZ2VkIGF3YXkgc2Vzc2lvbiBmb3IgdmVoaWNsZSAnJXMnIiwgc2Vzc2lvblsidmVoaWNsZV9pZCJdKQoKICAgIGFzeW5jIGRlZiBoYW5kbGVfZXhwb3J0X3JlaW1idXJzZW1lbnRfY3N2KGNhbGw6IFNlcnZpY2VDYWxsKSAtPiBOb25lOgogICAgICAgIGNvb3JkaW5hdG9yID0gX2dldF9jb29yZGluYXRvcihoYXNzKQogICAgICAgIGlmIG5vdCBjb29yZGluYXRvcjoKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgZW5naW5lID0gUmVpbWJ1cnNlbWVudEVuZ2luZShoYXNzLCBjb29yZGluYXRvci5lbnRyeS5kYXRhKQogICAgICAgIGZyb20gZGF0ZXRpbWUgaW1wb3J0IGRhdGV0aW1lCiAgICAgICAgdmlkID0gY2FsbC5kYXRhWyJ2ZWhpY2xlX2lkIl0KICAgICAgICBub3cgPSBkYXRldGltZS5ub3coKQogICAgICAgIHN0YXJ0LCBlbmQgPSBlbmdpbmUuZ2V0X2JpbGxpbmdfY3ljbGVfYm91bmRhcmllcyhub3cpCiAgICAgICAgY3N2X2RhdGEgPSBhd2FpdCBlbmdpbmUuYXN5bmNfZXhwb3J0X2NzdihYml2LCBzdGFydCwgZW5kLCAwLjApCiAgICAgICAgX0xPR0dFUi5pbmZvKCJDU1YgZXhwb3J0IHJlYWR5IGZvciB2ZWhpY2xlICclcycgKCVkIGJ5dGVzKSIsIHZpZCwgbGVuKGNzdl9kYXRhKSkKCiAgICBhc3luYyBkZWYgaGFuZGxlX3JlY2FsY3VsYXRlX2Z1ZWxfc2F2aW5ncyhjYWxsOiBTZXJ2aWNlQ2FsbCkgLT4gTm9uZToKICAgICAgICBjb29yZGluYXRvciA9IF9nZXRfY29vcmRpbmF0b3IoaGFzcykKICAgICAgICBpZiBub3QgY29vcmRpbmF0b3I6CiAgICAgICAgICAgIHJldHVybgogICAgICAgIF9MT0dHRVIuaW5mbygiUmVjYWxjdWxhdGluZyBmdWVsIHNhdmluZ3MiKQogICAgICAgIGF3YWl0IGNvb3JkaW5hdG9yLmFzeW5jX3JlZnJlc2goKQoKICAgIGhhc3Muc2VydmljZXMuYXN5bmNfcmVnaXN0ZXIoRE9NQUlOLCAic3RhcnRfY2hhcmdlIiwgaGFuZGxlX3N0YXJ0X2NoYXJnZSwKICAgICAgICBzY2hlbWE9dm9sLlNjaGVtYSh7dm9sLlJlcXVpcmVkKCJ2ZWhpY2xlX2lkIik6IHN0cn0pKQogICAgaGFzcy5zZXJ2aWNlcy5hc3luY19yZWdpc3RlcihET01BSU4sICJzdG9wX2NoYXJnZSIsIGhhbmRsZV9zdG9wX2NoYXJnZSwKICAgICAgICBzY2hlbWE9dm9sLlNjaGVtYSh7dm9sLlJlcXVpcmVkKCJ2ZWhpY2xlX2lkIik6IHN0cn0pKQogICAgaGFzcy5zZXJ2aWNlcy5hc3luY19yZWdpc3RlcihET01BSU4sICJzZXRfY2hhcmdlX2N1cnJlbnQiLCBoYW5kbGVfc2V0X2NoYXJnZV9jdXJyZW50LAogICAgICAgIHNjaGVtYT12b2wuU2NoZW1hKHt2b2wuUmVxdWlyZWQoInZlaGljbGVfaWQiKTogc3RyLCB2b2wuUmVxdWlyZWQoImFtcHMiKTogaW50fSkpCiAgICBoYXNzLnNlcnZpY2VzLmFzeW5jX3JlZ2lzdGVyKERPTUFJTiwgImxvZ19hd2F5X2NoYXJnZSIsIGhhbmRsZV9sb2dfYXdheV9jaGFyZ2UpCiAgICBoYXNzLnNlcnZpY2VzLmFzeW5jX3JlZ2lzdGVyKERPTUFJTiwgImV4cG9ydF9yZWltYnVyc2VtZW50X2NzdiIsIGhhbmRsZV9leHBvcnRfcmVpbWJ1cnNlbWVudF9jc3YpCiAgICBoYXNzLnNlcnZpY2VzLmFzeW5jX3JlZ2lzdGVyKERPTUFJTiwgInJlY2FsY3VsYXRlX2Z1ZWxfc2F2aW5ncyIsIGhhbmRsZV9yZWNhbGN1bGF0ZV9mdWVsX3NhdmluZ3MpCg==
+"""Services for Powerflow integration."""
+from __future__ import annotations
+
+import logging
+from datetime import datetime
+from typing import Any
+
+import voluptuous as vol
+
+from homeassistant.core import HomeAssistant, ServiceCall
+
+from .const import DOMAIN
+from .engines.reimbursement import ReimbursementEngine
+from .vehicles.tessie import TessieController
+from .vehicles.official_tesla import OfficialTeslaController
+
+_LOGGER = logging.getLogger(__name__)
+
+
+def _get_coordinator(hass: HomeAssistant):
+    """Retrieve the first available coordinator."""
+    entries = hass.data.get(DOMAIN, {})
+    if not entries:
+        _LOGGER.error("Powerflow is not configured")
+        return None
+    return next(iter(entries.values()))
+
+
+def _get_vehicle_controller(hass: HomeAssistant, vehicle_id: str):
+    """Build a vehicle controller from config."""
+    coordinator = _get_coordinator(hass)
+    if not coordinator:
+        return None
+    vehicles = coordinator.entry.data.get("vehicles", [])
+    vehicle = next((v for v in vehicles if v["vehicle_id"] == vehicle_id), None)
+    if not vehicle:
+        _LOGGER.warning("Vehicle '%s' not found in config", vehicle_id)
+        return None
+    if vehicle.get("integration") == "tessie":
+        return TessieController(hass, vehicle["vehicle_id"])
+    if vehicle.get("integration") == "official_tesla":
+        return OfficialTeslaController(hass, vehicle["charge_entity_id"])
+    _LOGGER.warning("Unknown integration type for vehicle '%s'", vehicle_id)
+    return None
+
+
+async def async_register_services(hass: HomeAssistant) -> None:
+    """Register all Powerflow services."""
+    if hass.services.has_service(DOMAIN, "start_charge"):
+        return  # Already registered (multiple config entries)
+
+    async def handle_start_charge(call: ServiceCall) -> None:
+        vid = call.data["vehicle_id"]
+        if ctrl := _get_vehicle_controller(hass, vid):
+            _LOGGER.info("Starting charge for vehicle '%s'", vid)
+            await ctrl.async_wake()
+            await ctrl.async_start_charge()
+
+    async def handle_stop_charge(call: ServiceCall) -> None:
+        vid = call.data["vehicle_id"]
+        if ctrl := _get_vehicle_controller(hass, vid):
+            _LOGGER.info("Stopping charge for vehicle '%s'", vid)
+            await ctrl.async_stop_charge()
+
+    async def handle_set_charge_current(call: ServiceCall) -> None:
+        vid = call.data["vehicle_id"]
+        amps = int(call.data["amps"])
+        if ctrl := _get_vehicle_controller(hass, vid):
+            _LOGGER.info("Setting charge current for '%s' to %dA", vid, amps)
+            await ctrl.async_set_charge_current(amps)
+
+    async def handle_log_away_charge(call: ServiceCall) -> None:
+        """Log a charging session that occurred away from home."""
+        coordinator = _get_coordinator(hass)
+        if not coordinator:
+            return
+        from .storage.session_store import SessionStore
+        store = SessionStore(hass)
+        session: dict[str, Any] = {
+            "vehicle_id": call.data.get("vehicle_id"),
+            "energy_added_kwh": float(call.data.get("energy_added_kwh", 0)),
+            "starting_soc": int(call.data.get("starting_soc", 0)),
+            "ending_soc": int(call.data.get("ending_soc", 0)),
+            "grid_fraction": float(call.data.get("grid_fraction", 1.0)),
+            "grid_cost": float(call.data.get("grid_cost", 0)),
+            "ended_at": call.data.get("ended_at"),
+            "away": True,
+        }
+        await store.async_append_session(session)
+        _LOGGER.info("Logged away session for vehicle '%s'", session["vehicle_id"])
+
+    async def handle_export_reimbursement_csv(call: ServiceCall) -> None:
+        coordinator = _get_coordinator(hass)
+        if not coordinator:
+            return
+        engine = ReimbursementEngine(hass, coordinator.entry.data)
+        vid = call.data["vehicle_id"]
+        now = datetime.now()
+        start, end = engine.get_billing_cycle_boundaries(now)
+        csv_data = await engine.async_export_csv(vid, start, end)
+        _LOGGER.info("CSV export ready for vehicle '%s' (%d bytes)", vid, len(csv_data))
+
+    async def handle_recalculate_fuel_savings(call: ServiceCall) -> None:
+        coordinator = _get_coordinator(hass)
+        if not coordinator:
+            return
+        _LOGGER.info("Recalculating fuel savings")
+        await coordinator.async_refresh()
+
+    hass.services.async_register(DOMAIN, "start_charge", handle_start_charge,
+        schema=vol.Schema({vol.Required("vehicle_id"): str}))
+    hass.services.async_register(DOMAIN, "stop_charge", handle_stop_charge,
+        schema=vol.Schema({vol.Required("vehicle_id"): str}))
+    hass.services.async_register(DOMAIN, "set_charge_current", handle_set_charge_current,
+        schema=vol.Schema({vol.Required("vehicle_id"): str, vol.Required("amps"): int}))
+    hass.services.async_register(DOMAIN, "log_away_charge", handle_log_away_charge)
+    hass.services.async_register(DOMAIN, "export_reimbursement_csv", handle_export_reimbursement_csv)
+    hass.services.async_register(DOMAIN, "recalculate_fuel_savings", handle_recalculate_fuel_savings)

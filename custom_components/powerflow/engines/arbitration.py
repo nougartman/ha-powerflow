@@ -1,1 +1,131 @@
-IiIiQXJiaXRyYXRpb24gZW5naW5lIGZvciBQb3dlcmZsb3cuIiIiCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYW5ub3RhdGlvbnMKCmltcG9ydCBsb2dnaW5nCmZyb20gZGF0ZXRpbWUgaW1wb3J0IGRhdGV0aW1lCmZyb20gdHlwaW5nIGltcG9ydCBBbnkKCmZyb20gaG9tZWFzc2lzdGFudC5jb3JlIGltcG9ydCBIb21lQXNzaXN0YW50Cgpmcm9tIC4uY29uc3QgaW1wb3J0IFBSSUNFX0RFU0NSSVBUT1JTX0NIRUFQLCBERUZBVUxUX01BWF9HUklEX0tXCgpfTE9HR0VSID0gbG9nZ2luZy5nZXRMb2dnZXIoX19uYW1lX18pCgojIE1pbmltdW0gc29sYXIgZXhjZXNzIChrVykgcmVxdWlyZWQgdG8gZW5nYWdlIHNvbGFyIHNvYWsgbW9kZQpNSU5fU09MQVJfRVhDRVNTX0tXID0gMS4yClBSSU9SSVRZX01BWF9BTVBTICAgPSAzMgpTRUNPTkRBUllfTUlOX0FNUFMgID0gNgpPVkVSTklHSFRfQU1QUyAgICAgID0gMTYKCgpjbGFzcyBBcmJpdHJhdGlvbkVuZ2luZToKICAgICIiIkRlY2lkZXMgY2hhcmdpbmcgbW9kZSBiYXNlZCBvbiBBbWJlciBwcmljaW5nLCBzb2xhciwgYW5kIFNvQy4iIiIKCiAgICBkZWYgX19pbml0X18oc2VsZiwgaGFzczogSG9tZUFzc2lzdGFudCwgY29uZmlnX2RhdGE6IGRpY3RbW3N0ciwgQW55XSkgLT4gTm9uZToKICAgICAgICAiIiJJbml0aWFsaXplIGFyYml0cmF0aW9uIGVuZ2luZS4iIiIKICAgICAgICBzZWxmLmhhc3MgPSBoYXNzCiAgICAgICAgc2VsZi52ZWhpY2xlcyA9IGNvbmZpZ19kYXRhLmdldCgidmVoaWNsZXMiLCBbXSkKICAgICAgICBzZWxmLnJ1bGVzID0gY29uZmlnX2RhdGEuZ2V0KCJjaGFyZ2luZ19ydWxlcyIsIHt9KQogICAgICAgIHNlbGYuYmF0dGVyeV9zb2Nfc2Vuc29yID0gY29uZmlnX2RhdGEuZ2V0KCJiYXR0ZXJ5X3NvY19zZW5zb3IiKQogICAgICAgIHNlbGYuc29sYXJfc2Vuc29yID0gY29uZmlnX2RhdGEuZ2V0KCJzb2xhcl9zZW5zb3IiKQogICAgICAgIHNlbGYubG9hZF9zZW5zb3IgPSBjb25maWdfZGF0YS5nZXQoImxvYWRfc2Vuc29yIikKICAgICAgICBzZWxmLnB3X2NhcGFjaXR5X2t3aCA9IGZsb2F0KGNvbmZpZ19kYXRhLmdldCgicHdfY2FwYWNpdHlfa3doIiwgMTMuNSkpCgogICAgZGVmIF9nZXRfc3RhdGVfZmxvYXQoc2VsZiwgZW50aXR5X2lkOiBzdHIgfCBOb25lLCBkZWZhdWx0OiBmbG9hdCA9IDAuMCkgLT4gZmxvYXQ6CiAgICAgICAgIiIiU2FmZWx5IHJlYWQgYSBIQSBzdGF0ZSBhcyBhIGZsb2F0LiIiIgogICAgICAgIGlmIG5vdCBlbnRpdHlfaWQ6CiAgICAgICAgICAgIHJldHVybiBkZWZhdWx0CiAgICAgICAgc3RhdGUgPSBzZWxmLmhhc3Muc3RhdGVzLmdldChlbnRpdHlfaWQpCiAgICAgICAgaWYgc3RhdGUgaXMgbm90IE5vbmUgYW5kIHN0YXRlLnN0YXRlIG5vdCBpbiAoInVua25vd24iLCAidW5hdmFpbGFibGUiKToKICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgcmV0dXJuIGZsb2F0KHN0YXRlLnN0YXRlKQogICAgICAgICAgICBleGNlcHQgVmFsdWVFcnJvcjoKICAgICAgICAgICAgICAgIHBhc3MKICAgICAgICByZXR1cm4gZGVmYXVsdAoKICAgIGRlZiBfcGFyc2VfdGltZShzZWxmLCB0aW1lX3N0cjogc3RyKSAtPiBmbG9hdDoKICAgICAgICAiIiJQYXJzZSBhIEhIOk1NIHRpbWUgc3RyaW5nIHRvIGZyYWN0aW9uYWwgaG91cnMuIiIiCiAgICAgICAgdHJ5OgogICAgICAgICAgICBoaCwgbW0gPSB0aW1lX3N0ci5zcGxpdCgiOiIpCiAgICAgICAgICAgIHJldHVybiBpbnQoaGgpICsgaW50KG1tKSAvIDYwLjAKICAgICAgICBleGNlcHQgKFZhbHVlRXJyb3IsIEF0dHJpYnV0ZUVycm9yKToKICAgICAgICAgICAgcmV0dXJuIDAuMAoKICAgIGRlZiBfaW5fd2luZG93KHNlbGYsIHQ6IGRhdGV0aW1lLCBzdGFydF9zdHI6IHN0ciwgZW5kX3N0cjogc3RyKSAtPiBib29sOgogICAgICAgICIiIkNoZWNrIGlmIHRpbWUgdCBmYWxscyB3aXRoaW4gdGhlIGdpdmVuIHdpbmRvdyAoc3VwcG9ydHMgb3Zlcm5pZ2h0IHNwYW5zKS4iIiIKICAgICAgICBjdXJyZW50ID0gdC5ob3VyICsgdC5taW51dGUgLyA2MC4wCiAgICAgICAgc3RhcnQgPSBzZWxmLl9wYXJzZV90aW1lKHN0YXJ0X3N0cikKICAgICAgICBlbmQgPSBzZWxmLl9wYXJzZV90aW1lKGVuZF9zdHIpCiAgICAgICAgaWYgc3RhcnQgPD0gZW5kOgogICAgICAgICAgICByZXR1cm4gc3RhcnQgPD0gY3VycmVudCA8IGVuZAogICAgICAgICMgT3Zlcm5pZ2h0IHNwYW4KICAgICAgICByZXR1cm4gY3VycmVudCA+PSBzdGFydCBvciBjdXJyZW50IDwgZW5kCgogICAgZGVmIF9jYWxjX3BhY2luZ19yZXNlcnZlKHNlbGYsIGJhdHRlcnlfc29jOiBmbG9hdCwgbm93OiBkYXRldGltZSkgLT4gZmxvYXQ6CiAgICAgICAgIiIiQ2FsY3VsYXRlIGR5bmFtaWMgUG93ZXJ3YWxsIHBhY2luZyByZXNlcnZlLiIiIgogICAgICAgIHRhcmdldF9ob3VyID0gZmxvYXQoc2VsZi5ydWxlcy5nZXQoInRhcmdldF9mdWxsX2hvdXIiLCAxNS4wKSkKICAgICAgICBob3Vyc19yZW1haW5pbmcgPSBtYXgoMC4xLCB0YXJnZXRfaG91ciAtIChub3cuaG91ciArIG5vdy5taW51dGUgLyA2MC4wKSkKICAgICAgICBpZiBob3Vyc19yZW1haW5pbmcgPD0gMDoKICAgICAgICAgICAgcmV0dXJuIDEwMC4wCiAgICAgICAgIyBUYXJnZXQgcGFjZTogbmVlZCB0byByZWFjaCAxMDAlIGJ5IHRhcmdldF9ob3VyCiAgICAgICAgcmVxdWlyZWRfa3doID0gc2VsZi5wd19jYXBhY2l0eV9rd2ggKiAoMTAwIC0gYmF0dGVyeV9zb2MpIC8gMTAwLjAKICAgICAgICByZXF1aXJlZF9rdyA9IHJlcXVpcmVkX2t3aCAvIGhvdXJzX3JlbWFpbmluZwogICAgICAgIHJldHVybiBtaW4oMTAwLjAsIG1heCgwLjAsIGJhdHRlcnlfc29jICsgcmVxdWlyZWRfa3cgKiA1KSkKCiAgICBkZWYgX2V4cGxhaW4oc2VsZiwgcmVhc29uOiBzdHIsIGRldGFpbHM6IGRpY3QpIC0+IHN0cjoKICAgICAgICAiIiJGb3JtYXQgYSBodW1hbi1yZWFkYWJsZSBleHBsYW5hdGlvbi4iIiIKICAgICAgICBwYXJ0cyA9IFtmIntzZWxmLnJlYXNvbn0iXQogICAgICAgIGZvciBrLCB2IGluIGRldGFpbHMuaXRlbXMoKToKICAgICAgICAgICAgcGFydHMuYXBwZW5kKGYie2t9PXt2fSIpCiAgICAgICAgcmV0dXJuICI7ICIuam9pbihwYXJ0cykKCiAgICBhc3luYyBkZWYgYXN5bmNfZXZhbHVhdGUoc2VsZiwgYW1iZXJfZGF0YTogZGljdCkgLT4gZGljdDoKICAgICAgICAiIiJFdmFsdWF0ZSBjaGFyZ2luZyBzdHJhdGVneSBmb3IgYWxsIHZlaGljbGVzLiIiIgogICAgICAgIGlmIG5vdCBzZWxmLnZlaGljbGVzIG9yIG5vdCBhbWJlcl9kYXRhOgogICAgICAgICAgICByZXR1cm4ge30KCiAgICAgICAgbm93ID0gZGF0ZXRpbWUubm93KCkKCiAgICAgICAgIyBSZWFkIGtleSBzZW5zb3JzCiAgICAgICAgc29sYXJfa3cgPSBzZWxmLl9nZXRfc3RhdGVfZmxvYXQoc2VsZi5zb2xhcl9zZW5zb3IpCiAgICAgICAgbG9hZF9rdyA9IHNlbGYuX2dldF9zdGF0ZV9mbG9hdChzZWxmLmxvYWRfc2Vuc29yKQogICAgICAgIGJhdHRlcnlfc29jID0gc2VsZi5fZ2V0X3N0YXRlX2Zsb2F0KHNlbGYuYmF0dGVyeV9zb2Nfc2Vuc29yLCBkZWZhdWx0PTEwMC4wKQogICAgICAgIHNvbGFyX2V4Y2Vzc19rdyA9IG1heCgwLjAsIHNvbGFyX2t3IC0gbG9hZF9rdykKCiAgICAgICAgIyBBbWJlciBzaWduYWxzCiAgICAgICAgZGVzY3JpcHRvciA9IGFtYmVyX2RhdGEuZ2V0KCJkZXNjcmlwdG9yIiwgIm5ldXRyYWwiKQogICAgICAgIHNwaWtlX3N0YXR1cyA9IGFtYmVyX2RhdGEuZ2V0KCJzcGlrZV9zdGF0dXMiLCAibm9uZSIpCiAgICAgICAgc29sYXJfc29ha19wcmVkaWN0ZWQgPSBhbWJlcl9kYXRhLmdldCgic29sYXJfc29ha19wcmVkaWN0ZWQiLCBGYWxzZSkKCiAgICAgICAgIyBEZXRlcm1pbmUgb3ZlcmFsbCBjaGFyZ2luZyBtb2RlCiAgICAgICAgaXNfcGVhayA9IHNwaWtlX3N0YXR1cyBpbiAoInBvdGVudGlhbCIsICJzcGlrZSIpIG9yIGRlc2NyaXB0b3IgPT0gInNwaWtlIgogICAgICAgIGlzX3BlYWsgfD0gc2VsZi5faW5fd2luZG93KG5vdywgc2VsZi5ydWxlcy5nZXQoInBlYWtfbW9ybmluZ19zdGFydCIsICIwNjowMCIpLCBzZWxmLnJ1bGVzLmdldCgicGVha19tb3JuaW5nX2VuZCIsICIwOTowMCIpKQogICAgICAgIGlzX3BlYWsgfD0gc2VsZi5faW5fd2luZG93KG5vdywgc2VsZi5ydWxlcy5nZXQoInBlYWtfZXZlbmluZ19zdGFydCIsICIxNzowMCIpLCBzZWxmLnJ1bGVzLmdldCgicGVha19ldmVuaW5nX2VuZCIsICIyMTowMCIpKQoKICAgICAgICBpc19zb2xhcl9zb2FrID0gKAogICAgICAgICAgICBzb2xhcl9zb2FrX3ByZWRpY3RlZAogICAgICAgICAgICBhbmQgZGVzY3JpcHRvciBpbiBQUklDRV9ERVNDUklQVE9SU19DSEVBUAogICAgICAgICAgICBhbmQgc29sYXJfZXhjZXNzX2t3ID49IE1JTl9TT0xBUl9FWENFU1NfS1cKICAgICAgICApCiAgICAgICAgaXNfb3Zlcm5pZ2h0ID0gc2VsZi5faW5fd2luZG93KG5vdywgc2VsZi5ydWxlcy5nZXQoIm92ZXJuaWdodF9zdGFydCIsICIwMDowMCIpLCBzZWxmLnJ1bGVzLmdldCgib3Zlcm5pZ2h0X2VuZCIsICIwNjowMCIpKQoKICAgICAgICBjaGFyZ2VfZGVzaXJlZCA9IEZhbHNlCiAgICAgICAgdGFyZ2V0X2FtcHMgPSAwCiAgICAgICAgcmVhc29uID0gIklkbGUiCgogICAgICAgIGlmIGlzX3BlYWs6CiAgICAgICAgICAgIGNoYXJnZV9kZXNpcmVkID0gRmFsc2UKICAgICAgICAgICAgcmVhc29uID0gIlBlYWsgTG9ja291dCIKICAgICAgICBlbGlmIGlzX3NvbGFyX3NvYWs6CiAgICAgICAgICAgIGNoYXJnZV9kZXNpcmVkID0gVHJ1ZQogICAgICAgICAgICB0YXJnZXRfYW1wcyA9IFBSSU9SSVRZX01BWF9BTVBTCiAgICAgICAgICAgIHJlYXNvbiA9ICJTb2xhciBTb2FrIgogICAgICAgIGVsaWYgaXNfb3Zlcm5pZ2h0OgogICAgICAgICAgICBjaGFyZ2VfZGVzaXJlZCA9IFRydWUKICAgICAgICAgICAgdGFyZ2V0X2FtcHMgPSBPVkVSTklHSFRfQU1QUwogICAgICAgICAgICByZWFzb24gPSAiT3Zlcm5pZ2h0IgogICAgICAgIGVsaWYgZGVzY3JpcHRvciBpbiBQUklDRV9ERVNDUklQVE9SU19DSEVBUDoKICAgICAgICAgICAgY2hhcmdlX2Rlc2lyZWQgPSBUcnVlCiAgICAgICAgICAgIHRhcmdldF9hbXBzID0gT1ZFUk5JR0hUX0FNUFMKICAgICAgICAgICAgcmVhc29uID0gIkNoZWFwIFJhdGUiCgogICAgICAgICMgRHVhbC12ZWhpY2xlIGFyYml0cmF0aW9uOiBzb3J0IGJ5IGxvd2VzdCBTb0MgZmlyc3QgKHByaW9yaXR5KQogICAgICAgIHNvcnRlZF92ZWhpY2xlcyA9IHNvcnRlZChzZWxmLnZlaGljbGVzLCBrZXk9bGFtYmRhIHY6IHYuZ2V0KCJ2ZWhpY2xlX2lkIiwgIiIpKQoKICAgICAgICByZXN1bHRzID0ge30KICAgICAgICBhbXBzX3JlbWFpbmluZyA9IHRhcmdldF9hbXBzCgogICAgICAgIGZvciBpZHgsIHZlaGljbGUgaW4gZW51bWVyYXRlKHNvcnRlZF92ZWhpY2xlcyk6CiAgICAgICAgICAgIHZpZCA9IHZlaGljbGVbInZlaGljbGVfaWQiXQoKICAgICAgICAgICAgaWYgaWR4ID09IDA6CiAgICAgICAgICAgICAgICAjIFByaW9yaXR5IHZlaGljbGUgZ2V0cyB1cCB0byBQUklPUklUWV9NQVhfQU1QUwogICAgICAgICAgICAgICAgdl9hbXBzID0gbWluKFBSSU9SSVRZX01BWF9BTVBTLCBhbXBzX3JlbWFpbmluZykKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgICMgU2Vjb25kYXJ5IHZlaGljbGUgZ2V0cyByZW1haW5kZXIgaWYgPj0gbWluaW11bQogICAgICAgICAgICAgICAgdl9hbXBzID0gYW1wc19yZW1haW5pbmcKICAgICAgICAgICAgICAgIGlmIHZfYW1wcyA8IFNFQ09OREFSWV9NSU5fQU1QUzoKICAgICAgICAgICAgICAgICAgICB2X2FtcHMgPSAwCgogICAgICAgICAgICB2X2NoYXJnZSA9IGNoYXJnZV9kZXNpcmVkIGFuZCB2X2FtcHMgPiAwCiAgICAgICAgICAgIGFtcHNfcmVtYWluaW5nID0gbWF4KDAsIGFtcHNfcmVtYWluaW5nIC0gdl9hbXBzKQoKICAgICAgICAgICAgcmVzdWx0c1t2aWRdID0gewogICAgICAgICAgICAgICAgImNoYXJnZV9kZXNpcmVkIjogdl9jaGFyZ2UsCiAgICAgICAgICAgICAgICAidGFyZ2V0X2FtcHMiOiB2X2FtcHMsCiAgICAgICAgICAgICAgICAicmVhc29uIjogZiJ7cmVhc29ufSAoeydhbXBzJ306IHt2X2FtcHN9QSkiLAogICAgICAgICAgICB9CgogICAgICAgIHJldHVybiByZXN1bHRzCg==
+"""Arbitration engine for Powerflow."""
+from __future__ import annotations
+
+import logging
+from datetime import datetime
+from typing import Any
+
+from homeassistant.core import HomeAssistant
+
+from ..const import PRICE_DESCRIPTORS_CHEAP
+
+_LOGGER = logging.getLogger(__name__)
+
+MIN_SOLAR_EXCESS_KW = 1.2
+PRIORITY_MAX_AMPS = 32
+SECONDARY_MIN_AMPS = 6
+OVERNIGHT_AMPS = 16
+
+
+class ArbitrationEngine:
+    """Decides charging mode based on Amber pricing, solar surplus, and SoC."""
+
+    def __init__(self, hass: HomeAssistant, config_data: dict[str, Any]) -> None:
+        """Initialise engine."""
+        self.hass = hass
+        self.vehicles = config_data.get("vehicles", [])
+        self.rules = config_data.get("charging_rules", {})
+        self.battery_soc_sensor = config_data.get("battery_soc_sensor")
+        self.solar_sensor = config_data.get("solar_sensor")
+        self.load_sensor = config_data.get("load_sensor")
+        self.pw_capacity_kwh = float(config_data.get("pw_capacity_kwh", 13.5))
+
+    def _get_state_float(self, entity_id: str | None, default: float = 0.0) -> float:
+        """Safely read a HA state as float."""
+        if not entity_id:
+            return default
+        state = self.hass.states.get(entity_id)
+        if state and state.state not in ("unknown", "unavailable"):
+            try:
+                return float(state.state)
+            except ValueError:
+                pass
+        return default
+
+    def _parse_time(self, time_str: str) -> float:
+        """Parse HH:MM to fractional hours."""
+        try:
+            hh, mm = time_str.split(":")
+            return int(hh) + int(mm) / 60.0
+        except (ValueError, AttributeError):
+            return 0.0
+
+    def _in_window(self, t: datetime, start_str: str, end_str: str) -> bool:
+        """Check if time t falls within window (supports overnight spans)."""
+        current = t.hour + t.minute / 60.0
+        start = self._parse_time(start_str)
+        end = self._parse_time(end_str)
+        if start <= end:
+            return start <= current < end
+        return current >= start or current < end
+
+    async def async_evaluate(self, amber_data: dict) -> dict:
+        """Evaluate charging strategy for all configured vehicles."""
+        if not self.vehicles or not amber_data:
+            return {}
+
+        now = datetime.now()
+        solar_kw = self._get_state_float(self.solar_sensor)
+        load_kw = self._get_state_float(self.load_sensor)
+        battery_soc = self._get_state_float(self.battery_soc_sensor, default=100.0)
+        solar_excess_kw = max(0.0, solar_kw - load_kw)
+
+        descriptor = amber_data.get("descriptor", "neutral")
+        spike_status = amber_data.get("spike_status", "none")
+        solar_soak_predicted = amber_data.get("solar_soak_predicted", False)
+
+        is_peak = spike_status in ("potential", "spike") or descriptor == "spike"
+        is_peak |= self._in_window(now, self.rules.get("peak_morning_start", "06:00"), self.rules.get("peak_morning_end", "09:00"))
+        is_peak |= self._in_window(now, self.rules.get("peak_evening_start", "17:00"), self.rules.get("peak_evening_end", "21:00"))
+
+        is_solar_soak = (
+            solar_soak_predicted
+            and descriptor in PRICE_DESCRIPTORS_CHEAP
+            and solar_excess_kw >= MIN_SOLAR_EXCESS_KW
+        )
+        is_overnight = self._in_window(
+            now,
+            self.rules.get("overnight_start", "00:00"),
+            self.rules.get("overnight_end", "06:00"),
+        )
+
+        charge_desired = False
+        target_amps = 0
+        reason = "Idle"
+
+        if is_peak:
+            charge_desired = False
+            reason = "Peak Lockout"
+        elif is_solar_soak:
+            charge_desired = True
+            target_amps = PRIORITY_MAX_AMPS
+            reason = "Solar Soak"
+        elif is_overnight:
+            charge_desired = True
+            target_amps = OVERNIGHT_AMPS
+            reason = "Overnight"
+        elif descriptor in PRICE_DESCRIPTORS_CHEAP:
+            charge_desired = True
+            target_amps = OVERNIGHT_AMPS
+            reason = "Cheap Rate"
+
+        results = {}
+        amps_remaining = target_amps
+
+        for idx, vehicle in enumerate(self.vehicles):
+            vid = vehicle["vehicle_id"]
+            if idx == 0:
+                v_amps = min(PRIORITY_MAX_AMPS, amps_remaining)
+            else:
+                v_amps = amps_remaining if amps_remaining >= SECONDARY_MIN_AMPS else 0
+
+            v_charge = charge_desired and v_amps > 0
+            amps_remaining = max(0, amps_remaining - v_amps)
+
+            results[vid] = {
+                "charge_desired": v_charge,
+                "target_amps": v_amps,
+                "reason": f"{reason} (amps: {v_amps}A)",
+            }
+
+        return results

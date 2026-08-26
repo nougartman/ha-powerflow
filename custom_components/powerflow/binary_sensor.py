@@ -1,1 +1,99 @@
-IiIiQmluYXJ5IHNlbnNvciBwbGF0Zm9ybSBmb3IgUG93ZXJmbG93LiIiIgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQgbG9nZ2luZwoKZnJvbSBob21lYXNzaXN0YW50LmNvbXBvbmVudHMuYmluYXJ5X3NlbnNvciBpbXBvcnQgKAogICAgQmluYXJ5U2Vuc29yRGV2aWNlQ2xhc3MsCiAgICBCaW5hcnlTZW5zb3JFbnRpdHksCiAgICBCaW5hcnlTZW5zb3JFbnRpdHlEZXNjcmlwdGlvbiwKKQpmcm9tIGhvbWVhc3Npc3RhbnQuY29uZmlnX2VudHJpZXMgaW1wb3J0IENvbmZpZ0VudHJ5CmZyb20gaG9tZWFzc2lzdGFudC5jb3JlIGltcG9ydCBIb21lQXNzaXN0YW50CmZyb20gaG9tZWFzc2lzdGFudC5oZWxwZXJzLmVudGl0eV9wbGF0Zm9ybSBpbXBvcnQgQWRkRW50aXRpZXNDYWxsYmFjawpmcm9tIGhvbWVhc3Npc3RhbnQuaGVscGVycy51cGRhdGVfY29vcmRpbmF0b3IgaW1wb3J0IENvb3JkaW5hdG9yRW50aXR5Cgpmcm9tIC5jb25zdCBpbXBvcnQgRE9NQUlOCmZyb20gLmNvb3JkaW5hdG9yIGltcG9ydCBQb3dlcmZsb3dDb29yZGluYXRvcgoKX0xPR0dFUiA9IGxvZ2dpbmcuZ2V0TG9nZ2VyKF9fbmFtZV9fKQoKCkJJTkFSWV9TRU5TT1JfREVTQ1JJUFRJT05TOiBsaXN0W0JpbmFyeVNlbnNvckVudGl0eURlc2NyaXB0aW9uXSA9IFsKICAgIEJpbmFyeVNlbnNvckVudGl0eURlc2NyaXB0aW9uKAogICAgICAgIGtleT0ic29sYXJfc29ha19wcmVkaWN0ZWQiLAogICAgICAgIG5hbWU9IlNvbGFyIFNvYWsgUHJlZGljdGVkIiwKICAgICAgICBpY29uPSJtZGk6c29sYXItcG93ZXItdmFyaWFudCIsCiAgICApLAogICAgQmluYXJ5U2Vuc29yRW50aXR5RGVzY3JpcHRpb24oCiAgICAgICAga2V5PSJzcGlrZV93YXJuaW5nXzEyaCIsCiAgICAgICAgbmFtZT0iUHJpY2UgU3Bpa2UgV2FybmluZyAoMTJoKSIsCiAgICAgICAgZGV2aWNlX2NsYXNzPUJpbmFyeVNlbnNvckRldmljZUNsYXNzLlBST0JMRU0sCiAgICAgICAgaWNvbj0ibWRpOmFsZXJ0LWNpcmNsZS1vdXRsaW5lIiwKICAgICksCl0KCiMgTWFwcyBiaW5hcnkgc2Vuc29yIGtleSAtPiAoc2VjdGlvbiwgZmllbGQpIGluIGNvb3JkaW5hdG9yLmRhdGEKX0tFWV9NQVAgPSB7CiAgICAic29sYXJfc29ha19wcmVkaWN0ZWQiOiAoImFtYmVyIiwgInNvbGFyX3NvYWtfcHJlZGljdGVkIiksCiAgICAic3Bpa2Vfd2FybmluZ18xMmgiOiAgICAoImFtYmVyIiwgInNwaWtlX3dhcm5pbmdfMTJoIiksCn0KCgphc3luYyBkZWYgYXN5bmNfc2V0dXBfZW50cnkoCiAgICBoYXNzOiBIb21lQXNzaXN0YW50LCBlbnRyeTogQ29uZmlnRW50cnksIGFzeW5jX2FkZF9lbnRpdGllczogQWRkRW50aXRpZXNDYWxsYmFjawopIC0+IE5vbmU6CiAgICAiIiJTZXQgdXAgUG93ZXJmbG93IGJpbmFyeSBzZW5zb3IgcGxhdGZvcm0uIiIiCiAgICBjb29yZGluYXRvcjogUG93ZXJmbG93Q29vcmRpbmF0b3IgPSBoYXNzLmRhdGFbRE9NQUlOXVtlbnRyeS5lbnRyeV9pZF0KCiAgICBlbnRpdGllcyA9IFtQb3dlcmZsb3dCaW5hcnlTZW5zb3IoY29vcmRpbmF0b3IsIGRlc2MpIGZvciBkZXNjIGluIEJJTkFSWV9TRU5TT1JfREVTQ1JJUFRJT05TXQoKICAgICMgUGVyLXZlaGljbGUgImNoYXJnZSBkZXNpcmVkIiBzZW5zb3JzCiAgICBmb3IgdmVoaWNsZSBpbiBlbnRyeS5kYXRhLmdldCgidmVoaWNsZXMiLCBbXSk6CiAgICAgICAgdmlkID0gdmVoaWNsZVsidmVoaWNsZV9pZCJdCiAgICAgICAgdm5hbWUgPSB2ZWhpY2xlLmdldCgibmFtZSIsIHZpZCkKICAgICAgICBlbnRpdGllcy5hcHBlbmQoCiAgICAgICAgICAgIFBvd2VyZmxvd0JpbmFyeVNlbnNvcigKICAgICAgICAgICAgICAgIGNvb3JkaW5hdG9yLAogICAgICAgICAgICAgICAgQmluYXJ5U2Vuc29yRW50aXR5RGVzY3JpcHRpb24oCiAgICAgICAgICAgICAgICAgICAga2V5PWYidmVoaWNsZV97dmlkfV9jaGFyZ2VfZGVzaXJlZCIsCiAgICAgICAgICAgICAgICAgICAgbmFtZT1mInZ7dm5hbWV9IENoYXJnZSBEZXNpcmVkIiwKICAgICAgICAgICAgICAgICAgICBpY29uPSJtZGk6ZXYtc3RhdGlvbiIsCiAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgdmVoaWNsZV9pZD12aWQsCiAgICAgICAgICAgICkKICAgICAgICApCgogICAgYXN5bmNfYWRkX2VudGl0aWVzKGVudGl0aWVzKQoKCmNsYXNzIFBvd2VyZmxvd0JpbmFyeVNlbnNvcihDb29yZGluYXRvckVudGl0eVtQb3dlcmZsb3dDb29yZGluYXRvcl0sIEJpbmFyeVNlbnNvckVudGl0eSk6CiAgICAiIiJQb3dlcmZsb3cgYmluYXJ5IHNlbnNvciBlbnRpdHkuIiIiCgogICAgX2F0dHJfaGFzX2VudGl0eV9uYW1lID0gVHJ1ZQoKICAgIGRlZiBfX2luaXRfXygKICAgICAgICBzZWxmLAogICAgICAgIGNvb3JkaW5hdG9yOiBQb3dlcmZsb3dDb29yZGluYXRvciwKICAgICAgICBkZXNjcmlwdGlvbjogQmluYXJ5U2Vuc29yRW50aXR5RGVzY3JpcHRpb24sCiAgICAgICAgdmVoaWNsZV9pZDogc3RyIHwgTm9uZSA9IE5vbmUsCiAgICApIC0+IE5vbmU6CiAgICAgICAgIiIiSW5pdGlhbGl6ZSBiaW5hcnkgc2Vuc29yLiIiIgogICAgICAgIHN1cGVyKCkuX19pbml0X18oY29vcmRpbmF0b3IpCiAgICAgICAgc2VsZi5lbnRpdHlfZGVzY3JpcHRpb24gPSBkZXNjcmlwdGlvbgogICAgICAgIHNlbGYuX3ZlaGljbGVfaWQgPSB2ZWhpY2xlX2lkCiAgICAgICAgc2VsZi5fYXR0cl91bmlxdWVfaWQgPSBmInty Y29vcmRpbmF0b3IuZW50cnlfaWR9X3tkZXNjcmlwdGlvbi5rZXl9IgoKICAgIEBwcm9wZXJ0eQogICAgZGVmIGlzX29uKHNlbGYpIC0+IGJvb2wgfCBOb25lOgogICAgICAgICIiIlJldHVybiBUcnVlIGlmIHRoZSBjb25kaXRpb24gaXMgYWN0aXZlLiIiIgogICAgICAgIGlmIG5vdCBzZWxmLmNvb3JkaW5hdG9yLmRhdGE6CiAgICAgICAgICAgIHJldHVybiBOb25lCgogICAgICAgIGtleSA9IHNlbGYuZW50aXR5X2Rlc2NyaXB0aW9uLmtleQoKICAgICAgICAjIFBlci12ZWhpY2xlCiAgICAgICAgaWYgc2VsZi5fdmVoaWNsZV9pZDoKICAgICAgICAgICAgcmV0dXJuIGJvb2woCiAgICAgICAgICAgICAgICBzZWxmLmNvb3JkaW5hdG9yLmRhdGEKICAgICAgICAgICAgICAgIC5nZXQoImFyYml0cmF0aW9uIiwge30pCiAgICAgICAgICAgICAgICAuZ2V0KHNlbGYuX3ZlaGljbGVfaWQsIHt9KQogICAgICAgICAgICAgICAgLmdldCgiY2hhcmdlX2Rlc2lyZWQiLCBGYWxzZSkKICAgICAgICAgICAgKQoKICAgICAgICAjIFN0YXRpYwogICAgICAgIGlmIGtleSBpbiBfS0VZX01BUDoKICAgICAgICAgICAgc2VjdGlvbiwgZmllbGQgPSBfS0VZX01BUFtrZXldCiAgICAgICAgICAgIHJldHVybiBib29sKHNlbGYuY29vcmRpbmF0b3IuZGF0YS5nZXQoc2VjdGlvbiwge30pLmdldChmaWVsZCwgRmFsc2UpKQoKICAgICAgICByZXR1cm4gTm9uZQo=
+"""Binary sensor platform for Powerflow."""
+from __future__ import annotations
+
+import logging
+
+from homeassistant.components.binary_sensor import (
+    BinarySensorDeviceClass,
+    BinarySensorEntity,
+    BinarySensorEntityDescription,
+)
+from homeassistant.config_entries import ConfigEntry
+from homeassistant.core import HomeAssistant
+from homeassistant.helpers.entity_platform import AddEntitiesCallback
+from homeassistant.helpers.update_coordinator import CoordinatorEntity
+
+from .const import DOMAIN
+from .coordinator import PowerflowCoordinator
+
+_LOGGER = logging.getLogger(__name__)
+
+BINARY_SENSOR_DESCRIPTIONS: list[BinarySensorEntityDescription] = [
+    BinarySensorEntityDescription(
+        key="solar_soak_predicted",
+        name="Solar Soak Predicted",
+        icon="mdi:solar-power-variant",
+    ),
+    BinarySensorEntityDescription(
+        key="spike_warning_12h",
+        name="Price Spike Warning (12h)",
+        device_class=BinarySensorDeviceClass.PROBLEM,
+        icon="mdi:alert-circle-outline",
+    ),
+]
+
+_KEY_MAP = {
+    "solar_soak_predicted": ("amber", "solar_soak_predicted"),
+    "spike_warning_12h":    ("amber", "spike_warning_12h"),
+}
+
+
+async def async_setup_entry(
+    hass: HomeAssistant, entry: ConfigEntry, async_add_entities: AddEntitiesCallback
+) -> None:
+    """Set up Powerflow binary sensor platform."""
+    coordinator: PowerflowCoordinator = hass.data[DOMAIN][entry.entry_id]
+    entities: list[PowerflowBinarySensor] = [
+        PowerflowBinarySensor(coordinator, desc) for desc in BINARY_SENSOR_DESCRIPTIONS
+    ]
+
+    for vehicle in entry.data.get("vehicles", []):
+        vid = vehicle["vehicle_id"]
+        vname = vehicle.get("name", vid)
+        entities.append(PowerflowBinarySensor(
+            coordinator,
+            BinarySensorEntityDescription(
+                key=f"vehicle_{vid}_charge_desired",
+                name=f"{vname} Charge Desired",
+                icon="mdi:ev-station",
+            ),
+            vehicle_id=vid,
+        ))
+
+    async_add_entities(entities)
+
+
+class PowerflowBinarySensor(CoordinatorEntity[PowerflowCoordinator], BinarySensorEntity):
+    """Powerflow binary sensor entity."""
+
+    _attr_has_entity_name = True
+
+    def __init__(
+        self,
+        coordinator: PowerflowCoordinator,
+        description: BinarySensorEntityDescription,
+        vehicle_id: str | None = None,
+    ) -> None:
+        """Initialise binary sensor."""
+        super().__init__(coordinator)
+        self.entity_description = description
+        self._vehicle_id = vehicle_id
+        self._attr_unique_id = f"{coordinator.entry_id}_{description.key}"
+
+    @property
+    def is_on(self) -> bool | None:
+        """Return True if the condition is active."""
+        if not self.coordinator.data:
+            return None
+        key = self.entity_description.key
+        if self._vehicle_id:
+            return bool(
+                self.coordinator.data
+                .get("arbitration", {})
+                .get(self._vehicle_id, {})
+                .get("charge_desired", False)
+            )
+        if key in _KEY_MAP:
+            section, field = _KEY_MAP[key]
+            return bool(self.coordinator.data.get(section, {}).get(field, False))
+        return None

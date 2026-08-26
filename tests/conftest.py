@@ -1,1 +1,64 @@
-IiIiVGVzdCBmaXh0dXJlcyBmb3IgUG93ZXJmbG93LiIiIgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQgcHl0ZXN0CgoKQHB5dGVzdC5maXh0dXJlCmRlZiBjb25maWdfZW50cnlfZGF0YSgpIC0+IGRpY3Q6CiAgICAiIiJSZWFsaXN0aWMgY29uZmlnIGVudHJ5IGZvciBhIG9uZS12ZWhpY2xlIHNldHVwLiIiIgogICAgcmV0dXJuIHsKICAgICAgICAiYW1iZXJfYXBpX2tleSI6ICJ0ZXN0X2FtYmVyX2tleV8xMjMiLAogICAgICAgICJzaXRlX2lkIjogInRlc3Rfc2l0ZV9hYmMiLAogICAgICAgICJzb2xhcl9zZW5zb3IiOiAic2Vuc29yLnNvbGFyX3Bvd2VyIiwKICAgICAgICAibG9hZF9zZW5zb3IiOiAic2Vuc29yLmhvbWVfbG9hZCIsCiAgICAgICAgImdyaWRfc2Vuc29yIjogInNlbnNvci5ncmlkX3Bvd2VyIiwKICAgICAgICAiYmF0dGVyeV90eXBlIjogInRlc3NpZV9wb3dlcndhbGwiLAogICAgICAgICJiYXR0ZXJ5X3NvY19zZW5zb3IiOiAic2Vuc29yLnB3X3NvYyIsCiAgICAgICAgInB3X2NhcGFjaXR5X2t3aCI6IDEzLjUsCiAgICAgICAgInRhcmdldF9mdWxsX2hvdXIiOiAxNS4wLAogICAgICAgICJwdl9mb3JlY2FzdF9zZW5zb3IiOiAic2Vuc29yLnNvbGNhc3RfZm9yZWNhc3RfcmVtYWluaW5nX3RvZGF5IiwKICAgICAgICAidmVoaWNsZXMiOiBbCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICJuYW1lIjogIkhvdCBEb2ciLAogICAgICAgICAgICAgICAgInZlaGljbGVfaWQiOiAiaG90X2RvZyIsCiAgICAgICAgICAgICAgICAiaW50ZWdyYXRpb24iOiAidGVzc2llIiwKICAgICAgICAgICAgICAgICJjaGFyZ2VfZW50aXR5X2lkIjogInN3aXRjaC5ob3RfZG9nX2NoYXJnZSIsCiAgICAgICAgICAgICAgICAiYW1wc19lbnRpdHlfaWQiOiAibnVtYmVyLmhvdF9kb2dfY2hhcmdlX2N1cnJlbnQiLAogICAgICAgICAgICAgICAgImljZV9saXRyZXNfcGVyXzEwMGttIjogOC4zLAogICAgICAgICAgICB9CiAgICAgICAgXSwKICAgICAgICAiY2hhcmdpbmdfcnVsZXMiOiB7CiAgICAgICAgICAgICJwZWFrX21vcm5pbmdfc3RhcnQiOiAiMDY6MDAiLAogICAgICAgICAgICAicGVha19tb3JuaW5nX2VuZCI6ICIwOTowMCIsCiAgICAgICAgICAgICJwZWFrX2V2ZW5pbmdfc3RhcnQiOiAiMTc6MDAiLAogICAgICAgICAgICAicGVha19ldmVuaW5nX2VuZCI6ICIyMTowMCIsCiAgICAgICAgICAgICJvdmVybmlnaHRfc3RhcnQiOiAiMDA6MDAiLAogICAgICAgICAgICAib3Zlcm5pZ2h0X2VuZCI6ICIwNjowMCIsCiAgICAgICAgICAgICJzb2xhcl9zb2FrX3N0YXJ0IjogIjExOjAwIiwKICAgICAgICAgICAgInNvbGFyX3NvYWtfZW5kIjogIjE1OjAwIiwKICAgICAgICAgICAgIm92ZXJuaWdodF9zb2NfbGltaXQiOiA0MCwKICAgICAgICAgICAgIm1heF9ncmlkX2ltcG9ydF9rdyI6IDE4LjAsCiAgICAgICAgfSwKICAgICAgICAiZnVlbF9wcmljZV9zb3VyY2UiOiAicXVhcnRlcmx5X2F2ZyIsCiAgICB9CgoKQHB5dGVzdC5maXh0dXJlCmRlZiBtb2NrX2FtYmVyX2ludGVydmFscygpIC0+IGxpc3Q6CiAgICAiIiJSZWFsaXN0aWMgNDgtaW50ZXJ2YWwgQW1iZXIgQVBJIHJlc3BvbnNlIGZpeHR1cmUuIiIiCiAgICBpbnRlcnZhbHMgPSBbXQogICAgZGVzY3JpcHRvcnMgPSBbCiAgICAgICAgIm5ldXRyYWwiLCAibG93IiwgImV4dHJlbWVseUxvdyIsICJuZWdhdGl2ZSIsICJleHRyZW1lbHlMb3ciLAogICAgICAgICJsb3ciLCAibmV1dHJhbCIsICJuZXV0cmFsIiwgImhpZ2giLCAic3Bpa2UiLAogICAgXQogICAgZm9yIGkgaW4gcmFuZ2UoNDgpOgogICAgICAgIGlzX2N1cnJlbnQgPSBpID09IDAKICAgICAgICBpbnRlcnZhbHMuYXBwZW5kKHsKICAgICAgICAgICAgInR5cGUiOiAiQ3VycmVudEludGVydmFsIiBpZiBpc19jdXJyZW50IGVsc2UgIkZvcmVjYXN0SW50ZXJ2YWwiLAogICAgICAgICAgICAiY2hhbm5lbFR5cGUiOiAiZ2VuZXJhbCIsCiAgICAgICAgICAgICJwZXJLd2giOiAxMCAtIChpICUgMTUpLCAgIyBWYXJpZXMKICAgICAgICAgICAgImRlc2NyaXB0b3IiOiBkZXNjcmlwdG9yc1tpICUgbGVuKGRlc2NyaXB0b3JzKV0sCiAgICAgICAgICAgICJzcGlrZVN0YXR1cyI6ICJzcGlrZSIgaWYgZGVzY3JpcHRvcnNbaSAlIGxlbihkZXNjcmlwdG9ycyldID09ICJzcGlrZSIgZWxzZSAibm9uZSIsCiAgICAgICAgfSkKICAgIHJldHVybiBpbnRlcnZhbHMK
+"""Test fixtures for Powerflow."""
+from __future__ import annotations
+
+import pytest
+
+
+@pytest.fixture
+def config_entry_data() -> dict:
+    """Realistic config entry for a one-vehicle setup."""
+    return {
+        "amber_api_key": "test_amber_key_123",
+        "site_id": "test_site_abc",
+        "solar_sensor": "sensor.solar_power",
+        "load_sensor": "sensor.home_load",
+        "grid_sensor": "sensor.grid_power",
+        "battery_type": "tessie_powerwall",
+        "battery_soc_sensor": "sensor.pw_soc",
+        "pw_capacity_kwh": 13.5,
+        "target_full_hour": 15.0,
+        "pv_forecast_sensor": "sensor.solcast_forecast_remaining_today",
+        "vehicles": [
+            {
+                "name": "Hot Dog",
+                "vehicle_id": "hot_dog",
+                "integration": "tessie",
+                "charge_entity_id": "switch.hot_dog_charge",
+                "amps_entity_id": "number.hot_dog_charge_current",
+                "ice_litres_per_100km": 8.3,
+            }
+        ],
+        "charging_rules": {
+            "peak_morning_start": "06:00",
+            "peak_morning_end": "09:00",
+            "peak_evening_start": "17:00",
+            "peak_evening_end": "21:00",
+            "overnight_start": "00:00",
+            "overnight_end": "06:00",
+            "solar_soak_start": "11:00",
+            "solar_soak_end": "15:00",
+            "overnight_soc_limit": 40,
+            "max_grid_import_kw": 18.0,
+        },
+        "fuel_price_source": "quarterly_avg",
+    }
+
+
+@pytest.fixture
+def mock_amber_intervals() -> list:
+    """Realistic 48-interval Amber API response fixture."""
+    descriptors = [
+        "neutral", "low", "extremelyLow", "negative", "extremelyLow",
+        "low", "neutral", "neutral", "high", "spike",
+    ]
+    intervals = []
+    for i in range(48):
+        is_current = i == 0
+        intervals.append({
+            "type": "CurrentInterval" if is_current else "ForecastInterval",
+            "channelType": "general",
+            "perKwh": 10 - (i % 15),
+            "descriptor": descriptors[i % len(descriptors)],
+            "spikeStatus": "spike" if descriptors[i % len(descriptors)] == "spike" else "none",
+        })
+    return intervals

@@ -1,1 +1,119 @@
-IiIiUmVpbWJ1cnNlbWVudCBlbmdpbmUgZm9yIG5vdmF0ZWQgbGVhc2UgY2hhcmdpbmcgc2Vzc2lvbnMuIiIiCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYW5ub3RhdGlvbnMKCmltcG9ydCBsb2dnaW5nCmltcG9ydCBpbwppbXBvcnQgY3N2CmZyb20gZGF0ZXRpbWUgaW1wb3J0IGRhdGV0aW1lCmZyb20gdHlwaW5nIGltcG9ydCBBbnkKCmZyb20gaG9tZWFzc2lzdGFudC5jb3JlIGltcG9ydCBIb21lQXNzaXN0YW50CmZyb20gLi5zdG9yYWdlLnNlc3Npb25fc3RvcmUgaW1wb3J0IFNlc3Npb25TdG9yZQoKX0xPR0dFUiA9IGxvZ2dpbmcuZ2V0TG9nZ2VyKF9fbmFtZV9fKQoKIyBBbm9tYWx5IGd1YXJkcwpNQVhfU0VTU0lPTl9LV0ggPSA4NQpNSU5fU09DX0RFTFRBID0gMQoKCmNsYXNzIFJlaW1idXJzZW1lbnRFbmdpbmU6CiAgICAiIiJDb21wdXRlcyBub3ZhdGVkIGxlYXNlIHJlaW1idXJzZW1lbnQgcGVyIGJpbGxpbmcgY3ljbGUuIiIiCgogICAgZGVmIF9faW5pdF9fKHNlbGYsIGhhc3M6IEhvbWVBc3Npc3RhbnQsIGNvbmZpZ19kYXRhOiBkaWN0W3N0ciwgQW55XSkgLT4gTm9uZToKICAgICAgICAiIiJJbml0aWFsaXplIHJlaW1idXJzZW1lbnQgZW5naW5lLiIiIgogICAgICAgIHNlbGYuaGFzcyA9IGhhc3MKICAgICAgICBzZWxmLmNvbmZpZyA9IGNvbmZpZ19kYXRhCiAgICAgICAgc2VsZi5zZXNzaW9uX3N0b3JlID0gU2Vzc2lvblN0b3JlKGhhc3MpCgogICAgZGVmIGdldF9iaWxsaW5nX2N5Y2xlX2JvdW5kYXJpZXMoc2VsZiwgbm93OiBkYXRldGltZSkgLT4gdHVwbGVbZGF0ZXRpbWUsIGRhdGV0aW1lXToKICAgICAgICAiIiJSZXR1cm4gKHN0YXJ0LCBlbmQpIG9mIHRoZSBjdXJyZW50IG1vbnRobHkgYmlsbGluZyBjeWNsZS4iIiIKICAgICAgICBzdGFydCA9IG5vdy5yZXBsYWNlKGRheT0xLCBob3VyPTAsIG1pbnV0ZT0wLCBzZWNvbmQ9MCwgbWljcm9zZWNvbmQ9MCkKICAgICAgICBpZiBub3cubW9udGggPT0gMTI6CiAgICAgICAgICAgIGVuZCA9IG5vdy5yZXBsYWNlKHllYXI9bm93LnllYXIgKyAxLCBtb250aD0xLCBkYXk9MSwgaG91cj0wLCBtaW51dGU9MCwgc2Vjb25kPTAsIG1pY3Jvc2Vjb25kPTApCiAgICAgICAgZWxzZToKICAgICAgICAgICAgZW5kID0gbm93LnJlcGxhY2UobW9udGg9bm93Lm1vbnRoICsgMSwgZGF5PTEsIGhvdXI9MCwgbWludXRlPTAsIHNlY29uZD0wLCBtaWNyb3NlY29uZD0wKQogICAgICAgIHJldHVybiBzdGFydCwgZW5kCgogICAgZGVmIF9pc192YWxpZF9zZXNzaW9uKHNlbGYsIHNlc3Npb246IGRpY3QpIC0+IGJvb2w6CiAgICAgICAgIiIiQXBwbHkgYW5vbWFseSBhbmQgcGhhbnRvbSBzZXNzaW9uIGd1YXJkcy4iIiIKICAgICAgICBhZGRlZCA9IHNlc3Npb24uZ2V0KCJlbmVyZ3lfYWRkZWRfa3doIiwgMC4wKQogICAgICAgIGlmIGFkZGVkID4gTUFYX1NFU1NJT05fS1dIIG9yIGFkZGVkIDwgMDoKICAgICAgICAgICAgX0xPR0dFUi53YXJuaW5nKCJTa2lwcGluZyBhbm9tYWxvdXMgc2Vzc2lvbjoga1doPS4yZiIsIGFkZGVkKQogICAgICAgICAgICByZXR1cm4gRmFsc2UKICAgICAgICBzdGFydF9zb2MgPSBzZXNzaW9uLmdldCgic3RhcnRpbmdfc29jIiwgMCkKICAgICAgICBlbmRfc29jID0gc2Vzc2lvbi5nZXQoImVuZGluZ19zb2MiLCAwKQogICAgICAgIGlmIGVuZF9zb2MgLSBzdGFydF9zb2MgPCBNSU5fU09DX0RFTFRBIC0+CiAgICAgICAgICAgIF9MT0dHRVIuZGVidWcoIlNraXBwaW5nIHBoYW50b20gc2Vzc2lvbjogU29DIGRlbHRhPSVkJSIsIGVuZF9zb2MgLSBzdGFydF9zb2MpCiAgICAgICAgICAgIHJldHVybiBGYWxzZQogICAgICAgIHJldHVybiBUcnVlCgogICAgYXN5bmMgZGVmIGFzeW5jX2dldF9jdXJyZW50X2N5Y2xlX3N0YXRzKHNlbGYsIHZlaGljbGVfaWQ6IHN0cikgLT4gZGljdDoKICAgICAgICAiIiJHZXQgY3VycmVudCBiaWxsaW5nIGN5Y2xlIHN0YXRzIGZvciBhIHZlaGljbGUuIiIiCiAgICAgICAgbm93ID0gZGF0ZXRpbWUubm93KCkKICAgICAgICBzdGFydCwgZW5kID0gc2VsZi5nZXRfYmlsbGluZ19jeWNsZV9ib3VuZGFyaWVzKG5vdykKICAgICAgICBzZXNzaW9ucyA9IGF3YWl0IHNlbGYuc2Vzc2lvbl9zdG9yZS5hc3luY19sb2FkX3Nlc3Npb25zKHZlaGljbGVfaWQpCgogICAgICAgIGdyaWRfa3doID0gMC4wCiAgICAgICAgc29sYXJfa3doID0gMC4wCiAgICAgICAgdG90YWxfa3doID0gMC4wCiAgICAgICAgZ3JpZF9jb3N0ID0gMC4wCgogICAgICAgIGZvciBzIGluIHNlc3Npb25zOgogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICBzX3RpbWUgPSBkYXRldGltZS5mcm9taXNvZm9ybWF0KHMuZ2V0KCJlbmRlZF9hdCIsICIiKSkKICAgICAgICAgICAgICAgIGlmIHNfdGltZS50emluZm8gaXMgbm90IE5vbmU6CiAgICAgICAgICAgICAgICAgICAgc190aW1lID0gc190aW1lLnJlcGxhY2UodHppbmZvPU5vbmUpCiAgICAgICAgICAgIGV4Y2VwdCBWYWx1ZUVycm9yOgogICAgICAgICAgICAgICAgY29udGludWUKCiAgICAgICAgICAgIGlmIG5vdCAoc3RhcnQgPD0gc190aW1lIDwgZW5kKToKICAgICAgICAgICAgICAgIGNvbnRpbnVlCgogICAgICAgICAgICBpZiBub3Qgc2VsZi5faXNfdmFsaWRfc2Vzc2lvbihzKToKICAgICAgICAgICAgICAgIGNvbnRpbnVlCgogICAgICAgICAgICBhZGRlZCA9IGZsb2F0KHMuZ2V0KCJlbmVyZ3lfYWRkZWRfa3doIiwgMC4wKSkKICAgICAgICAgICAgZ3JpZF9mcmFjdGlvbiA9IGZsb2F0KHMuZ2V0KCJncmlkX2ZyYWN0aW9uIiwgMC41KSkKICAgICAgICAgICAgdG90YWxfa3doICs9IGFkZGVkCiAgICAgICAgICAgIGdyaWRfa3doICs9IGFkZGVkICogZ3JpZF9mcmFjdGlvbgogICAgICAgICAgICBzb2xhcl9rd2ggKz0gYWRkZWQgKiAoMS4wIC0gZ3JpZF9mcmFjdGlvbikKICAgICAgICAgICAgZ3JpZF9jb3N0ICs9IGZsb2F0KHMuZ2V0KCJncmlkX2Nvc3QiLCAwLjApKQoKICAgICAgICByZXR1cm4gewogICAgICAgICAgICAiZ3JpZF9rd2giOiByb3VuZChncmlkX2t3aCwgMyksCiAgICAgICAgICAgICJzb2xhcl9rd2giOiByb3VuZChzb2xhcl9rd2gsIDMpLAogICAgICAgICAgICAidG90YWxfa3doIjogcm91bmQodG90YWxfa3doLCAzKSwKICAgICAgICAgICAgImdyaWRfY29zdCI6IHJvdW5kKGdyaWRfY29zdCwgMiksCiAgICAgICAgICAgICJyZWltYnVyc2VtZW50X2R1ZSI6IHJvdW5kKGdyaWRfY29zdCwgMiksCiAgICAgICAgfQoKICAgIGFzeW5jIGRlZiBhc3luY19leHBvcnRfY3N2KHNlbGYsIHZlaGljbGVfaWQ6IHN0ciwgc3RhcnRfZGF0ZTogZGF0ZXRpbWUsIGVuZF9kYXRlOiBkYXRldGltZSwgdGFyaWZmOiBmbG9hdCA9IDAuMCkgLT4gc3RyOgogICAgICAgICIiIkV4cG9ydCBhIENTViBvZiBjaGFyZ2luZyBzZXNzaW9ucyBmb3IgbW92YXRlZCBsZWFzZSByZWltYnVyc2VtZW50LiIiIgogICAgICAgIHNlc3Npb25zID0gYXdhaXQgc2VsZi5zZXNzaW9uX3N0b3JlLmFzeW5jX2xvYWRfc2Vzc2lvbnModmVoaWNsZV9pZCkKCiAgICAgICAgb3V0cHV0ID0gaW8uU3RyaW5nSU8oKQogICAgICAgIHdyaXRlciA9IGNzdi53cml0ZXIob3V0cHV0KQogICAgICAgIHdyaXRlci53cml0ZXJvdyhbIkRhdGUiLCAiRW5lcmd5IEFkZGVkIChrV2gpIiwgIkdyaWQgKGtXaCkiLCAiU29sYXIgKGtXaCkiLCAiQ29zdCAoJCkiXSkKCiAgICAgICAgZm9yIHMgaW4gc2Vzc2lvbnM6CiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIHNfdGltZSA9IGRhdGV0aW1lLmZyb21pc29mb3JtYXQocy5nZXQoImVuZGVkX2F0IiwgIiIpKQogICAgICAgICAgICAgICAgaWYgc190aW1lLnR6aW5mbyBpcyBub3QgTm9uZToKICAgICAgICAgICAgICAgICAgICBzX3RpbWUgPSBzX3RpbWUucmVwbGFjZSh0emluZm89Tm9uZSkKICAgICAgICAgICAgZXhjZXB0IFZhbHVlRXJyb3I6CiAgICAgICAgICAgICAgICBjb250aW51ZQoKICAgICAgICAgICAgaWYgbm90IChzdGFydF9kYXRlIDw9IHNfdGltZSA8PSBlbmRfZGF0ZSk6CiAgICAgICAgICAgICAgICBjb250aW51ZQoKICAgICAgICAgICAgaWYgbm90IHNlbGYuX2lzX3ZhbGlkX3Nlc3Npb24ocyk6CiAgICAgICAgICAgICAgICBjb250aW51ZQoKICAgICAgICAgICAgYWRkZWQgPSBmbG9hdChzLmdldCgiZW5lcmd5X2FkZGVkX2t3aCIsIDAuMCkpCiAgICAgICAgICAgIGdyaWRfZnJhY3Rpb24gPSBmbG9hdChzLmdldCgiZ3JpZF9mcmFjdGlvbiIsIDAuNSkpCiAgICAgICAgICAgIHdyaXRlci53cml0ZXJvdyhbCiAgICAgICAgICAgICAgICBzX3RpbWUuc3RyZnRpbWUoIiVZLSVtLSVkICVIOiVNOiVTIiksCiAgICAgICAgICAgICAgICBmInthZGRlZDouM2Z9IiwKICAgICAgICAgICAgICAgIGYie2FkZGVkICogZ3JpZF9mcmFjdGlvbjouM2Z9IiwKICAgICAgICAgICAgICAgIGYie2FkZGVkICogKDEgLSBncmlkX2ZyYWN0aW9uKTouM2Z9IiwKICAgICAgICAgICAgICAgIGYie2Zsb2F0KHMuZ2V0KCdncmlkX2Nvc3QnLCAwLjApKTouMmZ9IiwKICAgICAgICAgICAgXSkKCiAgICAgICAgcmV0dXJuIG91dHB1dC5nZXR2YWx1ZSgpCg==
+"""Reimbursement engine for novated lease charging sessions."""
+from __future__ import annotations
+
+import csv
+import io
+import logging
+from datetime import datetime
+from typing import Any
+
+from homeassistant.core import HomeAssistant
+
+from ..storage.session_store import SessionStore
+
+_LOGGER = logging.getLogger(__name__)
+
+MAX_SESSION_KWH = 85
+MIN_SOC_DELTA = 1
+
+
+class ReimbursementEngine:
+    """Computes novated lease reimbursement per billing cycle."""
+
+    def __init__(self, hass: HomeAssistant, config_data: dict[str, Any]) -> None:
+        """Initialise engine."""
+        self.hass = hass
+        self.config = config_data
+        self.session_store = SessionStore(hass)
+
+    def get_billing_cycle_boundaries(self, now: datetime) -> tuple[datetime, datetime]:
+        """Return (start, end) of the current monthly billing cycle."""
+        start = now.replace(day=1, hour=0, minute=0, second=0, microsecond=0)
+        if now.month == 12:
+            end = now.replace(year=now.year + 1, month=1, day=1, hour=0, minute=0, second=0, microsecond=0)
+        else:
+            end = now.replace(month=now.month + 1, day=1, hour=0, minute=0, second=0, microsecond=0)
+        return start, end
+
+    def _is_valid_session(self, session: dict) -> bool:
+        """Apply anomaly and phantom session guards."""
+        added = session.get("energy_added_kwh", 0.0)
+        if added > MAX_SESSION_KWH or added < 0:
+            _LOGGER.warning("Skipping anomalous session: kWh=%.2f", added)
+            return False
+        start_soc = session.get("starting_soc", 0)
+        end_soc = session.get("ending_soc", 0)
+        if end_soc - start_soc < MIN_SOC_DELTA:
+            _LOGGER.debug("Skipping phantom session: SoC delta=%d%%", end_soc - start_soc)
+            return False
+        return True
+
+    async def async_get_current_cycle_stats(self, vehicle_id: str) -> dict:
+        """Get current billing cycle stats for a vehicle."""
+        now = datetime.now()
+        start, end = self.get_billing_cycle_boundaries(now)
+        sessions = await self.session_store.async_load_sessions(vehicle_id)
+
+        grid_kwh = 0.0
+        solar_kwh = 0.0
+        total_kwh = 0.0
+        grid_cost = 0.0
+
+        for s in sessions:
+            try:
+                s_time = datetime.fromisoformat(s.get("ended_at", ""))
+                if s_time.tzinfo is not None:
+                    s_time = s_time.replace(tzinfo=None)
+            except ValueError:
+                continue
+
+            if not (start <= s_time < end):
+                continue
+            if not self._is_valid_session(s):
+                continue
+
+            added = float(s.get("energy_added_kwh", 0.0))
+            grid_fraction = float(s.get("grid_fraction", 0.5))
+            total_kwh += added
+            grid_kwh += added * grid_fraction
+            solar_kwh += added * (1.0 - grid_fraction)
+            grid_cost += float(s.get("grid_cost", 0.0))
+
+        return {
+            "grid_kwh": round(grid_kwh, 3),
+            "solar_kwh": round(solar_kwh, 3),
+            "total_kwh": round(total_kwh, 3),
+            "grid_cost": round(grid_cost, 2),
+            "reimbursement_due": round(grid_cost, 2),
+        }
+
+    async def async_export_csv(self, vehicle_id: str, start_date: datetime, end_date: datetime) -> str:
+        """Export a CSV of charging sessions for novated lease reimbursement."""
+        sessions = await self.session_store.async_load_sessions(vehicle_id)
+        output = io.StringIO()
+        writer = csv.writer(output)
+        writer.writerow(["Date", "Energy Added (kWh)", "Grid (kWh)", "Solar (kWh)", "Cost ($)"])
+
+        for s in sessions:
+            try:
+                s_time = datetime.fromisoformat(s.get("ended_at", ""))
+                if s_time.tzinfo is not None:
+                    s_time = s_time.replace(tzinfo=None)
+            except ValueError:
+                continue
+            if not (start_date <= s_time <= end_date):
+                continue
+            if not self._is_valid_session(s):
+                continue
+
+            added = float(s.get("energy_added_kwh", 0.0))
+            grid_fraction = float(s.get("grid_fraction", 0.5))
+            writer.writerow([
+                s_time.strftime("%Y-%m-%d %H:%M:%S"),
+                f"{added:.3f}",
+                f"{added * grid_fraction:.3f}",
+                f"{added * (1 - grid_fraction):.3f}",
+                f"{float(s.get('grid_cost', 0.0)):.2f}",
+            ])
+
+        return output.getvalue()

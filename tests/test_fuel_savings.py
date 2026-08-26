@@ -1,1 +1,40 @@
-IiIiVGVzdHMgZm9yIEZ1ZWxTYXZpbmdzRW5naW5lLiIiIgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQgcHl0ZXN0CmZyb20gdW5pdHRlc3QubW9jayBpbXBvcnQgQXN5bmNNb2NrLCBNYWdpY01vY2ssIHBhdGNoCgpmcm9tIGN1c3RvbV9jb21wb25lbnRzLnBvd2VyZmxvdy5lbmdpbmVzLmZ1ZWxfc2F2aW5ncyBpbXBvcnQgRnVlbFNhdmluZ3NFbmdpbmUKCgpAcHl0ZXN0Lm1hcmsuYXN5bmNpbwphc3luYyBkZWYgdGVzdF9tYW51YWxfZnVlbF9wcmljZShjb25maWdfZW50cnlfZGF0YSk6CiAgICAiIiJXaGVuIG1hbnVhbCBzb3VyY2UgaXMgc2VsZWN0ZWQgdGhlIGNvbmZpZyB2YWx1ZSBpcyByZXR1cm5lZC4iIiIKICAgIGRhdGEgPSBkaWN0KGNvbmZpZ19lbnRyeV9kYXRhKQogICAgZGF0YVsiZnVlbF9wcmljZV9zb3VyY2UiXSA9ICJtYW51YWwiCiAgICBkYXRhWyJmdWVsX3ByaWNlX21hbnVhbCJdID0gMi4yNQoKICAgIGhhc3MgPSBNYWdpY01vY2soKQogICAgZW5naW5lID0gRnVlbFNhdmluZ3NFbmdpbmUoaGFzcywgZGF0YSkKICAgIHByaWNlID0gYXdhaXQgZW5naW5lLmFzeW5jX2dldF9mdWVsX3ByaWNlKCkKICAgIGFzc2VydCBwcmljZSA9PSBweXRlc3QuYXBwcm94KDIuMjUpCgoKQHB5dGVzdC5tYXJrLmFzeW5jaW8KYXN5bmMgZGVmIHRlc3RfcXVhcnRlcmx5X2F2Z19mYWxsYmFjayhjb25maWdfZW50cnlfZGF0YSk6CiAgICAiIiJRdWFydGVybHkgYXZnIHNvdXJjZSBzaG91bGQgcmV0dXJuIGEgcmVhc29uYWJsZSBBVVMgcHJpY2UgKD4xLjApLiIiIgogICAgZGF0YSA9IGRpY3QoY29uZmlnX2VudHJ5X2RhdGEpCiAgICBkYXRhWyJmdWVsX3ByaWNlX3NvdXJjZSJdID0gInF1YXJ0ZXJseV9hdmciCgogICAgaGFzcyA9IE1hZ2ljTW9jaygpCiAgICBlbmdpbmUgPSBGdWVsU2F2aW5nc0VuZ2luZShoYXNzLCBkYXRhKQogICAgcHJpY2UgPSBhd2FpdCBlbmdpbmUuYXN5bmNfZ2V0X2Z1ZWxfcHJpY2UoKQogICAgYXNzZXJ0IHByaWNlID4gMS4wCgoKQHB5dGVzdC5tYXJrLmFzeW5jaW8KYXN5bmMgZGVmIHRlc3RfZ2V0X3N0YXRzX3plcm9fd2hlbl9ub19kYXRhKGNvbmZpZ19lbnRyeV9kYXRhKToKICAgICIiIldpdGggZW1wdHkgc3RvcmUsIGZsZWV0IHNhdmluZ3Mgc2hvdWxkIGJlIHplcm8uIiIiCiAgICBoYXNzID0gTWFnaWNNb2NrKCkKCiAgICB3aXRoIHBhdGNoKAogICAgICAgICJjdXN0b21fY29tcG9uZW50cy5wb3dlcmZsb3cuZW5naW5lcy5mdWVsX3NhdmluZ3MuUG93ZXJmbG93U3RvcmUiCiAgICApIGFzIG1vY2tfc3RvcmVfY2xhc3M6CiAgICAgICAgbW9ja19zdG9yZSA9IE1hZ2ljTW9jaygpCiAgICAgICAgbW9ja19zdG9yZS5hc3luY19sb2FkID0gQXN5bmNNb2NrKHJldHVybl92YWx1ZT17fSkKICAgICAgICBtb2NrX3N0b3JlX2NsYXNzLnJldHVybl92YWx1ZSA9IG1vY2tfc3RvcmUKCiAgICAgICAgZW5naW5lID0gRnVlbFNhdmluZ3NFbmdpbmUoaGFzcywgY29uZmlnX2VudHJ5X2RhdGEpCiAgICAgICAgc3RhdHMgPSBhd2FpdCBlbmdpbmUuYXN5bmNfZ2V0X3N0YXRzKCkKCiAgICBhc3NlcnQgc3RhdHNbImZsZWV0X2Z1ZWxfc2F2aW5ncyJdID09IDAuMAogICAgYXNzZXJ0IHN0YXRzWyJmbGVldF9wZXRyb2xfYXZvaWRlZCJdID09IDAuMAo=
+"""Tests for FuelSavingsEngine."""
+from __future__ import annotations
+
+import pytest
+from unittest.mock import AsyncMock, MagicMock, patch
+
+from custom_components.powerflow.engines.fuel_savings import FuelSavingsEngine
+
+
+@pytest.mark.asyncio
+async def test_manual_fuel_price(config_entry_data):
+    """When manual source is selected the config value is returned."""
+    data = {**config_entry_data, "fuel_price_source": "manual", "fuel_price_manual": 2.25}
+    engine = FuelSavingsEngine(MagicMock(), data)
+    assert await engine.async_get_fuel_price() == pytest.approx(2.25)
+
+
+@pytest.mark.asyncio
+async def test_quarterly_avg_fallback(config_entry_data):
+    """Quarterly avg source should return a reasonable AUS price (>1.0)."""
+    data = {**config_entry_data, "fuel_price_source": "quarterly_avg"}
+    engine = FuelSavingsEngine(MagicMock(), data)
+    price = await engine.async_get_fuel_price()
+    assert price > 1.0
+
+
+@pytest.mark.asyncio
+async def test_get_stats_zero_when_no_data(config_entry_data):
+    """With empty store, fleet savings should be zero."""
+    with patch(
+        "custom_components.powerflow.engines.fuel_savings.PowerflowStore"
+    ) as mock_store_class:
+        mock_store = MagicMock()
+        mock_store.async_load = AsyncMock(return_value={})
+        mock_store_class.return_value = mock_store
+        engine = FuelSavingsEngine(MagicMock(), config_entry_data)
+        stats = await engine.async_get_stats()
+
+    assert stats["fleet_fuel_savings"] == 0.0
+    assert stats["fleet_petrol_avoided"] == 0.0
