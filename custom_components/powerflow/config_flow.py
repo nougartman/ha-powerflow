@@ -1,1 +1,197 @@
-IiIiQ29uZmlnIGZsb3cgZm9yIFBvd2VyZmxvdyBpbnRlZ3JhdGlvbi4iIiIKZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKaW1wb3J0IGxvZ2dpbmcKZnJvbSB0eXBpbmcgaW1wb3J0IEFueQoKaW1wb3J0IHZvbHVwdHVvdXMgYXMgdm9sCgpmcm9tIGhvbWVhc3Npc3RhbnQgaW1wb3J0IGNvbmZpZ19lbnRyaWVzCmZyb20gaG9tZWFzc2lzdGFudC5jb3JlIGltcG9ydCBIb21lQXNzaXN0YW50CmZyb20gaG9tZWFzc2lzdGFudC5kYXRhX2VudHJ5X2Zsb3cgaW1wb3J0IEZsb3dSZXN1bHQKCmZyb20gLmNvbnN0IGltcG9ydCAoCiAgICBET01BSU4sCiAgICBDT05GX0FNQkVSX0FQSV9LRVksCiAgICBDT05GX1NJVEVfSUQsCiAgICBDT05GX1NPTEFSX1NFTlNPUiwKICAgIENPTkZfTE9BRF9TRU5TT1IsCiAgICBDT05GX0dSSURfU0VOU09SLAogICAgQ09ORl9CQVRURVJZX1RZUEUsCiAgICBDT05GX0JBVFRFUllfU09DX1NFTlNPUiwKICAgIENPTkZfUFdfQ0FQQUNJVFZFS1dILAogICAgQ09ORl9UQVJHRVRfRlVMTF9IT1VSLAogICAgQ09ORl9QVl9GT1JFQ0FTVF9TRU5TT1IsCiAgICBDT05GX1ZFSElDTEVTLAogICAgQ09ORl9DSEFSR0lOR19SVUxFUywKICAgIENPTkZfSU5TVEFMTF9DT1NULAogICAgQ09ORl9JTlNUQUxMX0RBVEUsCiAgICBDT05GX0NBUlJZX0lOX1NBVklOR1MsCiAgICBDT05GX05PVkFURURfTEVBU0UsCiAgICBDT05GX0ZVRUxfUFJJQ0VfU09VUkNFLAogICAgQ09ORl9GVUVMX1BSSUNFX01BTlVBTCwKICAgIEJBVFRFUllfVFlQRV9URVNTSUUSCIAGICBCQVRURVJZX1RZUEVfT0ZGSUNJQUwsCiAgICBCQVRURVJZX1RZUEVfR0VORVJJQywKICAgIEJBVFRFUllfVFlQRV9OT05FLAogICAgVkVISUNMRV9JTlRFR1JBVElPTl9URVNTSUUsCiAgICBWRUhJQ0xFX0lOVEVHUkFUSU9OX09GRklDSUFMLAogICAgRlVFTF9TT1VSQ0VfTUFOVUFMLAogICAgRlVFTF9TT1VSQ0VfSEFfU0VOU09SLAogICAgRlVFTF9TT1VSQ0VfTlNXX0ZVRUxDSEVDSywKICAgIEZVRUxfU09VUkNFX1FVQVJURVJMWV9BVkcsCiAgICBERUZBVUxUX1BXX0NBUEFDSVRZX0tXSCwKICAgIERFRkFVTFRfVEFSR0VUX0ZVTExfSE9VUiwKKQpmcm9tIC5wcm92aWRlcnMuYW1iZXIgaW1wb3J0IEFtYmVyUHJvdmlkZXIKCl9MT0dHRVIgPSBsb2dnaW5nLmdldExvZ2dlcihfX25hbWVfXykKCiMgS25vd24gUFYgZm9yZWNhc3Qgc2Vuc29yIGNhbmRpZGF0ZXMgdG8gYXV0by1kZXRlY3QKUFZfRk9SRUNBU1RfQ0FORElEQVRFUyA9IFsKICAgICJzZW5zb3Iuc29sY2FzdF9wdl9mb3JlY2FzdF9mb3JlY2FzdF9yZW1haW5pbmdfdG9kYXkiLAogICAgInNlbnNvci5zb2xjYXN0X2ZvcmVjYXN0X3JlbWFpbmluZ190b2RheSIsCiAgICAic2Vuc29yLmVuZXJneV9wcm9kdWN0aW9uX3RvZGF5X3JlbWFpbmluZyIsCiAgICAic2Vuc29yLmVuZXJneV9wcm9kdWN0aW9uX3RvZGF5X3JlbWFpbmluZ18yIiwKICAgICJzZW5zb3Iub3Blbl9tZXRlb19zb2xhcl9mb3JlY2FzdF9lbmVyZ3lfcHJvZHVjdGlvbl9yZW1haW5pbmciLApdCgoKZGVmIF9kZXRlY3RfcHZfZm9yZWNhc3Rfc2Vuc29yKGhhc3M6IEhvbWVBc3Npc3RhbnQpIC0+IHN0ciB8IE5vbmU6CiAgICAiIiJBdXRvLWRldGVjdCBhIFBWIGZvcmVjYXN0IHNlbnNvciBmcm9tIGtub3duIGludGVncmF0aW9ucy4iIiIKICAgIGZvciBjYW5kaWRhdGUgaW4gUFZfRk9SRUNBU1RfQ0FORElEQVRFUzoKICAgICAgICBzdGF0ZSA9IGhhc3Muc3RhdGVzLmdldChjYW5kaWRhdGUpCiAgICAgICAgaWYgc3RhdGUgaXMgbm90IE5vbmUgYW5kIHN0YXRlLnN0YXRlIG5vdCBpbiAoInVua25vd24iLCAidW5hdmFpbGFibGUiKToKICAgICAgICAgICAgX0xPR0dFUi5pbmZvKCJBdXRvLWRldGVjdGVkIFBWIGZvcmVjYXN0IHNlbnNvcjogJXMiLCBjYW5kaWRhdGUpCiAgICAgICAgICAgIHJldHVybiBjYW5kaWRhdGUKICAgIHJldHVybiBOb25lCgoKY2xhc3MgUG93ZXJmbG93Q29uZmlnRmxvdyhjb25maWdfZW50cmllcy5Db25maWdGbG93LCBkb21haW49RE9NQUlOKToKICAgICIiIkhhbmRsZSBhIGNvbmZpZyBmbG93IGZvciBQb3dlcmZsb3cuIiIiCgogICAgVkVSU0lPTiA9IDEKCiAgICBkZWYgX19pbml0X18oc2VsZikgLT4gTm9uZToKICAgICAgICAiIiJJbml0aWFsaXplIGZsb3cuIiIiCiAgICAgICAgc2VsZi5fZGF0YTogZGljdFtzdHIsIEFueV0gPSB7fQogICAgICAgIHNlbGYuX3ZlaGljbGVzOiBsaXN0W2RpY3Rbc3RyLCBBbnldXSA9IFtdCgogICAgYXN5bmMgZGVmIGFzeW5jX3N0ZXBfdXNlcigKICAgICAgICBzZWxmLCB1c2VyX2lucHV0OiBkaWN0W3N0ciwgQW55XSB8IE5vbmUgPSBOb25lCiAgICApIC0+IEZsb3dSZXN1bHQ6CiAgICAgICAgIiIiU3RlcCAxIC0tIEFtYmVyIEVsZWN0cmljIEFQSSBjcmVkZW50aWFscy4iIiIKICAgICAgICBlcnJvcnM6IGRpY3Rbc3RyLCBzdHJdID0ge30KCiAgICAgICAgaWYgdXNlcl9pbnB1dCBpcyBub3QgTm9uZToKICAgICAgICAgICAgcHJvdmlkZXIgPSBBbWJlclByb3ZpZGVyKHNlbGYuaGFzcywgdXNlcl9pbnB1dCkKICAgICAgICAgICAgaWYgYXdhaXQgcHJvdmlkZXIuYXN5bmNfdmFsaWRhdGVfY3JlZGVudGlhbHMoKToKICAgICAgICAgICAgICAgIHNlbGYuX2RhdGEudXBkYXRlKHVzZXJfaW5wdXQpCiAgICAgICAgICAgICAgICByZXR1cm4gYXdhaXQgc2VsZi5hc3luY19zdGVwX3NvbGFyKCkKICAgICAgICAgICAgZXJyb3JzWyJiYXNlIl0gPSAiaW52YWxpZF9hdXRoIgoKICAgICAgICByZXR1cm4gc2VsZi5hc3luY19zaG93X2Zvcm0oCiAgICAgICAgICAgIHN0ZXBfaWQ9InVzZXIiLAogICAgICAgICAgICBkYXRhX3NjaGVtYT12b2wuU2NoZW1hKHsKICAgICAgICAgICAgICAgIHZvbC5SZXF1aXJlZChDT05GX0FNQkVSX0FQSV9LRVkpOiBzdHIsCiAgICAgICAgICAgICAgICB2b2wuUmVxdWlyZWQoQ09ORl9TSVRFX0lEKTogc3RyLAogICAgICAgICAgICB9KSwKICAgICAgICAgICAgZXJyb3JzPWVycm9ycywKICAgICAgICApCgogICAgYXN5bmMgZGVmIGFzeW5jX3N0ZXBfc29sYXIoCiAgICAgICAgc2VsZiwgdXNlcl9pbnB1dDogZGljdFtzdHIsIEFueV0gfCBOb25lID0gTm9uZQogICAgKSAtPiBGbG93UmVzdWx0OgogICAgICAgICIiIlN0ZXAgMiAtLSBTb2xhciAmIGJhdHRlcnkgc2Vuc29ycy4iIiIKICAgICAgICBpZiB1c2VyX2lucHV0IGlzIG5vdCBOb25lOgogICAgICAgICAgICBzZWxmLl9kYXRhLnVwZGF0ZSh1c2VyX2lucHV0KQogICAgICAgICAgICByZXR1cm4gYXdhaXQgc2VsZi5hc3luY19zdGVwX3ZlaGljbGVzKCkKCiAgICAgICAgIyBBdXRvLWRldGVjdCBQViBmb3JlY2FzdCBzZW5zb3IKICAgICAgICBwdl9kZWZhdWx0ID0gX2RldGVjdF9wdl9mb3JlY2FzdF9zZW5zb3Ioc2VsZi5oYXNzKSBvciBTdHJpbmcoIiIpCgogICAgICAgIHJldHVybiBzZWxmLmFzeW5jX3Nob3dfZm9ybSgKICAgICAgICAgICAgc3RlcF9pZD0ic29sYXIiLAogICAgICAgICAgICBkYXRhX3NjaGVtYT12b2wuU2NoZW1hKHsKICAgICAgICAgICAgICAgIHZvbC5SZXF1aXJlZChDT05GX1NPTEFSX1NFTlNPUik6IHN0ciwKICAgICAgICAgICAgICAgIHZvbC5SZXF1aXJlZChDT05GX0xPQURfU0VOU09SKTogc3RyLAogICAgICAgICAgICAgICAgdm9sLlJlcXVpcmVkKENPTkZfR1JJRF9TRU5TT1IpOiBzdHIsCiAgICAgICAgICAgICAgICB2b2wuUmVxdWlyZWQoQ09ORl9CQVRURVJZX1RZUEUsIGRlZmF1bHQ9QkFUVEVSWV9UWVBFX05PTkUpOiB2b2wuSW4oCiAgICAgICAgICAgICAgICAgICAgW0JBVFRFUFVUWVBFX1RFU1NJRSwgQkFUVEVSWV9UWVBFX09GRklDSUFMLCBCQVRURVJZX1RZUEVfR0VORVJJQywgQkFUVEVSWV9UWVBFX05PTkVdCiAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgdm9sLk9wdGlvbmFsKENPTkZfQkFUVEVSWV9TT0NfU0VOU09SKTogc3RyLAogICAgICAgICAgICAgICAgdm9sLk9wdGlvbmFsKENPTkZfUFdfQ0FQQUNJVFlfS1dILCBkZWZhdWx0PURFRkFVTFRfUFdfQ0FQQUNJVFZFS1dIKTogdm9sLkNvZXJjZShmbG9hdCksCiAgICAgICAgICAgICAgICB2b2wuT3B0aW9uYWwoQ09ORl9UQVJHRVRfRlVMTF9IT1VSLCBkZWZhdWx0PURFRkFVTFRfVEFSR0VUX0ZVTExfSE9VUik6IHZvbC5Db2VyY2UoZmxvYXQpLAogICAgICAgICAgICAgICAgdm9sLk9wdGlvbmFsKENPTkZfUFZfRk9SRUNBU1RfU0VOU09SLCBkZWZhdWx0PXB2X2RlZmF1bHQpOiBzdHIsCiAgICAgICAgICAgIH0pLAogICAgICAgICkKCiAgICBhc3luYyBkZWYgYXN5bmNfc3RlcF92ZWhpY2xlcygKICAgICAgICBzZWxmLCB1c2VyX2lucHV0OiBkaWN0W3N0ciwgQW55XSB8IE5vbmUgPSBOb25lCiAgICApIC0+IEZsb3dSZXN1bHQ6CiAgICAgICAgIiIiU3RlcCAzIC0tIFZlaGljbGUgcHJvZmlsZXMuIiIiCiAgICAgICAgaWYgdXNlcl9pbnB1dCBpcyBub3QgTm9uZToKICAgICAgICAgICAgdmVoaWNsZV9kYXRhID0ge2s6IHYgZm9yIGssIHYgaW4gdXNlcl9pbnB1dC5pdGVtcygpIGlmIGsgIT0gImFkZF9hbm90aGVyIn0KICAgICAgICAgICAgc2VsZi5fdmVoaWNsZXMuYXBwZW5kKHZlaGljbGVfZGF0YSkKICAgICAgICAgICAgaWYgdXNlcl9pbnB1dC5nZXQoImFkZF9hbm90aGVyIikgYW5kIGxlbihzZWxmLl92ZWhpY2xlcykgPCA0OgogICAgICAgICAgICAgICAgcmV0dXJuIGF3YWl0IHNlbGYuYXN5bmNfc3RlcF92ZWhpY2xlcygpCiAgICAgICAgICAgIHNlbGYuX2RhdGFbQ09ORl9WRUIJQ0xFU10gPSBzZWxmLl92ZWhpY2xlcwogICAgICAgICAgICByZXR1cm4gYXdhaXQgc2VsZi5hc3luY19zdGVwX3J1bGVzKCkKCiAgICAgICAgcmV0dXJuIHNlbGYuYXN5bmNfc2hvd19mb3JtKAogICAgICAgICAgICBzdGVwX2lkPSJ2ZWhpY2xlcyIsCiAgICAgICAgICAgIGRhdGFfc2NoZW1hPXZvbC5TY2hlbWEoewogICAgICAgICAgICAgICAgdm9sLlJlcXVpcmVkKCJuYW1lIik6IHN0ciwKICAgICAgICAgICAgICAgIHZvbC5SZXF1aXJlZCgiaW50ZWdyYXRpb24iLCBkZWZhdWx0PVZFSICJDTEVJSU5URUdSQVRJT05fVEVTU0lFKTogdm9sLkluKAogICAgICAgICAgICAgICAgICAgIFtWRUhJQ0xFX0lOVEVHUkFUSU9OX1RFU1NJRSwgVkVISUNMRV9JTlRFR1JBVElPTl9PRkZJQ0lBTF0KICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICB2b2wuUmVxdWlyZWQoInZlaGljbGVfaWQiKTogc3RyLAogICAgICAgICAgICAgICAgdm9sLlJlcXVpcmVkKCJjaGFyZ2VfZW50aXR5X2lkIik6IHN0ciwKICAgICAgICAgICAgICAgIHZvbC5SZXF1aXJlZCgiYW1wc19lbnRpdHlfaWQiKTogc3RyLAogICAgICAgICAgICAgICAgdm9sLk9wdGlvbmFsKCJ2aW4iKTogc3RyLAogICAgICAgICAgICAgICAgdm9sLk9wdGlvbmFsKCJpY2VfbGl0cmVzX3Blcl8xMDBrbSIsIGRlZmF1bHQ9OC4zKTogdm9sLkNvZXJjZShmbG9hdCksCiAgICAgICAgICAgICAgICB2b2wuT3B0aW9uYWwoImFkZF9hbm90aGVyIiwgZGVmYXVsdD1GYWxzZSk6IGJvb2wsCiAgICAgICAgICAgIH0pLAogICAgICAgICkKCiAgICBhc3luYyBkZWYgYXN5bmNfc3RlcF9ydWxlcygKICAgICAgICBzZWxmLCB1c2VyX2lucHV0OiBkaWN0W3N0ciwgQW55XSB8IE5vbmUgPSBOb25lCiAgICApIC0+IEZsb3dSZXN1bHQ6CiAgICAgICAgIiIiU3RlcCA0IC0tIENoYXJnaW5nIHJ1bGVzLiIiIgogICAgICAgIGlmIHVzZXJfaW5wdXQgaXMgbm90IE5vbmU6CiAgICAgICAgICAgIHNlbGYuX2RhdGFbQ09ORl9DSEFSR0lOR19SVUxFU10gPSB1c2VyX2lucHV0CiAgICAgICAgICAgIHJldHVybiBhd2FpdCBzZWxmLmFzeW5jX3N0ZXBfcm9pKCkKCiAgICAgICAgcmV0dXJuIHNlbGYuYXN5bmNfc2hvd19mb3JtKAogICAgICAgICAgICBzdGVwX2lkPSJydWxlcyIsCiAgICAgICAgICAgIGRhdGFfc2NoZW1hPXZvbC5TY2hlbWEoewogICAgICAgICAgICAgICAgdm9sLlJlcXVpcmVkKCJwZWFrX21vcm5pbmdfc3RhcnQiLCBkZWZhdWx0PSIwNjowMCIpOiBzdHIsCiAgICAgICAgICAgICAgICB2b2wuUmVxdWlyZWQoInBlYWtfbW9ybmluZ19lbmQiLCBkZWZhdWx0PSIwOTowMCIpOiBzdHIsCiAgICAgICAgICAgICAgICB2b2wuUmVxdWlyZWQoInBlYWtfZXZlbmluZ19zdGFydCIsIGRlZmF1bHQ9IjE3OjAwIik6IHN0ciwKICAgICAgICAgICAgICAgIHZvbC5SZXF1aXJlZCgicGVha19ldmVuaW5nX2VuZCIsIGRlZmF1bHQ9IjIxOjAwIik6IHN0ciwKICAgICAgICAgICAgICAgIHZvbC5SZXF1aXJlZCgib3Zlcm5pZ2h0X3N0YXJ0IiwgZGVmYXVsdD0iMDA6MDAiKTogc3RyLAogICAgICAgICAgICAgICAgdm9sLlJlcXVpcmVkKCJvdmVybmlnaHRfZW5kIiwgZGVmYXVsdD0iMDY6MDAiKTogc3RyLAogICAgICAgICAgICAgICAgdm9sLlJlcXVpcmVkKCJzb2xhcl9zb2FrX3N0YXJ0IiwgZGVmYXVsdD0iMTE6MDAiKTogc3RyLAogICAgICAgICAgICAgICAgdm9sLlJlcXVpcmVkKCJzb2xhcl9zb2FrX2VuZCIsIGRlZmF1bHQ9IjE1OjAwIik6IHN0ciwKICAgICAgICAgICAgICAgIHZvbC5SZXF1aXJlZCgib3Zlcm5pZ2h0X3NvY19saW1pdCIsIGRlZmF1bHQ9NDApOiBpbnQsCiAgICAgICAgICAgICAgICB2b2wuUmVxdWlyZWQoIm1heF9ncmlkX2ltcG9ydF9rdyIsIGRlZmF1bHQ9MTguMCk6IHZvbC5Db2VyY2UoZmxvYXQpLAogICAgICAgICAgICB9KSwKICAgICAgICApCgogICAgYXN5bmMgZGVmIGFzeW5jX3N0ZXBfcm9pKAogICAgICAgIHNlbGYsIHVzZXJfaW5wdXQ6IGRpY3Rbc3RyLCBBbnldIHwgTm9uZSA9IE5vbmUKICAgICkgLT4gRmxvd1Jlc3VsdDoKICAgICAgICAiIiJTdGVwIDUgLS0gUk9JICYgZnVlbCBwcmljZS4iIiIKICAgICAgICBpZiB1c2VyX2lucHV0IGlzIG5vdCBOb25lOgogICAgICAgICAgICBzZWxmLl9kYXRhLnVwZGF0ZSh1c2VyX2lucHV0KQogICAgICAgICAgICByZXR1cm4gc2VsZi5hc3luY19jcmVhdGVfZW50cnkodGl0bGU9IlBvd2VyZmxvdyIsIGRhdGE9c2VsZi5fZGF0YSkKCiAgICAgICAgcmV0dXJuIHNlbGYuYXN5bmNfc2hvd19mb3JtKAogICAgICAgICAgICBzdGVwX2lkPSJyb2kiLAogICAgICAgICAgICBkYXRhX3NjaGVtYT12b2wuU2NoZW1hKHsKICAgICAgICAgICAgICAgIHZvbC5PcHRpb25hbChDT05GX0lOU1RBTExfQ09TVCwgZGVmYXVsdD0wLjApOiB2b2wuQ29lcmNlKGZsb2F0KSwKICAgICAgICAgICAgICAgIHZvbC5PcHRpb25hbChDT05GX0lOU1RBTExfREFURSk6IHN0ciwKICAgICAgICAgICAgICAgIHZvbC5PcHRpb25hbChDT05GX0NBUlJZX0lOX1NBVklOR1MsIGRlZmF1bHQ9MC4wKTogdm9sLkNvZXJjZShmbG9hdCksCiAgICAgICAgICAgICAgICB2b2wuT3B0aW9uYWwoQ09ORl9OT1ZBVEVEX0xFQVNFLCBkZWZhdWx0PUZhbHNlKTogYm9vbCwKICAgICAgICAgICAgICAgIHZvbC5SZXF1aXJlZChDT05GX0ZVRUxfUFJJQ0VfU09VUkNFLCBkZWZhdWx0PUZVRUVMX1NPVVJDRV9RVUFSVEVSTFZFX0FWRyk6IHZvbC5JbigKICAgICAgICAgICAgICAgICAgICBbRlVFTF9TT1VSQ0VfTUFOVUFMLCBGVUVMX1NPVVJDRV9IQV9TRU5TT1IsIEZVRUxfU09VUkNFX05TV19GVUVMQ0hFQ0ssIEZVRUxfU09VUkNFX1FVQVJURVJMWV9BVkddCiAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgdm9sLk9wdGlvbmFsKENPTkZfRlVFTF9QUklDRV9NQU5VQUwpOiB2b2wuQ29lcmNlKGZsb2F0KSwKICAgICAgICAgICAgfSksCiAgICAgICAgKQo=
+"""Config flow for Powerflow integration."""
+from __future__ import annotations
+
+import logging
+from typing import Any
+
+import voluptuous as vol
+
+from homeassistant import config_entries
+from homeassistant.core import HomeAssistant
+from homeassistant.data_entry_flow import FlowResult
+
+from .const import (
+    DOMAIN,
+    CONF_AMBER_API_KEY,
+    CONF_SITE_ID,
+    CONF_SOLAR_SENSOR,
+    CONF_LOAD_SENSOR,
+    CONF_GRID_SENSOR,
+    CONF_BATTERY_TYPE,
+    CONF_BATTERY_SOC_SENSOR,
+    CONF_PW_CAPACITY_KWH,
+    CONF_TARGET_FULL_HOUR,
+    CONF_PV_FORECAST_SENSOR,
+    CONF_VEHICLES,
+    CONF_CHARGING_RULES,
+    CONF_INSTALL_COST,
+    CONF_INSTALL_DATE,
+    CONF_CARRY_IN_SAVINGS,
+    CONF_NOVATED_LEASE,
+    CONF_FUEL_PRICE_SOURCE,
+    CONF_FUEL_PRICE_MANUAL,
+    BATTERY_TYPE_TESSIE,
+    BATTERY_TYPE_OFFICIAL,
+    BATTERY_TYPE_GENERIC,
+    BATTERY_TYPE_NONE,
+    VEHICLE_INTEGRATION_TESSIE,
+    VEHICLE_INTEGRATION_OFFICIAL,
+    FUEL_SOURCE_MANUAL,
+    FUEL_SOURCE_HA_SENSOR,
+    FUEL_SOURCE_NSW_FUELCHECK,
+    FUEL_SOURCE_QUARTERLY_AVG,
+    DEFAULT_PW_CAPACITY_KWH,
+    DEFAULT_TARGET_FULL_HOUR,
+)
+from .providers.amber import AmberProvider
+
+_LOGGER = logging.getLogger(__name__)
+
+PV_FORECAST_CANDIDATES = [
+    "sensor.solcast_pv_forecast_forecast_remaining_today",
+    "sensor.solcast_forecast_remaining_today",
+    "sensor.energy_production_today_remaining",
+    "sensor.open_meteo_solar_forecast_energy_production_remaining",
+]
+
+
+def _detect_pv_forecast_sensor(hass: HomeAssistant) -> str | None:
+    """Auto-detect a PV forecast sensor from known integrations."""
+    for candidate in PV_FORECAST_CANDIDATES:
+        state = hass.states.get(candidate)
+        if state is not None and state.state not in ("unknown", "unavailable"):
+            _LOGGER.info("Auto-detected PV forecast sensor: %s", candidate)
+            return candidate
+    return None
+
+
+class PowerflowConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
+    """Handle a config flow for Powerflow."""
+
+    VERSION = 1
+
+    def __init__(self) -> None:
+        """Initialize flow."""
+        self._data: dict[str, Any] = {}
+        self._vehicles: list[dict[str, Any]] = []
+
+    async def async_step_user(
+        self, user_input: dict[str, Any] | None = None
+    ) -> FlowResult:
+        """Step 1 — Amber Electric API credentials."""
+        errors: dict[str, str] = {}
+        if user_input is not None:
+            provider = AmberProvider(self.hass, user_input)
+            if await provider.async_validate_credentials():
+                self._data.update(user_input)
+                return await self.async_step_solar()
+            errors["base"] = "invalid_auth"
+
+        return self.async_show_form(
+            step_id="user",
+            data_schema=vol.Schema({
+                vol.Required(CONF_AMBER_API_KEY): str,
+                vol.Required(CONF_SITE_ID): str,
+            }),
+            errors=errors,
+        )
+
+    async def async_step_solar(
+        self, user_input: dict[str, Any] | None = None
+    ) -> FlowResult:
+        """Step 2 — Solar & battery sensors."""
+        if user_input is not None:
+            self._data.update(user_input)
+            return await self.async_step_vehicles()
+
+        pv_default = _detect_pv_forecast_sensor(self.hass) or ""
+
+        return self.async_show_form(
+            step_id="solar",
+            data_schema=vol.Schema({
+                vol.Required(CONF_SOLAR_SENSOR): str,
+                vol.Required(CONF_LOAD_SENSOR): str,
+                vol.Required(CONF_GRID_SENSOR): str,
+                vol.Required(CONF_BATTERY_TYPE, default=BATTERY_TYPE_NONE): vol.In(
+                    [BATTERY_TYPE_TESSIE, BATTERY_TYPE_OFFICIAL, BATTERY_TYPE_GENERIC, BATTERY_TYPE_NONE]
+                ),
+                vol.Optional(CONF_BATTERY_SOC_SENSOR): str,
+                vol.Optional(CONF_PW_CAPACITY_KWH, default=DEFAULT_PW_CAPACITY_KWH): vol.Coerce(float),
+                vol.Optional(CONF_TARGET_FULL_HOUR, default=DEFAULT_TARGET_FULL_HOUR): vol.Coerce(float),
+                vol.Optional(CONF_PV_FORECAST_SENSOR, default=pv_default): str,
+            }),
+        )
+
+    async def async_step_vehicles(
+        self, user_input: dict[str, Any] | None = None
+    ) -> FlowResult:
+        """Step 3 — Vehicle profiles."""
+        if user_input is not None:
+            vehicle_data = {k: v for k, v in user_input.items() if k != "add_another"}
+            self._vehicles.append(vehicle_data)
+            if user_input.get("add_another") and len(self._vehicles) < 4:
+                return await self.async_step_vehicles()
+            self._data[CONF_VEHICLES] = self._vehicles
+            return await self.async_step_rules()
+
+        return self.async_show_form(
+            step_id="vehicles",
+            data_schema=vol.Schema({
+                vol.Required("name"): str,
+                vol.Required("integration", default=VEHICLE_INTEGRATION_TESSIE): vol.In(
+                    [VEHICLE_INTEGRATION_TESSIE, VEHICLE_INTEGRATION_OFFICIAL]
+                ),
+                vol.Required("vehicle_id"): str,
+                vol.Required("charge_entity_id"): str,
+                vol.Required("amps_entity_id"): str,
+                vol.Optional("vin"): str,
+                vol.Optional("ice_litres_per_100km", default=8.3): vol.Coerce(float),
+                vol.Optional("add_another", default=False): bool,
+            }),
+        )
+
+    async def async_step_rules(
+        self, user_input: dict[str, Any] | None = None
+    ) -> FlowResult:
+        """Step 4 — Charging rules."""
+        if user_input is not None:
+            self._data[CONF_CHARGING_RULES] = user_input
+            return await self.async_step_roi()
+
+        return self.async_show_form(
+            step_id="rules",
+            data_schema=vol.Schema({
+                vol.Required("peak_morning_start", default="06:00"): str,
+                vol.Required("peak_morning_end", default="09:00"): str,
+                vol.Required("peak_evening_start", default="17:00"): str,
+                vol.Required("peak_evening_end", default="21:00"): str,
+                vol.Required("overnight_start", default="00:00"): str,
+                vol.Required("overnight_end", default="06:00"): str,
+                vol.Required("solar_soak_start", default="11:00"): str,
+                vol.Required("solar_soak_end", default="15:00"): str,
+                vol.Required("overnight_soc_limit", default=40): int,
+                vol.Required("max_grid_import_kw", default=18.0): vol.Coerce(float),
+            }),
+        )
+
+    async def async_step_roi(
+        self, user_input: dict[str, Any] | None = None
+    ) -> FlowResult:
+        """Step 5 — ROI & fuel price."""
+        if user_input is not None:
+            self._data.update(user_input)
+            return self.async_create_entry(title="Powerflow", data=self._data)
+
+        return self.async_show_form(
+            step_id="roi",
+            data_schema=vol.Schema({
+                vol.Optional(CONF_INSTALL_COST, default=0.0): vol.Coerce(float),
+                vol.Optional(CONF_INSTALL_DATE): str,
+                vol.Optional(CONF_CARRY_IN_SAVINGS, default=0.0): vol.Coerce(float),
+                vol.Optional(CONF_NOVATED_LEASE, default=False): bool,
+                vol.Required(CONF_FUEL_PRICE_SOURCE, default=FUEL_SOURCE_QUARTERLY_AVG): vol.In(
+                    [FUEL_SOURCE_MANUAL, FUEL_SOURCE_HA_SENSOR, FUEL_SOURCE_NSW_FUELCHECK, FUEL_SOURCE_QUARTERLY_AVG]
+                ),
+                vol.Optional(CONF_FUEL_PRICE_MANUAL): vol.Coerce(float),
+            }),
+        )

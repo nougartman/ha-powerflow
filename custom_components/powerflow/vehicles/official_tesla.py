@@ -1,1 +1,49 @@
-IiIiT2ZmaWNpYWwgVGVzbGEgaW50ZWdyYXRpb24gdmVoaWNsZSBjb250cm9sbGVyLiIiIgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQgbG9nZ2luZwoKZnJvbSBob21lYXNzaXN0YW50LmNvcmUgaW1wb3J0IEhvbWVBc3Npc3RhbnQKCl9MT0dHRVIgPSBsb2dnaW5nLmdldExvZ2dlcihfX25hbWVfXykKCgpjbGFzcyBPZmZpY2lhbFRlc2xhQ29udHJvbGxlcjoKICAgICIiIlZlaGljbGUgY29udHJvbGxlciB1c2luZyB0aGUgb2ZmaWNpYWwgVGVzbGEgY3VzdG9tIGludGVncmF0aW9uLiIiIgoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBoYXNzOiBIb21lQXNzaXN0YW50LCBjaGFyZ2VfZW50aXR5X2lkOiBzdHIpIC0+IE5vbmU6CiAgICAgICAgIiIiSW5pdGlhbGl6ZSB0aGUgVGVzbGEgY29udHJvbGxlci4iIiIKICAgICAgICBzZWxmLmhhc3MgPSBoYXNzCiAgICAgICAgc2VsZi5jaGFyZ2VfZW50aXR5X2lkID0gY2hhcmdlX2VudGl0eV9pZAoKICAgIGFzeW5jIGRlZiBhc3luY193YWtlKHNlbGYpIC0+IE5vbmU6CiAgICAgICAgIiIiV2FrZSB1cCB0aGUgdmVoaWNsZS4iIiIKICAgICAgICBhd2FpdCBzZWxmLmhhc3Muc2VydmljZXMuYXN5bmNfY2FsbCgKICAgICAgICAgICAgInRlc2xhX2N1c3RvbSIsCiAgICAgICAgICAgICJhcGkiLAogICAgICAgICAgICB7ImNvbW1hbmQiOiAid2FrZV91cCIsICJwYXJhbWV0ZXJzIjoge319LAogICAgICAgICAgICB0YXJnZXQ9eyJlbnRpdHlfaWQiOiBzZWxmLmNoYXJnZV9lbnRpdHlfaWR9LAogICAgICAgICkKCiAgICBhc3luYyBkZWYgYXN5bmNfc3RhcnRfY2hhcmdlKHNlbGYpIC0+IE5vbmU6CiAgICAgICAgIiIiU3RhcnQgY2hhcmdpbmcuIiIiCiAgICAgICAgYXdhaXQgc2VsZi5oYXNzLnNlcnZpY2VzLmFzeW5jX2NhbGwoCiAgICAgICAgICAgICJ0ZXNsYV9jdXN0b20iLAogICAgICAgICAgICAiYXBpIiwKICAgICAgICAgICAgeyJjb21tYW5kIjogImNoYXJnZV9zdGFydCIsICJwYXJhbWV0ZXJzIjoge319LAogICAgICAgICAgICB0YXJnZXQ9eyJlbnRpdHlfaWQiOiBzZWxmLmNoYXJnZV9lbnRpdHlfaWR9LAogICAgICAgICkKCiAgICBhc3luYyBkZWYgYXN5bmNfc3RvcF9jaGFyZ2Uoc2VsZikgLT4gTm9uZToKICAgICAgICAiIiJTdG9wIGNoYXJnaW5nLiIiIgogICAgICAgIGF3YWl0IHNlbGYuaGFzcy5zZXJ2aWNlcy5hc3luY19jYWxsKAogICAgICAgICAgICAidGVzbGFfY3VzdG9tIiwKICAgICAgICAgICAgImFwaSIsCiAgICAgICAgICAgIHsiY29tbWFuZCI6ICJjaGFyZ2Vfc3RvcCIsICJwYXJhbWV0ZXJzIjoge319LAogICAgICAgICAgICB0YXJnZXQ9eyJlbnRpdHlfaWQiOiBzZWxmLmNoYXJnZV9lbnRpdHlfaWR9LAogICAgICAgICkKCiAgICBhc3luYyBkZWYgYXN5bmNfc2V0X2NoYXJnZV9jdXJyZW50KHNlbGYsIGFtcHM6IGludCkgLT4gTm9uZToKICAgICAgICAiIiJTZXQgY2hhcmdlIGN1cnJlbnQuIiIiCiAgICAgICAgYXdhaXQgc2VsZi5oYXNzLnNlcnZpY2VzLmFzeW5jX2NhbGwoCiAgICAgICAgICAgICJ0ZXNsYV9jdXN0b20iLAogICAgICAgICAgICAiYXBpIiwKICAgICAgICAgICAgeyJjb21tYW5kIjogInNldF9jaGFyZ2luZ19hbXBzIiwgInBhcmFtZXRlcnMiOiB7ImNoYXJnaW5nX2FtcHMiOiBhbXBzfX0sCiAgICAgICAgICAgIHRhcmdldD17ImVudGl0eV9pZCI6IHNlbGYuY2hhcmdlX2VudGl0eV9pZH0sCiAgICAgICAgKQo=
+"""Official Tesla HA integration vehicle controller."""
+from __future__ import annotations
+
+import logging
+
+from homeassistant.core import HomeAssistant
+
+from .base import VehicleController
+
+_LOGGER = logging.getLogger(__name__)
+
+
+class OfficialTeslaController(VehicleController):
+    """Controls a Tesla vehicle via the official Tesla HA integration."""
+
+    def __init__(self, hass: HomeAssistant, charge_entity_id: str) -> None:
+        """Initialise controller."""
+        self.hass = hass
+        self.charge_entity_id = charge_entity_id
+
+    async def async_wake(self) -> None:
+        """Wake via official Tesla integration."""
+        _LOGGER.debug("Official Tesla: waking via %s", self.charge_entity_id)
+        await self.hass.services.async_call(
+            "tesla_custom", "api",
+            {"entity_id": self.charge_entity_id, "command": "WAKE_UP"},
+            blocking=True,
+        )
+
+    async def async_start_charge(self) -> None:
+        """Start charging via official integration."""
+        await self.hass.services.async_call(
+            "switch", "turn_on", {"entity_id": self.charge_entity_id}, blocking=True
+        )
+
+    async def async_stop_charge(self) -> None:
+        """Stop charging via official integration."""
+        await self.hass.services.async_call(
+            "switch", "turn_off", {"entity_id": self.charge_entity_id}, blocking=True
+        )
+
+    async def async_set_charge_current(self, amps: int) -> None:
+        """Set charging current via official integration."""
+        _LOGGER.debug("Official Tesla: set charge amps -> %dA", amps)
+        await self.hass.services.async_call(
+            "number", "set_value",
+            {"entity_id": self.charge_entity_id.replace("switch.", "number.").replace("_charger", "_charge_amps"), "value": amps},
+            blocking=True,
+        )

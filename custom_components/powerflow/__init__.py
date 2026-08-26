@@ -1,1 +1,32 @@
-IiIiUG93ZXJmbG93IOKAlCBTb2xhciBFViBDaGFyZ2luZyBBcmJpdHJhdGlvbiBmb3IgSG9tZSBBc3Npc3RhbnQuIiIiCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYW5ub3RhdGlvbnMKaW1wb3J0IGxvZ2dpbmcKZnJvbSBob21lYXNzaXN0YW50LmNvbmZpZ19lbnRyaWVzIGltcG9ydCBDb25maWdFbnRyeQpmcm9tIGhvbWVhc3Npc3RhbnQuY29yZSBpbXBvcnQgSG9tZUFzc2lzdGFudApmcm9tIC5jb29yZGluYXRvciBpbXBvcnQgUG93ZXJmbG93Q29vcmRpbmF0b3IKZnJvbSAuY29uc3QgaW1wb3J0IERPTUFJLCBQTEFUUE9STVMKZnJvbSAuc2VydmljZXMgaW1wb3J0IGFzeW5jX3JlZ2lzdGVyX3NlcnZpY2VzCgpfTE9HR0VSID0gbG9nZ2luZy5nZXRMb2dnZXIoX19uYW1lX18pCgoKYXN5bmMgZGVmIGFzeW5jX3NldHVwX2VudHJ5KGhhc3M6IEhvbWVBc3Npc3RhbnQsIGVudHJ5OiBDb25maWdFbnRyeSkgLT4gYm9vbDoKICAgICIiIlNldCB1cCBQb3dlcmZsb3cgZnJvbSBhIGNvbmZpZyBlbnRyeS4iIiIKICAgIGNvb3JkaW5hdG9yID0gUG93ZXJmbG93Q29vcmRpbmF0b3IoaGFzcywgZW50cnkpCiAgICBhd2FpdCBjb29yZGluYXRvci5hc3luY19jb25maWdfZW50cnlfZmlyc3RfcmVmcmVzaCgpCgogICAgaGFzcy5kYXRhLnNldGRlZmF1bHQoRE9NQUlOLCB7fSlbZW50cnkuZW50cnlfaWRdID0gY29vcmRpbmF0b3IKICAgIGF3YWl0IGhhc3MuY29uZmlnX2VudHJpZXMuYXN5bmNfZm9yd2FyZF9lbnRyeV9zZXR1cHMoZW50cnksIFBMQVRGT1JNUykKCiAgICBhd2FpdCBhc3luY19yZWdpc3Rlcl9zZXJ2aWNlcyhoYXNzKQoKICAgIHJldHVybiBUcnVlCgoKYXN5bmMgZGVmIGFzeW5jX3VubG9hZF9lbnRyeShoYXNzOiBIb21lQXNzaXN0YW50LCBlbnRyeTogQ29uZmlnRW50cnkpIC0+IGJvb2w6CiAgICAiIiJVbmxvYWQgYSBjb25maWcgZW50cnkuIiIiCiAgICB1bmxvYWRfb2sgPSBhd2FpdCBoYXNzLmNvbmZpZ19lbnRyaWVzLmFzeW5jX3VubG9hZF9wbGF0Zm9ybXMoZW50cnksIFBMQVRGT1JNUykKICAgIGlmIHVubG9hZF9vazoKICAgICAgICBoYXNzLmRhdGFbRE9NQUlOXS5wb3AoZW50cnkuZW50cnlfaWQpCiAgICByZXR1cm4gdW5sb2FkX29rCg==
+"""Powerflow — Solar EV Charging Arbitration for Home Assistant."""
+from __future__ import annotations
+
+import logging
+
+from homeassistant.config_entries import ConfigEntry
+from homeassistant.core import HomeAssistant
+
+from .coordinator import PowerflowCoordinator
+from .const import DOMAIN, PLATFORMS
+from .services import async_register_services
+
+_LOGGER = logging.getLogger(__name__)
+
+
+async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
+    """Set up Powerflow from a config entry."""
+    coordinator = PowerflowCoordinator(hass, entry)
+    await coordinator.async_config_entry_first_refresh()
+
+    hass.data.setdefault(DOMAIN, {})[entry.entry_id] = coordinator
+    await hass.config_entries.async_forward_entry_setups(entry, PLATFORMS)
+    await async_register_services(hass)
+    return True
+
+
+async def async_unload_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
+    """Unload a config entry."""
+    unload_ok = await hass.config_entries.async_unload_platforms(entry, PLATFORMS)
+    if unload_ok:
+        hass.data[DOMAIN].pop(entry.entry_id)
+    return unload_ok

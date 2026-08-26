@@ -1,1 +1,42 @@
-IiIiSEEgU3RvcmUgd3JhcHBlciBmb3IgUG93ZXJmbG93IHBlcnNpc3RlbnQgY29uZmlnLiIiIgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQgbG9nZ2luZwoKZnJvbSBob21lYXNzaXN0YW50LmNvcmUgaW1wb3J0IEhvbWVBc3Npc3RhbnQKZnJvbSBob21lYXNzaXN0YW50LmhlbHBlcnMuc3RvcmFnZSBpbXBvcnQgU3RvcmUKCmZyb20gLi5jb25zdCBpbXBvcnQgU1RPUkFHRV9WRVJTSU9OLCBTVE9SQUdFX0tFWQoKX0xPR0dFUiA9IGxvZ2dpbmcuZ2V0TG9nZ2VyKF9fbmFtZV9fKQoKCmNsYXNzIFBvd2VyZmxvd1N0b3JlOgogICAgIiIiUGVyc2lzdGVudCBzdG9yZSBmb3IgUG93ZXJmbG93IHJ1bnRpbWUgZGF0YSAoZnVlbCBzYXZpbmdzLCBST0kgY2FycnktaW4pLiIiIgoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBoYXNzOiBIb21lQXNzaXN0YW50KSAtPiBOb25lOgogICAgICAgICIiIkluaXRpYWxpemUgdGhlIHN0b3JlLiIiIgogICAgICAgIHNlbGYuX3N0b3JlID0gU3RvcmUoaGFzcywgU1RPUkFHRV9WRVJTSU9OLCBTVE9SQUdFX0tFWSkKCiAgICBhc3luYyBkZWYgYXN5bmNfbG9hZChzZWxmKSAtPiBkaWN0OgogICAgICAgICIiIkxvYWQgZGF0YSBmcm9tIEhBIHN0b3JhZ2UuIiIiCiAgICAgICAgZGF0YSA9IGF3YWl0IHNlbGYuX3N0b3JlLmFzeW5jX2xvYWQoKQogICAgICAgIHJldHVybiBkYXRhIGlmIGRhdGEgaXMgbm90IE5vbmUgZWxzZSB7fQoKICAgIGFzeW5jIGRlZiBhc3luY19zYXZlKHNlbGYsIGRhdGE6IGRpY3QpIC0+IE5vbmU6CiAgICAgICAgIiIiU2F2ZSBkYXRhIHRvIEhBIHN0b3JhZ2UuIiIiCiAgICAgICAgYXdhaXQgc2VsZi5fc3RvcmUuYXN5bmNfc2F2ZShkYXRhKQo=
+"""HA Store-backed persistence for Powerflow cumulative data."""
+from __future__ import annotations
+
+import asyncio
+import logging
+from typing import Any
+
+from homeassistant.core import HomeAssistant
+from homeassistant.helpers.storage import Store
+
+from ..const import DOMAIN, STORAGE_VERSION
+
+_LOGGER = logging.getLogger(__name__)
+_STORE_KEY = f"{DOMAIN}.data"
+
+
+class PowerflowStore:
+    """Persistent key-value store backed by HA storage."""
+
+    def __init__(self, hass: HomeAssistant) -> None:
+        """Initialise store."""
+        self._store: Store = Store(hass, STORAGE_VERSION, _STORE_KEY)
+        self._lock = asyncio.Lock()
+
+    async def async_load(self) -> dict[str, Any]:
+        """Load data from store, returning empty dict if nothing saved yet."""
+        data = await self._store.async_load()
+        return data or {}
+
+    async def async_save(self, data: dict[str, Any]) -> None:
+        """Atomically save data to HA storage."""
+        async with self._lock:
+            await self._store.async_save(data)
+
+    async def async_update_vehicle(self, vehicle_id: str, delta: dict[str, Any]) -> None:
+        """Merge delta into the stored data for a vehicle."""
+        async with self._lock:
+            data = await self.async_load()
+            vehicle_data = data.get(vehicle_id, {})
+            vehicle_data.update(delta)
+            data[vehicle_id] = vehicle_data
+            await self._store.async_save(data)

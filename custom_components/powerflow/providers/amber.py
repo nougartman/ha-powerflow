@@ -1,1 +1,107 @@
-IiIiQW1iZXIgRWxlY3RyaWMgcHJpY2luZyBwcm92aWRlci4iIiIKZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKaW1wb3J0IGxvZ2dpbmcKZnJvbSB0eXBpbmcgaW1wb3J0IEFueQoKaW1wb3J0IGFpb2h0dHAKCmZyb20gaG9tZWFzc2lzdGFudC5jb3JlIGltcG9ydCBIb21lQXNzaXN0YW50CmZyb20gLmJhc2UgaW1wb3J0IFByaWNpbmdQcm92aWRlcgpmcm9tIC4uY29uc3QgaW1wb3J0IEFNQkVSX0FQSV9CQVNFLCBBTUJFR19GT1JFQ0FTVF9JTlRFUlZBTFMsIFBSSUNFX0RFU0NSSVBUT1JTX0NIRUFQLCBDT05GX0FNQkVSX0FQSV9LRVksIENPTkZfU0lURV9JRAoKX0xPR0dFUiA9IGxvZ2dpbmcuZ2V0TG9nZ2VyKF9fbmFtZV9fKQoKCmNsYXNzIEFtYmVyUHJvdmlkZXI6CiAgICAiIiJQcm92aWRlciBmb3IgQW1iZXIgRWxlY3RyaWMgdXNpbmcgZGlyZWN0IFJFU1QgQVBJIHdpdGggZnVsbCA0OC1pbnRlcnZhbCBmb3JlY2FzdC4iIiIKCiAgICBkZWYgX19pbml0X18oc2VsZiwgaGFzczogSG9tZUFzc2lzdGFudCwgY29uZmlnX2RhdGE6IGRpY3RbW3N0ciwgQW55XSkgLT4gTm9uZToKICAgICAgICAiIiJJbml0aWFsaXplIHRoZSBBbWJlciBwcm92aWRlci4iIiIKICAgICAgICBzZWxmLmhhc3MgPSBoYXNzCiAgICAgICAgc2VsZi5hcGlfa2V5ID0gY29uZmlnX2RhdGEuZ2V0KENPTkZfQU1CRVJfQVBJX0tFWSkgb3IgY29uZmlnX2RhdGEuZ2V0KCJhbWJlcl9hcGlfa2V5IikKICAgICAgICBzZWxmLnNpdGVfaWQgPSBjb25maWdfZGF0YS5nZXQoQ09ORl9TSVRFX0lEKSBvciBjb25maWdfZGF0YS5nZXQoInNpdGVfaWQiKQoKICAgIGFzeW5jIGRlZiBhc3luY192YWxpZGF0ZV9jcmVkZW50aWFscyhzZWxmKSAtPiBib29sOgogICAgICAgICIiIlZhbGlkYXRlIEFtYmVyIGNyZWRlbnRpYWxzIGJ5IGNhbGxpbmcgdGhlIHNpdGVzIGVuZHBvaW50LiIiIgogICAgICAgIGlmIG5vdCBzZWxmLmFwaV9rZXkgb3Igbm90IHNlbGYuc2l0ZV9pZDoKICAgICAgICAgICAgcmV0dXJuIEZhbHNlCgogICAgICAgIHVybCA9IGYie0FNQkVSX0FQSV9CQVNFfS9zaXRlcyIKICAgICAgICBoZWFkZXJzID0geyJBdXRob3JpemF0aW9uIjogZiJCZWFyZXIge3NlbGYuYXBpX2tleX0ifQoKICAgICAgICB0cnk6CiAgICAgICAgICAgIHRpbWVvdXQgPSBhaW9odHRwLkNsaWVudFRpbWVvdXQodG90YWw9MTApCiAgICAgICAgICAgIGFzeW5jIHdpdGggYWlvaHR0cC5DbGllbnRTZXNzaW9uKHRpbWVvdXQ9dGltZW91dCkgYXMgc2Vzc2lvbjoKICAgICAgICAgICAgICAgIGFzeW5jIHdpdGggc2Vzc2lvbi5nZXQodXJsLCBoZWFkZXJzPWhlYWRlcnMpIGFzIHJlc3A6CiAgICAgICAgICAgICAgICAgICAgaWYgcmVzcC5zdGF0dXMgIT0gMjAwOgogICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gRmFsc2UKICAgICAgICAgICAgICAgICAgICBzaXRlcyA9IGF3YWl0IHJlc3AuanNvbigpCiAgICAgICAgICAgICAgICAgICAgIyBWZXJpZnkgdGhlIHByb3ZpZGVkIHNpdGVfaWQgaXMgaW4gdGhlIGFjY291bnQKICAgICAgICAgICAgICAgICAgICByZXR1cm4gYW55KHMuZ2V0KCJpZCIpID09IHNlbGYuc2l0ZV9pZCBmb3IgcyBpbiBzaXRlcykKICAgICAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGVycjoKICAgICAgICAgICAgX0xPR0dFUi5lcnJvcigiRmFpbGVkIHRvIHZhbGlkYXRlIEFtYmVyIGNyZWRlbnRpYWxzOiAlcyIsIGVycikKICAgICAgICAgICAgcmV0dXJuIEZhbHNlCgogICAgYXN5bmMgZGVmIGFzeW5jX2ZldGNoX3ByaWNlcyhzZWxmKSAtPiBkaWN0OgogICAgICAgICIiIkZldGNoIGN1cnJlbnQgcHJpY2VzIGFuZCA0OC1pbnRlcnZhbCAoMjRoKSBmb3JlY2FzdCBmcm9tIEFtYmVyIEFQSS4iIiIKICAgICAgICB1cmwgPSBmIntBTUJFUl9BUElfQkFTRX0vc2l0ZXMve3NlbGYuc2l0ZV9pZH0vcHJpY2VzL2N1cnJlbnQiCiAgICAgICAgcGFyYW1zID0geyJuZXh0Ijogc3RyKEFNQkVSX0ZPUkVDQVNUX0lOVEVSVkFMUyksICJwcmV2aW91cyI6ICIwIn0KICAgICAgICBoZWFkZXJzID0geyJBdXRob3JpemF0aW9uIjogZiJCZWFyZXIge3NlbGYuYXBpX2tleX0ifQoKICAgICAgICB0aW1lb3V0ID0gYWlvaHR0cC5DbGllbnRUaW1lb3V0KHRvdGFsPTEwKQogICAgICAgIGFzeW5jIHdpdGggYWlvaHR0cC5DbGllbnRTZXNzaW9uKHRpbWVvdXQ9dGltZW91dCkgYXMgc2Vzc2lvbjoKICAgICAgICAgICAgYXN5bmMgd2l0aCBzZXNzaW9uLmdldCh1cmwsIHBhcmFtcz1wYXJhbXMsIGhlYWRlcnM9aGVhZGVycykgYXMgcmVzcDoKICAgICAgICAgICAgICAgIHJlc3AucmFpc2VfZm9yX3N0YXR1cygpCiAgICAgICAgICAgICAgICBkYXRhID0gYXdhaXQgcmVzcC5qc29uKCkKICAgICAgICAgICAgICAgIHJldHVybiBzZWxmLl9wYXJzZV9pbnRlcnZhbHMoZGF0YSkKCiAgICBkZWYgX3BhcnNlX2ludGVydmFscyhzZWxmLCBpbnRlcnZhbHM6IGxpc3RbZGljdF0pIC0+IGRpY3Q6CiAgICAgICAgIiIiUGFyc2UgQW1iZXIgaW50ZXJ2YWxzIGludG8gc3RydWN0dXJlZCBkYXRhLiIiIgogICAgICAgIGlmIG5vdCBpbnRlcnZhbHM6CiAgICAgICAgICAgIHJldHVybiB7fQoKICAgICAgICBnZW5lcmFsID0gW2kgZm9yIGkgaW4gaW50ZXJ2YWxzIGlmIGkuZ2V0KCJjaGFubmVsVHlwZSIpID09ICJnZW5lcmFsIl0KICAgICAgICBmZWVkaW4gPSBbaSBmb3IgaSBpbiBpbnRlcnZhbHMgaWYgaS5nZXQoImNoYW5uZWxUeXBlIikgPT0gImZlZWRJbiJdCgogICAgICAgIGN1cnJlbnQgPSBuZXh0KChpIGZvciBpIGluIGdlbmVyYWwgaWYgaS5nZXQoInR5cGUiKSA9PSAiQ3VycmVudEludGVydmFsIiksIGdlbmVyYWxbMF0gaWYgZ2VuZXJhbCBlbHNlIHt9KQogICAgICAgIGZvcmVjYXN0ID0gW2kgZm9yIGkgaW4gZ2VuZXJhbCBpZiBpLmdldCgidHlwZSIpIGluICgiRm9yZWNhc3RJbnRlcnZhbCIsICJBY3R1YWxJbnRlcnZhbCIsICJDdXJyZW50SW50ZXJ2YWwiKV0KCiAgICAgICAgIyBOZXh0IDEyaCBpcyAyNCAqIDMwLW1pbiBpbnRlcnZhbHMKICAgICAgICBwcmljZXNfMTJoID0gW2kuZ2V0KCJwZXJLd2giLCAwKSAvIDEwMC4wIGZvciBpIGluIGZvcmVjYXN0WzoyNF1dCgogICAgICAgIHNvbGFyX3NvYWtfcHJlZGljdGVkID0gYW55KAogICAgICAgICAgICBpLmdldCgiZGVzY3JpcHRvciIpIGluIFBSSUNFX0RFU0NSSVBUT1JTX0NIRUFJIGZvciBpIGluIGZvcmVjYXN0WzoyNF0KICAgICAgICApCiAgICAgICAgc3Bpa2Vfd2FybmluZ18xMmggPSBhbnkoCiAgICAgICAgICAgIGkuZ2V0KCJzcGlrZVN0YXR1cyIpIGluICgicG90ZW50aWFsIiwgInNwaWtlIikgZm9yIGkgaW4gZm9yZWNhc3RbOjI0XQogICAgICAgICkKCiAgICAgICAgY3VycmVudF9mZWVkaW4gPSBuZXh0KAogICAgICAgICAgICAoaSBmb3IgaSBpbiBmZWVkaW4gaWYgaS5nZXQoInR5cGUiKSA9PSAiQ3VycmVudEludGVydmFsIiksCiAgICAgICAgICAgIGZlZWRpblswXSBpZiBmZWVkaW4gZWxzZSBOb25lCiAgICAgICAgKQoKICAgICAgICByZXR1cm4gewogICAgICAgICAgICAiY3VycmVudF9wcmljZSI6IGN1cnJlbnQuZ2V0KCJwZXJLd2giLCAwKSAvIDEwMC4wLAogICAgICAgICAgICAiZGVzY3JpcHRvciI6IGN1cnJlbnQuZ2V0KCJkZXNjcmlwdG9yIiwgInVua25vd24iKSwKICAgICAgICAgICAgInNwaWtlX3N0YXR1cyI6IGN1cnJlbnQuZ2V0KCJzcGlrZVN0YXR1cyIsICJub25lIiksCiAgICAgICAgICAgICJmZWVkX2luX3ByaWNlIjogYWJzKGN1cnJlbnRfZmVlZGluLmdldCgicGVyS3doIiwgMCkgLyAxMDAuMCkgaWYgY3VycmVudF9mZWVkaW4gZWxzZSAwLjAsCiAgICAgICAgICAgICJmb3JlY2FzdF8xMmhfbWluIjogbWluKHByaWNlc18xMmgsIGRlZmF1bHQ9MC4wKSwKICAgICAgICAgICAgImZvcmVjYXN0XzEyaF9tYXgiOiBtYXgocHJpY2VzXzEyaCwgZGVmYXVsdD0wLjApLAogICAgICAgICAgICAiZm9yZWNhc3RfMTJoX2F2ZyI6IHN1bShwcmljZXNfMTJoKSAvIGxlbihwcmljZXNfMTJoKSBpZiBwcmljZXNfMTJoIGVsc2UgMC4wLAogICAgICAgICAgICAic29sYXJfc29ha19wcmVkaWN0ZWQiOiBzb2xhcl9zb2FrX3ByZWRpY3RlZCwKICAgICAgICAgICAgInNwaWtlX3dhcm5pbmdfMTJoIjogc3Bpa2Vfd2FybmluZ18xMmgsCiAgICAgICAgICAgICJyYXdfaW50ZXJ2YWxzIjogaW50ZXJ2YWxzLAogICAgICAgIH0K
+"""Amber Electric API provider with full 48-interval forecast."""
+from __future__ import annotations
+
+import logging
+from typing import Any
+
+import aiohttp
+
+from homeassistant.core import HomeAssistant
+
+from ..const import AMBER_API_BASE, AMBER_FORECAST_INTERVALS, PRICE_DESCRIPTORS_CHEAP
+
+_LOGGER = logging.getLogger(__name__)
+
+
+class AmberProvider:
+    """Fetches pricing and 48-interval forecast from the Amber Electric API."""
+
+    def __init__(self, hass: HomeAssistant, config_data: dict[str, Any]) -> None:
+        """Initialise provider."""
+        self.hass = hass
+        self._api_key = config_data.get("amber_api_key", "")
+        self._site_id = config_data.get("site_id", "")
+        self._pv_sensor = config_data.get("pv_forecast_sensor")
+
+    async def async_validate_credentials(self) -> bool:
+        """Return True if the API key and site ID are accepted by Amber."""
+        try:
+            await self.async_fetch_prices()
+            return True
+        except Exception:  # noqa: BLE001
+            return False
+
+    async def async_fetch_prices(self) -> dict:
+        """Fetch current + 48-interval forecast from Amber API."""
+        url = f"{AMBER_API_BASE}/sites/{self._site_id}/prices/current"
+        params = {"next": str(AMBER_FORECAST_INTERVALS), "previous": "0"}
+        headers = {"Authorization": f"Bearer {self._api_key}", "Accept": "application/json"}
+
+        timeout = aiohttp.ClientTimeout(total=15)
+        async with aiohttp.ClientSession(timeout=timeout) as session:
+            async with session.get(url, params=params, headers=headers) as resp:
+                resp.raise_for_status()
+                intervals = await resp.json()
+
+        return self._parse_intervals(intervals)
+
+    def _parse_intervals(self, intervals: list[dict]) -> dict:
+        """Parse the raw Amber interval list into a structured data dict."""
+        current_price: float = 0.0
+        feed_in_price: float = 0.0
+        descriptor: str = "neutral"
+        spike_status: str = "none"
+        forecast_general: list[float] = []
+        spike_warning_12h: bool = False
+        solar_soak_predicted: bool = False
+
+        for interval in intervals:
+            channel = interval.get("channelType", "")
+            itype = interval.get("type", "")
+            per_kwh = interval.get("perKwh", 0)
+
+            # Convert c/kWh to $/kWh if value looks like cents
+            price = float(per_kwh) / 100.0 if abs(float(per_kwh)) > 2 else float(per_kwh)
+
+            if channel == "feedIn":
+                if itype == "CurrentInterval":
+                    feed_in_price = price
+                continue
+
+            if channel != "general":
+                continue
+
+            if itype == "CurrentInterval":
+                current_price = price
+                descriptor = interval.get("descriptor", "neutral")
+                spike_status = interval.get("spikeStatus", "none")
+            elif itype == "ForecastInterval":
+                forecast_general.append(price)
+                if interval.get("spikeStatus") == "spike" or interval.get("descriptor") == "spike":
+                    spike_warning_12h = True
+                if interval.get("descriptor") in PRICE_DESCRIPTORS_CHEAP:
+                    solar_soak_predicted = True
+
+        forecast_12h = forecast_general[:24]  # 24 x 30-min = 12 hours
+
+        # Check PV forecast sensor for solar soak confirmation
+        if self._pv_sensor:
+            state = self.hass.states.get(self._pv_sensor)
+            if state and state.state not in ("unknown", "unavailable"):
+                try:
+                    pv_remaining = float(state.state)
+                    solar_soak_predicted = solar_soak_predicted and pv_remaining > 2.0
+                except ValueError:
+                    pass
+
+        return {
+            "current_price": round(current_price, 5),
+            "feed_in_price": round(feed_in_price, 5),
+            "descriptor": descriptor,
+            "spike_status": spike_status,
+            "forecast_12h_min": round(min(forecast_12h, default=current_price), 5),
+            "forecast_12h_max": round(max(forecast_12h, default=current_price), 5),
+            "forecast_12h_avg": round(sum(forecast_12h) / len(forecast_12h), 5) if forecast_12h else current_price,
+            "spike_warning_12h": spike_warning_12h,
+            "solar_soak_predicted": solar_soak_predicted,
+        }

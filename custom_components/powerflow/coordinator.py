@@ -1,1 +1,52 @@
-IiIiRGF0YVVwZGF0ZUNvb3JkaW5hdG9yIGZvciBQb3dlcmZsb3cuIiIiCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYW5ub3RhdGlvbnMKCmltcG9ydCBsb2dnaW5nCmZyb20gZGF0ZXRpbWUgaW1wb3J0IHRpbWVkZWx0YQoKZnJvbSBob21lYXNzaXN0YW50LmNvcmUgaW1wb3J0IEhvbWVBc3Npc3RhbnQKZnJvbSBob21lYXNzaXN0YW50LmNvbmZpZ19lbnRyaWVzIGltcG9ydCBDb25maWdFbnRyeQpmcm9tIGhvbWVhc3Npc3RhbnQuaGVscGVycy51cGRhdGVfY29vcmRpbmF0b3IgaW1wb3J0IERhdGFVcGRhdGVDb29yZGluYXRvciwgVXBkYXRlRmFpbGVkCgpmcm9tIC5wcm92aWRlcnMuYW1iZXIgaW1wb3J0IEFtYmVyUHJvdmlkZXIKZnJvbSAuZW5naW5lcy5hcmJpdHJhdGlvbiBpbXBvcnQgQXJiaXRyYXRpb25FbmdpbmUKZnJvbSAuZW5naW5lcy5mdWVsX3NhdmluZ3MgaW1wb3J0IEZ1ZWxTYXZpbmdzRW5naW5lCmZyb20gLmVuZ2luZXMucm9pIGltcG9ydCBST0lFbmdpbmUKCl9MT0dHRVIgPSBsb2dnaW5nLmdldExvZ2dlcihfX25hbWVfXykKCgpjbGFzcyBQb3dlcmZsb3dDb29yZGluYXRvcihEYXRhVXBkYXRlQ29vcmRpbmF0b3IpOgogICAgIiIiQ2xhc3MgdG8gbWFuYWdlIGZldGNoaW5nIFBvd2VyZmxvdyBkYXRhIGZyb20gbXVsdGlwbGUgc291cmNlcy4iIiIKCiAgICBkZWYgX19pbml0X18oc2VsZiwgaGFzczogSG9tZUFzc2lzdGFudCwgZW50cnk6IENvbmZpZ0VudHJ5KSAtPiBOb25lOgogICAgICAgICIiIkluaXRpYWxpemUuIiIiCiAgICAgICAgc3VwZXIoKS5fX2luaXRfXygKICAgICAgICAgICAgaGFzcywKICAgICAgICAgICAgX0xPR0dFUiwKICAgICAgICAgICAgbmFtZT0iUG93ZXJmbG93IENvb3JkaW5hdG9yIiwKICAgICAgICAgICAgdXBkYXRlX2ludGVydmFsPXRpbWVkZWx0YShzZWNvbmRzPTMwMCksCiAgICAgICAgKQogICAgICAgIHNlbGYuZW50cnlfaWQgPSBlbnRyeS5lbnRyeV9pZAogICAgICAgIHNlbGYuZW50cnkgPSBlbnRyeQoKICAgICAgICBzZWxmLmFtYmVyX3Byb3ZpZGVyID0gQW1iZXJQcm92aWRlcihoYXNzLCBlbnRyeS5kYXRhKQogICAgICAgIHNlbGYuYXJiaXRyYXRpb25fZW5naW5lID0gQXJiaXRyYXRpb25FbmdpbmUoaGFzcywgZW50cnkuZGF0YSkKICAgICAgICBzZWxmLmZ1ZWxfc2F2aW5nc19lbmdpbmUgPSBGdWVsU2F2aW5nc0VuZ2luZShoYXNzLCBlbnRyeS5kYXRhKQogICAgICAgIHNlbGYucm9pX2VuZ2luZSA9IFJPSUVUZ2luZShoYXNzLCBlbnRyeS5kYXRhKQoKICAgIGFzeW5jIGRlZiBfYXN5bmNfdXBkYXRlX2RhdGEoc2VsZikgLT4gZGljdDoKICAgICAgICAiIiJGZXRjaCBkYXRhIGZyb20gQVBJIGVuZHBvaW50LiIiIgogICAgICAgIHRyeToKICAgICAgICAgICAgYW1iZXJfZGF0YSA9IGF3YWl0IHNlbGYuYW1iZXJfcHJvdmlkZXIuYXN5bmNfZmV0Y2hfcHJpY2VzKCkKICAgICAgICAgICAgYXJiaXRyYXRpb25fZGF0YSA9IGF3YWl0IHNlbGYuYXJiaXRyYXRpb25fZW5naW5lLmFzeW5jX2V2YWx1YXRlKGFtYmVyX2RhdGEpCiAgICAgICAgICAgIGZ1ZWxfc2F2aW5nc19kYXRhID0gYXdhaXQgc2VsZi5mdWVsX3NhdmluZ3NfZW5naW5lLmFzeW5jX2dldF9zdGF0cygpCiAgICAgICAgICAgIHJvaV9kYXRhID0gYXdhaXQgc2VsZi5yb2lfZW5naW5lLmFzeW5jX2dldF9zdGF0cygpCgogICAgICAgICAgICByZXR1cm4gewogICAgICAgICAgICAgICAgImFtYmVyIjogYW1iZXJfZGF0YSwKICAgICAgICAgICAgICAgICJhcmJpdHJhdGlvbiI6IGFyYml0cmF0aW9uX2RhdGEsCiAgICAgICAgICAgICAgICAiZnVlbF9zYXZpbmdzIjogZnVlbF9zYXZpbmdzX2RhdGEsCiAgICAgICAgICAgICAgICAicm9pIjogcm9pX2RhdGEsCiAgICAgICAgICAgIH0KICAgICAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGVycjoKICAgICAgICAgICAgcmFpc2UgVXBkYXRlRmFpbGVkKGYiRXJyb3IgY29tbXVuaWNhdGluZyB3aXRoIEFQSTogeyFlcnJ9IikgZnJvbSBlcnIK
+"""DataUpdateCoordinator for Powerflow."""
+from __future__ import annotations
+
+import logging
+from datetime import timedelta
+
+from homeassistant.core import HomeAssistant
+from homeassistant.config_entries import ConfigEntry
+from homeassistant.helpers.update_coordinator import DataUpdateCoordinator, UpdateFailed
+
+from .providers.amber import AmberProvider
+from .engines.arbitration import ArbitrationEngine
+from .engines.fuel_savings import FuelSavingsEngine
+from .engines.roi import ROIEngine
+
+_LOGGER = logging.getLogger(__name__)
+
+
+class PowerflowCoordinator(DataUpdateCoordinator):
+    """Manages fetching Powerflow data from multiple sources every 5 minutes."""
+
+    def __init__(self, hass: HomeAssistant, entry: ConfigEntry) -> None:
+        """Initialize coordinator."""
+        super().__init__(
+            hass,
+            _LOGGER,
+            name="Powerflow Coordinator",
+            update_interval=timedelta(seconds=300),
+        )
+        self.entry_id = entry.entry_id
+        self.entry = entry
+
+        self.amber_provider = AmberProvider(hass, entry.data)
+        self.arbitration_engine = ArbitrationEngine(hass, entry.data)
+        self.fuel_savings_engine = FuelSavingsEngine(hass, entry.data)
+        self.roi_engine = ROIEngine(hass, entry.data)
+
+    async def _async_update_data(self) -> dict:
+        """Fetch and aggregate data from all sources."""
+        try:
+            amber_data = await self.amber_provider.async_fetch_prices()
+            arbitration_data = await self.arbitration_engine.async_evaluate(amber_data)
+            fuel_savings_data = await self.fuel_savings_engine.async_get_stats()
+            roi_data = await self.roi_engine.async_get_stats()
+            return {
+                "amber": amber_data,
+                "arbitration": arbitration_data,
+                "fuel_savings": fuel_savings_data,
+                "roi": roi_data,
+            }
+        except Exception as err:
+            raise UpdateFailed(f"Error communicating with API: {err!r}") from err

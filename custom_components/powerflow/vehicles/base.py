@@ -1,1 +1,24 @@
-IiIiQmFzZSBwcm90b2NvbCBmb3IgdmVoaWNsZSBjb250cm9sbGVycy4iIiIKZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKZnJvbSB0eXBpbmcgaW1wb3J0IFByb3RvY29sLCBydW50aW1lX2NoZWNrYWJsZQoKCkBydW50aW1lX2NoZWNrYWJsZQpjbGFzcyBWZWhpY2xlQ29udHJvbGxlcihQcm90b2NvbCk6CiAgICAiIiJQcm90b2NvbCBmb3IgaW50ZXJhY3Rpbmcgd2l0aCBhIHZlaGljbGUuIiIiCgogICAgYXN5bmMgZGVmIGFzeW5jX3N0YXJ0X2NoYXJnZShzZWxmKSAtPiBOb25lOgogICAgICAgICIiIlN0YXJ0IGNoYXJnaW5nLiIiIgogICAgICAgIC4uLgoKICAgIGFzeW5jIGRlZiBhc3luY19zdG9wX2NoYXJnZShzZWxmKSAtPiBOb25lOgogICAgICAgICIiIlN0b3AgY2hhcmdpbmcuIiIiCiAgICAgICAgLi4uCgogICAgYXN5bmMgZGVmIGFzeW5jX3NldF9jaGFyZ2VfY3VycmVudChzZWxmLCBhbXBzOiBpbnQpIC0+IE5vbmU6CiAgICAgICAgIiIiU2V0IGNoYXJnZSBjdXJyZW50IGxpbWl0LiIiIgogICAgICAgIC4uLgoKICAgIGFzeW5jIGRlZiBhc3luY193YWtlKHNlbGYpIC0+IE5vbmU6CiAgICAgICAgIiIiV2FrZSB1cCB0aGUgdmVoaWNsZS4iIiIKICAgICAgICAuLi4K
+"""Abstract base class for vehicle controllers."""
+from __future__ import annotations
+
+from abc import ABC, abstractmethod
+
+
+class VehicleController(ABC):
+    """Abstract interface for controlling a Tesla vehicle."""
+
+    @abstractmethod
+    async def async_wake(self) -> None:
+        """Wake the vehicle."""
+
+    @abstractmethod
+    async def async_start_charge(self) -> None:
+        """Start charging."""
+
+    @abstractmethod
+    async def async_stop_charge(self) -> None:
+        """Stop charging."""
+
+    @abstractmethod
+    async def async_set_charge_current(self, amps: int) -> None:
+        """Set charging current in amps."""

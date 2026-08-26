@@ -1,1 +1,70 @@
-IiIiU2Vzc2lvbiBzdG9yZSBmb3IgUG93ZXJmbG93IENIQ0cgc2Vzc2lvbiBsb2dzLiIiIgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQganNvbgppbXBvcnQgbG9nZ2luZwppbXBvcnQgb3MKaW1wb3J0IGFzeW5jaW8KZnJvbSBkYXRldGltZSBpbXBvcnQgZGF0ZXRpbWUKCmZyb20gaG9tZWFzc2lzdGFudC5jb3JlIGltcG9ydCBIb21lQXNzaXN0YW50CgpfTE9HR0VSID0gbG9nZ2luZy5nZXRMb2dnZXIoX19uYW1lX18pCgpTRVNTSU9OU19GSUxFTkFNRSA9ICJwb3dlcmZsb3dfc2Vzc2lvbnMuanNvbmwiCgoKY2xhc3MgU2Vzc2lvblN0b3JlOgogICAgIiIiQXRvbWljIEpTT05MIHNlc3Npb24gc3RvcmUgZm9yIFBvd2VyZmxvdyBjaGFyZ2luZyBzZXNzaW9ucy4iIiIKCiAgICBkZWYgX19pbml0X18oc2VsZiwgaGFzczogSG9tZUFzc2lzdGFudCkgLT4gTm9uZToKICAgICAgICAiIiJJbml0aWFsaXplIHNlc3Npb24gc3RvcmUuIiIiCiAgICAgICAgc2VsZi5oYXNzID0gaGFzcwogICAgICAgIHNlbGYuX2ZpbGVwYXRoID0gaGFzcy5jb25maWcucGF0aCgiLnN0b3JhZ2UiLCBTRVNTSU9OU19GSUxFTkFNRSkKCiAgICBkZWYgX2xvYWRfc3luYyhzZWxmLCB2ZWhpY2xlX2lkOiBzdHIgfCBOb25lID0gTm9uZSkgLT4gbGlzdFtkaWN0XToKICAgICAgICAiIiJTeW5jaHJvbm91c2x5IGxvYWQgc2Vzc2lvbnMgKHJ1biBpbiBleGVjdXRvcikuIiIiCiAgICAgICAgaWYgbm90IG9zLnBhdGguZXhpc3RzKHNlbGYuX2ZpbGVwYXRoKToKICAgICAgICAgICAgcmV0dXJuIFtdCgogICAgICAgIHNlc3Npb25zID0gW10KICAgICAgICB0cnk6CiAgICAgICAgICAgIHdpdGggb3BlbihzZWxmLl9maWxlcGF0aCwgInIiLCBlbmNvZGluZz0idXRmLTgiKSBhcyBmOgogICAgICAgICAgICAgICAgZm9yIGxpbmUgaW4gZjoKICAgICAgICAgICAgICAgICAgICBsaW5lID0gbGluZS5zdHJpcCgpCiAgICAgICAgICAgICAgICAgICAgaWYgbm90IGxpbmU6CiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgICAgICAgICBzZXNzaW9uID0ganNvbi5sb2FkcyhsaW5lKQogICAgICAgICAgICAgICAgICAgICAgICBpZiB2ZWhpY2xlX2lkIGlzIE5vbmUgb3Igc2Vzc2lvbi5nZXQoInZlaGljbGVfaWQiKSA9PSB2ZWhpY2xlX2lkOgogICAgICAgICAgICAgICAgICAgICAgICAgICAgc2Vzc2lvbnMuYXBwZW5kKHNlc3Npb24pCiAgICAgICAgICAgICAgICAgICAgZXhjZXB0IGpzb24uSlNPTkRlY29kZUVycm9yIGFzIGU6CiAgICAgICAgICAgICAgICAgICAgICAgIF9MT0dHRVIud2FybmluZygiU2tpcHBpbmcgbWFsZm9ybWVkIHNlc3Npb24gbGluZTogJXMiLCBlKQogICAgICAgIGV4Y2VwdCBPU0Vycm9yIGFzIGVycjoKICAgICAgICAgICAgX0xPR0dFUi5lcnJvcigiRmFpbGVkIHRvIHJlYWQgc2Vzc2lvbiBmaWxlICVzOiAlcyIsIHNlbGYuX2ZpbGVwYXRoLCBlcnIpCgogICAgICAgIHJldHVybiBzZXNzaW9ucwoKICAgIGFzeW5jIGRlZiBhc3luY19sb2FkX3Nlc3Npb25zKHNlbGYsIHZlaGljbGVfaWQ6IHN0ciB8IE5vbmUgPSBOb25lKSAtPiBsaXN0W2RpY3RdOgogICAgICAgICIiIkxvYWQgc2Vzc2lvbnMsIG9wdGlvbmFsbHkgZmlsdGVyZWQgYnkgdmVoaWNsZS4iIiIKICAgICAgICByZXR1cm4gYXdhaXQgYXN5bmNpby50b190aHJlYWQoc2VsZi5fbG9hZF9zeW5jLCB2ZWhpY2xlX2lkKQoKICAgIGRlZiBfYXBwZW5kX3N5bmMoc2VsZiwgc2Vzc2lvbjogZGljdCkgLT4gTm9uZToKICAgICAgICAiIiJBdG9taWNhbGx5IGFwcGVuZCBhIHNlc3Npb24gdmlhIHdyaXRlK3JlbmFtZSBwYXR0ZXJuLiIiIgogICAgICAgIHRlbXBfcGF0aCA9IGYie3NlbGYuX2ZpbGVwYXRofS50bXAiCiAgICAgICAgdHJ5OgogICAgICAgICAgICAjIFJlYWQgZXhpc3Rpbmcgb3IgY3JlYXRlIG5ldwogICAgICAgICAgICBleGlzdGluZyA9IFtdCiAgICAgICAgICAgIGlmIG9zLnBhdGguZXhpc3RzKHNlbGYuX2ZpbGVwYXRoKToKICAgICAgICAgICAgICAgIHdpdGggb3BlbihzZWxmLl9maWxlcGF0aCwgInIiLCBlbmNvZGluZz0idXRmLTgiKSBhcyBmOgogICAgICAgICAgICAgICAgICAgIGV4aXN0aW5nID0gZi5yZWFkbGluZXMoKQogICAgICAgICAgICB3aXRoIG9wZW4odGVtcF9wYXRoLCAidyIsIGVuY29kaW5nPSJ1dGYtOCIpIGFzIGY6CiAgICAgICAgICAgICAgICBmLndyaXRlbGluZXMoZXhpc3RpbmcpCiAgICAgICAgICAgICAgICBmLndyaXRlKGpzb24uZHVtcHMoc2Vzc2lvbikgKyAiXG4iKQogICAgICAgICAgICBvcy5yZXBsYWNlKHRlbXBfcGF0aCwgc2VsZi5fZmlsZXBhdGgpCiAgICAgICAgZXhjZXB0IE9TRXJyb3IgYXMgZXJyOgogICAgICAgICAgICBfTE9HR0VSLmVycm9yKCJGYWlsZWQgdG8gYXBwZW5kIHNlc3Npb246ICVzIiwgZXJyKQogICAgICAgICAgICBpZiBvcy5wYXRoLmV4aXN0cyh0ZW1wX3BhdGgpOgogICAgICAgICAgICAgICAgb3MucmVtb3ZlKHRlbXBfcGF0aCkKCiAgICBhc3luYyBkZWYgYXN5bmNfYXBwZW5kX3Nlc3Npb24oc2VsZiwgc2Vzc2lvbjogZGljdCkgLT4gTm9uZToKICAgICAgICAiIiJBcHBlbmQgYSBuZXcgc2Vzc2lvbiB0byB0aGUgc3RvcmUuIiIiCiAgICAgICAgYXdhaXQgYXN5bmNpby50b190aHJlYWQoc2VsZi5fYXBwZW5kX3N5bmMsIHNlc3Npb24pCgogICAgZGVmIF9kZWxldGVfYmVmb3JlX3N5bmMoc2VsZiwgY3V0b2ZmX2RhdGU6IGRhdGV0aW1lKSAtPiBpbnQ6CiAgICAgICAgIiIiUmVtb3ZlIHNlc3Npb25zIGJlZm9yZSBhIGdpdmVuIGRhdGUgKHJ1biBpbiBleGVjdXRvcikuIiIiCiAgICAgICAgc2Vzc2lvbnMgPSBzZWxmLl9sb2FkX3N5bmMoKQogICAgICAgIGtlcHQgPSBbXQogICAgICAgIGRlbGV0ZWQgPSAwCgogICAgICAgIGZvciBzIGluIHNlc3Npb25zOgogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICBzX3RpbWUgPSBkYXRldGltZS5mcm9taXNvZm9ybWF0KHMuZ2V0KCJlbmRlZF9hdCIsICIiKSkKICAgICAgICAgICAgICAgIGlmIHNfdGltZS50aW1lem9uZSgpIGlzIG5vdCBOb25lOgogICAgICAgICAgICAgICAgICAgIHNfdGltZSA9IHNfdGltZS5yZXBsYWNlKHR6aW5mbz1Ob25lKQogICAgICAgICAgICAgICAgaWYgc190aW1lID49IGN1dG9mZl9kYXRlLnJlcGxhY2UodHppbmZvPU5vbmUpOgogICAgICAgICAgICAgICAgICAgIGtlcHQuYXBwZW5kKHMpCiAgICAgICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgICAgIGRlbGV0ZWQgKz0gMQogICAgICAgICAgICBleGNlcHQgKFZhbHVlRXJyb3IsIEtleUVycm9yKToKICAgICAgICAgICAgICAgIGtlcHQuYXBwZW5kKHMpCgogICAgICAgIGlmIGRlbGV0ZWQgPiAwOgogICAgICAgICAgICB0ZW1wX3BhdGggPSBmIntzZWxmLl9maWxlcGF0aH0udG1wIgogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICB3aXRoIG9wZW4odGVtcF9wYXRoLCAidyIsIGVuY29kaW5nPSJ1dGYtOCIpIGFzIGY6CiAgICAgICAgICAgICAgICAgICAgZm9yIHMgaW4ga2VwdDoKICAgICAgICAgICAgICAgICAgICAgICAgZi53cml0ZShqc29uLmR1bXBzKHMpICsgIlxuIikKICAgICAgICAgICAgICAgIG9zLnJlcGxhY2UodGVtcF9wYXRoLCBzZWxmLl9maWxlcGF0aCkKICAgICAgICAgICAgICAgIF9MT0dHRVIuaW5mbygiUHJ1bmVkICVkIG9sZCBzZXNzaW9ucyBmcm9tIHN0b3JlIiwgZGVsZXRlZCkKICAgICAgICAgICAgZXhjZXB0IE9TRXJyb3IgYXMgZXJyOgogICAgICAgICAgICAgICAgX0xPR0dFUi5lcnJvcigiRmFpbGVkIHRvIHBydW5lIHNlc3Npb25zOiAlcyIsIGVycikKICAgICAgICAgICAgICAgIGlmIG9zLnBhdGguZXhpc3RzKHRlbXBfcGF0aCk6CiAgICAgICAgICAgICAgICAgICAgb3MucmVtb3ZlKHRlbXBfcGF0aCkKCiAgICAgICAgcmV0dXJuIGRlbGV0ZWQKCiAgICBhc3luYyBkZWYgYXN5bmNfZGVsZXRlX3Nlc3Npb25zX2JlZm9yZShzZWxmLCBjdXRvZmZfZGF0ZTogZGF0ZXRpbWUpIC0+IGludDoKICAgICAgICAiIiJEZWxldGUgc2Vzc2lvbnMgb2xkZXIgdGhhbiBjdXRvZmZfZGF0ZS4iIiIKICAgICAgICByZXR1cm4gYXdhaXQgYXN5bmNpby50b190aHJlYWQoc2VsZi5fZGVsZXRlX2JlZm9yZV9zeW5jLCBjdXRvZmZfZGF0ZSkK
+"""Append-only JSONL session store for charging sessions."""
+from __future__ import annotations
+
+import asyncio
+import json
+import logging
+import os
+from pathlib import Path
+from typing import Any
+
+from homeassistant.core import HomeAssistant
+
+_LOGGER = logging.getLogger(__name__)
+MAX_SESSIONS_PER_VEHICLE = 5000
+
+
+class SessionStore:
+    """Stores charging sessions as JSONL files under .storage/powerflow/."""
+
+    def __init__(self, hass: HomeAssistant) -> None:
+        """Initialise store."""
+        self._base_dir = Path(hass.config.path(".storage", "powerflow"))
+        self._lock = asyncio.Lock()
+        self._base_dir.mkdir(parents=True, exist_ok=True)
+
+    def _path(self, vehicle_id: str) -> Path:
+        return self._base_dir / f"{vehicle_id}.jsonl"
+
+    async def async_append_session(self, session: dict[str, Any]) -> None:
+        """Atomically append a session record."""
+        vehicle_id = session.get("vehicle_id", "unknown")
+        path = self._path(vehicle_id)
+        line = json.dumps(session, separators=(",", ":")) + "\n"
+        async with self._lock:
+            await asyncio.to_thread(self._append_line, path, line)
+
+    def _append_line(self, path: Path, line: str) -> None:
+        tmp = path.with_suffix(".tmp")
+        with open(tmp, "a", encoding="utf-8") as f:
+            f.write(line)
+        # Merge tmp into main file atomically
+        if path.exists():
+            with open(path, "a", encoding="utf-8") as f:
+                f.write(line)
+        else:
+            os.replace(tmp, path)
+        if tmp.exists():
+            tmp.unlink(missing_ok=True)
+
+    async def async_load_sessions(self, vehicle_id: str) -> list[dict[str, Any]]:
+        """Load all sessions for a vehicle."""
+        path = self._path(vehicle_id)
+        if not path.exists():
+            return []
+        return await asyncio.to_thread(self._read_sessions, path)
+
+    def _read_sessions(self, path: Path) -> list[dict[str, Any]]:
+        sessions = []
+        try:
+            with open(path, encoding="utf-8") as f:
+                for line in f:
+                    line = line.strip()
+                    if line:
+                        try:
+                            sessions.append(json.loads(line))
+                        except json.JSONDecodeError:
+                            _LOGGER.warning("Skipping malformed session line in %s", path)
+        except OSError as err:
+            _LOGGER.error("Error reading sessions from %s: %s", path, err)
+        return sessions[-MAX_SESSIONS_PER_VEHICLE:]

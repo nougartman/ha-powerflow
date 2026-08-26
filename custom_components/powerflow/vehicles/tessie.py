@@ -1,1 +1,58 @@
-IiIiVGVzc2llIGludGVncmF0aW9uIHZlaGljbGUgY29udHJvbGxlci4iIiIKZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKaW1wb3J0IGxvZ2dpbmcKaW1wb3J0IGFpb2h0dHAKCmZyb20gaG9tZWFzc2lzdGFudC5jb3JlIGltcG9ydCBIb21lQXNzaXN0YW50CgpfTE9HR0VSID0gbG9nZ2luZy5nZXRMb2dnZXIoX19uYW1lX18pCgpURVNTSUVfQVBJX0JBU0UgPSAiaHR0cHM6Ly9hcGkudGVzc2llLmNvbSIKCgpjbGFzcyBUZXNzaWVDb250cm9sbGVyOgogICAgIiIiVmVoaWNsZSBjb250cm9sbGVyIHVzaW5nIFRlc3NpZSBBUEkuCiAgICAKICAgIFRoZSBUZXNzaWUgQVBJIHRva2VuIGlzIGF1dG9tYXRpY2FsbHkgcmVhZCBmcm9tIHRoZSBleGlzdGluZwogICAgVGVzc2llIEhBIGludGVncmF0aW9uIGNvbmZpZyBlbnRyeSAtLSBubyBkdXBsaWNhdGUgY3JlZGVudGlhbAogICAgZW50cnkgcmVxdWlyZWQgZnJvbSB0aGUgdXNlci4KICAgICIiIgoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBoYXNzOiBIb21lQXNzaXN0YW50LCB2aW46IHN0cikgLT4gTm9uZToKICAgICAgICAiIiJJbml0aWFsaXplIHRoZSBUZXNzaWUgY29udHJvbGxlci4iIiIKICAgICAgICBzZWxmLmhhc3MgPSBoYXNzCiAgICAgICAgc2VsZi52aW4gPSB2aW4KICAgICAgICBzZWxmLmFjY2Vzc190b2tlbiA9IHNlbGYuX2dldF90ZXNzaWVfdG9rZW4oKQoKICAgIGRlZiBfZ2V0X3Rlc3NpZV90b2tlbihzZWxmKSAtPiBzdHIgfCBOb25lOgogICAgICAgICIiIkV4dHJhY3QgVGVzc2llIGFjY2VzcyB0b2tlbiBmcm9tIGV4aXN0aW5nIFRlc3NpZSBIQSBpbnRlZ3JhdGlvbiBjb25maWcgZW50cnkuIiIiCiAgICAgICAgZW50cmllcyA9IHNlbGYuaGFzcy5jb25maWdfZW50cmllcy5hc3luY19lbnRyaWVzKCJ0ZXNzaWUiKQogICAgICAgIGlmIG5vdCBlbnRyaWVzOgogICAgICAgICAgICBfTE9HR0VSLndhcm5pbmcoIk5vIFRlc3NpZSBpbnRlZ3JhdGlvbiBjb25maWcgZW50cnkgZm91bmQuIFBsZWFzZSBzZXQgdXAgdGhlIFRlc3NpZSBpbnRlZ3JhdGlvbiBmaXJzdC4iKQogICAgICAgICAgICByZXR1cm4gTm9uZQogICAgICAgIHRva2VuID0gZW50cmllc1swXS5kYXRhLmdldCgiYWNjZXNzX3Rva2VuIikKICAgICAgICBpZiBub3QgdG9rZW46CiAgICAgICAgICAgIF9MT0dHRVIud2FybmluZygiVGVzc2llIGNvbmZpZyBlbnRyeSBmb3VuZCBidXQgbm8gYWNjZXNzX3Rva2VuIGtleS4gQ2hlY2sgVGVzc2llIGludGVncmF0aW9uIHZlcnNpb24uIikKICAgICAgICByZXR1cm4gdG9rZW4KCiAgICBhc3luYyBkZWYgX2FzeW5jX3Jlc3NpZV9yZXF1ZXN0KHNlbGYsIGVuZHBvaW50OiBzdHIsIGRhdGE6IGRpY3QgfCBOb25lID0gTm9uZSkgLT4gYm9vbDoKICAgICAgICAiIiJTZW5kIGEgUE9TVCByZXF1ZXN0IHRvIHRoZSBUZXNzaWUgQVBJLiIiIgogICAgICAgIGlmIG5vdCBzZWxmLmFjY2Vzc190b2tlbjoKICAgICAgICAgICAgX0xPR0dFUi53YXJuaW5nKCJObyBUZXNzaWUgdG9rZW4gYXZhaWxhYmxlIC0tIHNraXBwaW5nICVzIiwgZW5kcG9pbnQpCiAgICAgICAgICAgIHJldHVybiBGYWxzZQoKICAgICAgICB1cmwgPSBmIntURVNTSUVfQVBJX0JBU0V9L3tzZWxmLnZpbn0ve2VuZHBvaW50fSIKICAgICAgICBoZWFkZXJzID0geyJBdXRob3JpemF0aW9uIjogZiJCZWFyZXIge3NlbGYuYWNjZXNzX3Rva2VufSJ9CiAgICAgICAgdGltZW91dF9zZWMgPSAxNSBpZiAid2FrZSIgaW4gZW5kcG9pbnQgZWxzZSAxMAoKICAgICAgICB0cnk6CiAgICAgICAgICAgIHRpbWVvdXQgPSBhaW9odHRwLkNsaWVudFRpbWVvdXQodG90YWw9dGltZW91dF9zZWMpCiAgICAgICAgICAgIGFzeW5jIHdpdGggYWlvaHR0cC5DbGllbnRTZXNzaW9uKHRpbWVvdXQ9dGltZW91dCkgYXMgc2Vzc2lvbjoKICAgICAgICAgICAgICAgIGFzeW5jIHdpdGggc2Vzc2lvbi5wb3N0KHVybCwgaGVhZGVycz1oZWFkZXJzLCBqc29uPWRhdGEpIGFzIHJlc3A6CiAgICAgICAgICAgICAgICAgICAgaWYgcmVzcC5zdGF0dXMgbm90IGluICgyMDAsIDIwMik6CiAgICAgICAgICAgICAgICAgICAgICAgIF9MT0dHRVIud2FybmluZygKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJUZXNzaWUgQVBJIHJldHVybmVkIEhUVFAgJXMgZm9yIGVuZHBvaW50ICclcyciLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmVzcC5zdGF0dXMsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBlbmRwb2ludCwKICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gRmFsc2UKICAgICAgICAgICAgICAgICAgICByZXR1cm4gVHJ1ZQogICAgICAgIGV4Y2VwdCBhaW9odHRwLkNsaWVudEVycm9yIGFzIGVycjoKICAgICAgICAgICAgX0xPR0dFUi53YXJuaW5nKCJUZXNzaWUgQVBJIGNvbm5lY3Rpb24gZXJyb3IgZm9yICclcyc6ICVzIiwgZW5kcG9pbnQsIGVycikKICAgICAgICAgICAgcmV0dXJuIEZhbHNlCiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlcnI6CiAgICAgICAgICAgIF9MT0dHRVIud2FybmluZygiVW5leHBlY3RlZCBlcnJvciBmb3IgVGVzc2llIGVuZHBvaW50ICclcyc6ICVzIiwgZW5kcG9pbnQsIGVycikKICAgICAgICAgICAgcmV0dXJuIEZhbHNlCgogICAgYXN5bmMgZGVmIGFzeW5jX3dha2Uoc2VsZikgLT4gTm9uZToKICAgICAgICAiIiJXYWtlIHVwIHRoZSB2ZWhpY2xlLiIiIgogICAgICAgIGF3YWl0IHNlbGYuX2FzeW5jX3Jlc3NpZV9yZXF1ZXN0KCJ3YWtlIikKCiAgICBhc3luYyBkZWYgYXN5bmNfc3RhcnRfY2hhcmdlKHNlbGYpIC0+IE5vbmU6CiAgICAgICAgIiIiU3RhcnQgY2hhcmdpbmcuIiIiCiAgICAgICAgYXdhaXQgc2VsZi5fYXN5bmNfcmVzc2llX3JlcXVlc3QoImNvbW1hbmQvc3RhcnRfY2hhcmdpbmciKQoKICAgIGFzeW5jIGRlZiBhc3luY19zdG9wX2NoYXJnZShzZWxmKSAtPiBOb25lOgogICAgICAgICIiIlN0b3AgY2hhcmdpbmcuIiIiCiAgICAgICAgYXdhaXQgc2VsZi5fYXN5bmNfcmVzc2llX3JlcXVlc3QoImNvbW1hbmQvc3RvcF9jaGFyZ2luZyIpCgogICAgYXN5bmMgZGVmIGFzeW5jX3NldF9jaGFyZ2VfY3VycmVudChzZWxmLCBhbXBzOiBpbnQpIC0+IE5vbmU6CiAgICAgICAgIiIiU2V0IHRoZSBjaGFyZ2UgY3VycmVudC4iIiIKICAgICAgICBhd2FpdCBzZWxmLl9hc3luY19yZXNzaWVfcmVxdWVzdCgiY29tbWFuZC9zZXRfY2hhcmdpbmdfYW1wcyIsIGRhdGE9eyJhbXBzIjogYW1wc30pCg==
+"""Tessie vehicle controller for Powerflow."""
+from __future__ import annotations
+
+import logging
+
+from homeassistant.core import HomeAssistant
+
+from .base import VehicleController
+
+_LOGGER = logging.getLogger(__name__)
+
+
+class TessieController(VehicleController):
+    """Controls a Tesla vehicle via the Tessie HA integration."""
+
+    def __init__(self, hass: HomeAssistant, vehicle_id: str) -> None:
+        """Initialise controller."""
+        self.hass = hass
+        self.vehicle_id = vehicle_id
+
+    def _get_tessie_token(self) -> str | None:
+        """Extract the Tessie access token from its config entry."""
+        for entry in self.hass.config_entries.async_entries("tessie"):
+            token = entry.data.get("access_token")
+            if token:
+                return token
+        return None
+
+    async def async_wake(self) -> None:
+        """Wake the vehicle via Tessie."""
+        _LOGGER.debug("Tessie: waking vehicle %s", self.vehicle_id)
+        await self.hass.services.async_call(
+            "tessie", "wake", {"device_id": self.vehicle_id}, blocking=True
+        )
+
+    async def async_start_charge(self) -> None:
+        """Start charging via Tessie."""
+        _LOGGER.debug("Tessie: start charge %s", self.vehicle_id)
+        await self.hass.services.async_call(
+            "tessie", "start_charging", {"device_id": self.vehicle_id}, blocking=True
+        )
+
+    async def async_stop_charge(self) -> None:
+        """Stop charging via Tessie."""
+        _LOGGER.debug("Tessie: stop charge %s", self.vehicle_id)
+        await self.hass.services.async_call(
+            "tessie", "stop_charging", {"device_id": self.vehicle_id}, blocking=True
+        )
+
+    async def async_set_charge_current(self, amps: int) -> None:
+        """Set charging current via Tessie."""
+        _LOGGER.debug("Tessie: set charge current %s -> %dA", self.vehicle_id, amps)
+        await self.hass.services.async_call(
+            "tessie",
+            "set_charge_amps",
+            {"device_id": self.vehicle_id, "charge_amps": amps},
+            blocking=True,
+        )
