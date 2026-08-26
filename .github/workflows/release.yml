@@ -1,1 +1,25 @@
-bmFtZTogUmVsZWFzZQpvbjoKICByZWxlYXNlOgogICAgdHlwZXM6IFtwdWJsaXNoZWRdCgpqb2JzOgogIHJlbGVhc2U6CiAgICBydW5zLW9uOiB1YnVudHUtbGF0ZXN0CiAgICBzdGVwczoKICAgICAgLSB1c2VzOiBhY3Rpb25zL2NoZWNrb3V0QHY0CiAgICAgIC0gbmFtZTogVmFsaWRhdGUgSEFDUwogICAgICAgIHVzZXM6IGhhY3MvYWN0aW9uQG1haW4KICAgICAgICB3aXRoOgogICAgICAgICAgY2F0ZWdvcnk6IGludGVncmF0aW9uCg==
+name: Release
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  release:
+    name: Validate & publish release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: HACS Validation
+        uses: hacs/action@main
+        with:
+          category: integration
+
+      - name: Verify manifest version matches release tag
+        run: |
+          VERSION=$(jq -r .version custom_components/powerflow/manifest.json)
+          TAG=${GITHUB_REF#refs/tags/v}
+          echo "manifest=$VERSION  tag=$TAG"
+          [ "$VERSION" = "$TAG" ] || (echo "Version mismatch!" && exit 1)

@@ -1,1 +1,43 @@
-bmFtZTogQ0kKCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQojIE9OTFkgcnVuIG9uIFBScy4gRGlyZWN0IHB1c2hlcyB0byBtYWluIGRvIE5PVCB0cmlnZ2VyIENJIGF1dG9tYXRpY2FsbHkuCiMgVXNlIHdvcmtmbG93X2Rpc3BhdGNoIHRvIG1hbnVhbGx5IHZhbGlkYXRlIHdoZW4gcmVhZHkuCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQpvbjoKICBwdWxsX3JlcXVlc3Q6CiAgICBicmFuY2hlczogW21haW5dCiAgd29ya2Zsb3dfZGlzcGF0Y2g6Cgpqb2JzOgogIHZhbGlkYXRlOgogICAgbmFtZTogSEFDUyAmIEhhc3NmZXN0IFZhbGlkYXRpb24KICAgIHJ1bnMtb246IHVidW50dS1sYXRlc3QKICAgIHN0ZXBzOgogICAgICAtIG5hbWU6IENoZWNrb3V0CiAgICAgICAgdXNlczogYWN0aW9ucy9jaGVja291dEB2NAoKICAgICAgLSBuYW1lOiBIQVNTZmVzdAogICAgICAgIHVzZXM6IGhvbWUtYXNzaXN0YW50L2FjdGlvbnMvaGFzc2Zlc3RAbWFzdGVyCgogICAgICAtIG5hbWU6IEhBQ1MgVmFsaWRhdGlvbgogICAgICAgIHVzZXM6IGhhY3MvYWN0aW9uQG1haW4KICAgICAgICB3aXRoOgogICAgICAgICAgY2F0ZWdvcnk6IGludGVncmF0aW9uCgogIHRlc3Q6CiAgICBuYW1lOiBQeXRob24gVGVzdHMKICAgIHJ1bnMtb246IHVidW50dS1sYXRlc3QKICAgIHN0ZXBzOgogICAgICAtIG5hbWU6IENoZWNrb3V0CiAgICAgICAgdXNlczogYWN0aW9ucy9jaGVja291dEB2NAoKICAgICAgLSBuYW1lOiBTZXQgdXAgUHl0aG9uIDMuMTIKICAgICAgICB1c2VzOiBhY3Rpb25zL3NldHVwLXB5dGhvbkB2NQogICAgICAgIHdpdGg6CiAgICAgICAgICBweXRob24tdmVyc2lvbjogIjMuMTIiCgogICAgICAtIG5hbWU6IEluc3RhbGwgZGVwZW5kZW5jaWVzCiAgICAgICAgcnVuOiB8CiAgICAgICAgICBwaXAgaW5zdGFsbCBweXRlc3QgcHl0ZXN0LWhvbWVhc3Npc3RhbnQtY3VzdG9tLWNvbXBvbmVudCBweXRlc3QtYXN5bmNpbyBhaW9odHRwCgogICAgICAtIG5hbWU6IFJ1biB0ZXN0cwogICAgICAgIHJ1bjogcHl0ZXN0IHRlc3RzLyAtdiAtLXRiPXNob3J0Cg==
+name: CI
+
+# Only runs on PRs and manual dispatch.
+# Direct pushes to main do NOT trigger CI automatically.
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  validate:
+    name: HACS & Hassfest Validation
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: HASSfest
+        uses: home-assistant/actions/hassfest@master
+
+      - name: HACS Validation
+        uses: hacs/action@main
+        with:
+          category: integration
+
+  test:
+    name: Python Tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          pip install pytest pytest-homeassistant-custom-component pytest-asyncio aiohttp
+
+      - name: Run tests
+        run: pytest tests/ -v --tb=short
