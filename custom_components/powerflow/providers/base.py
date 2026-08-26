@@ -1,1 +1,17 @@
-IiIiQmFzZSBpbnRlcmZhY2VzIGZvciBwcmljaW5nIHByb3ZpZGVycy4iIiIKZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKZnJvbSB0eXBpbmcgaW1wb3J0IFByb3RvY29sLCBydW50aW1lX2NoZWNrYWJsZQoKCkBydW50aW1lX2NoZWNrYWJsZQpjbGFzcyBQcmljaW5nUHJvdmlkZXIoUHJvdG9jb2wpOgogICAgIiIiUHJvdG9jb2wgZm9yIHByaWNpbmcgcHJvdmlkZXJzLiIiIgoKICAgIGFzeW5jIGRlZiBhc3luY19mZXRjaF9wcmljZXMoc2VsZikgLT4gZGljdDoKICAgICAgICAiIiJGZXRjaCBjdXJyZW50IHByaWNlcyBhbmQgZm9yZWNhc3QuIiIiCiAgICAgICAgLi4uCgogICAgYXN5bmMgZGVmIGFzeW5jX3ZhbGlkYXRlX2NyZWRlbnRpYWxzKHNlbGYpIC0+IGJvb2w6CiAgICAgICAgIiIiVmFsaWRhdGUgQVBJIGNyZWRlbnRpYWxzLiIiIgogICAgICAgIC4uLgo=
+"""Base interfaces for pricing providers."""
+from __future__ import annotations
+
+from typing import Protocol, runtime_checkable
+
+
+@runtime_checkable
+class PricingProvider(Protocol):
+    """Protocol for pricing providers."""
+
+    async def async_fetch_prices(self) -> dict:
+        """Fetch current prices and forecast."""
+        ...
+
+    async def async_validate_credentials(self) -> bool:
+        """Validate API credentials."""
+        ...

@@ -1,1 +1,71 @@
-ewogICJjb25maWciOiB7CiAgICAic3RlcCI6IHsKICAgICAgInVzZXIiOiB7CiAgICAgICAgInRpdGxlIjogIkFtYmVyIEVsZWN0cmljIFNldHVwIiwKICAgICAgICAiZGVzY3JpcHRpb24iOiAiRW50ZXIgeW91ciBBbWJlciBFbGVjdHJpYyBBUEkgS2V5IGFuZCBTaXRlIElELiBQb3dlcmZsb3cgdXNlcyB0aGUgZnVsbCA0OC1pbnRlcnZhbCBBbWJlciBmb3JlY2FzdCBBUEkgZm9yIGdlbnVpbmUgcHJlZGljdGl2ZSBjaGFyZ2luZyBhcmJpdHJhdGlvbi4iLAogICAgICAgICJkYXRhIjogewogICAgICAgICAgImFtYmVyX2FwaV9rZXkiOiAiQVBJIEtleSIsCiAgICAgICAgICAic2l0ZV9pZCI6ICJTaXRlIElEIgogICAgICAgIH0KICAgICAgfSwKICAgICAgInNvbGFyIjogewogICAgICAgICJ0aXRsZSI6ICJTb2xhciAmIEJhdHRlcnkgU2Vuc29ycyIsCiAgICAgICAgImRlc2NyaXB0aW9uIjogIk1hcCB5b3VyIHNvbGFyLCBsb2FkLCBhbmQgYmF0dGVyeSBzZW5zb3JzLiBJZiBTb2xjYXN0IG9yIEZvcmVjYXN0LlNvbGFyIGlzIGluc3RhbGxlZCwgdGhlIFBWIGZvcmVjYXN0IHNlbnNvciB3aWxsIGJlIGF1dG8tZGV0ZWN0ZWQuIiwKICAgICAgICAiZGF0YSI6IHsKICAgICAgICAgICJzb2xhcl9zZW5zb3IiOiAiU29sYXIgUHJvZHVjdGlvbiBTZW5zb3IiLAogICAgICAgICAgImxvYWRfc2Vuc29yIjogIkhvbWUgTG9hZCBTZW5zb3IiLAogICAgICAgICAgImdyaWRfc2Vuc29yIjogIkdyaWQgUG93ZXIgU2Vuc29yIiwKICAgICAgICAgICJiYXR0ZXJ5X3R5cGUiOiAiQmF0dGVyeSBUeXBlIiwKICAgICAgICAgICJiYXR0ZXJ5X3NvY19zZW5zb3IiOiAiQmF0dGVyeSBTb0MgU2Vuc29yIChpZiBnZW5lcmljKSIsCiAgICAgICAgICAicHdfY2FwYWNpdHlfa3doIjogIlBvd2Vyd2FsbCBDYXBhY2l0eSAoa1doKSIsCiAgICAgICAgICAidGFyZ2V0X2Z1bGxfaG91ciI6ICJUYXJnZXQgRnVsbC1DaGFyZ2UgSG91ciAoMjRoKSIsCiAgICAgICAgICAicHZfZm9yZWNhc3Rfc2Vuc29yIjogIlBWIEZvcmVjYXN0IFJlbWFpbmluZyBUb2RheSBTZW5zb3IgKG9wdGlvbmFsKSIKICAgICAgICB9CiAgICAgIH0sCiAgICAgICJ2ZWhpY2xlcyI6IHsKICAgICAgICAidGl0bGUiOiAiVmVoaWNsZSBQcm9maWxlcyIsCiAgICAgICAgImRlc2NyaXB0aW9uIjogIkFkZCB1cCB0byA0IHZlaGljbGVzLiBZb3UgY2FuIGFkZCBtb3JlIGJ5IHRpY2tpbmcgJ0FkZCBhbm90aGVyJy4iLAogICAgICAgICJkYXRhIjogewogICAgICAgICAgIm5hbWUiOiAiVmVoaWNsZSBOYW1lIiwKICAgICAgICAgICJpbnRlZ3JhdGlvbiI6ICJJbnRlZ3JhdGlvbiIsCiAgICAgICAgICAidmVoaWNsZV9pZCI6ICJWZWhpY2xlIElEIC8gVklOIiwKICAgICAgICAgICJjaGFyZ2VfZW50aXR5X2lkIjogIkNoYXJnZSBFbnRpdHkgSUQiLAogICAgICAgICAgImFtcHNfZW50aXR5X2lkIjogIkNoYXJnZSBDdXJyZW50IEVudGl0eSBJRCIsCiAgICAgICAgICAidmluIjogIlZJTiAob3B0aW9uYWwsIGZvciBXYWxsIENvbm5lY3RvciBtYXRjaGluZykiLAogICAgICAgICAgImljZV9saXRyZXNfcGVyXzEwMGttIjogIklDRSBFcXVpdmFsZW50IChML2tNKSIsCiAgICAgICAgICAiYWRkX2Fub3RoZXIiOiAiQWRkIGFub3RoZXIgdmVoaWNsZSIKICAgICAgICB9CiAgICAgIH0sCiAgICAgICJydWxlcyI6IHsKICAgICAgICAidGl0bGUiOiAiQ2hhcmdpbmcgUnVsZXMiLAogICAgICAgICJkYXRhIjogewogICAgICAgICAgInBlYWtfbW9ybmluZ19zdGFydCI6ICJQZWFrIG1vcm5pbmcgc3RhcnQiLAogICAgICAgICAgInBlYWtfbW9ybmluZ19lbmQiOiAiUGVhayBtb3JuaW5nIGVuZCIsCiAgICAgICAgICAicGVha19ldmVuaW5nX3N0YXJ0IjogIlBlYWsgZXZlbmluZyBzdGFydCIsCiAgICAgICAgICAicGVha19ldmVuaW5nX2VuZCI6ICJQZWFrIGV2ZW5pbmcgZW5kIiwKICAgICAgICAgICJvdmVybmlnaHRfc3RhcnQiOiAiT3Zlcm5pZ2h0IHdpbmRvdyBzdGFydCIsCiAgICAgICAgICAib3Zlcm5pZ2h0X2VuZCI6ICJPdmVybmlnaHQgd2luZG93IGVuZCIsCiAgICAgICAgICAic29sYXJfc29ha19zdGFydCI6ICJTb2xhciBzb2FrIHN0YXJ0IiwKICAgICAgICAgICJzb2xhcl9zb2FrX2VuZCI6ICJTb2xhciBzb2FrIGVuZCIsCiAgICAgICAgICAib3Zlcm5pZ2h0X3NvY19saW1pdCI6ICJPdmVybmlnaHQgbWF4IFNvQyAoJSkiLAogICAgICAgICAgIm1heF9ncmlkX2ltcG9ydF9rdyI6ICJNYXggZ3JpZCBpbXBvcnQgKGtXKSIKICAgICAgICB9CiAgICAgIH0sCiAgICAgICJyb2kiOiB7CiAgICAgICAgInRpdGxlIjogIlJPSSAmIEZ1ZWwgUHJpY2UiLAogICAgICAgICJkYXRhIjogewogICAgICAgICAgImluc3RhbGxfY29zdCI6ICJTb2xhciAmIGJhdHRlcnkgaW5zdGFsbCBjb3N0ICgkKSIsCiAgICAgICAgICAiaW5zdGFsbF9kYXRlIjogIkluc3RhbGxhdGlvbiBkYXRlIChZWVlZLU1NLUREKSIsCiAgICAgICAgICAiY2FycnlfaW5fc2F2aW5ncyI6ICJDYXJyeS1pbiBzYXZpbmdzICgkKSIsCiAgICAgICAgICAibm92YXRlZF9sZWFzZSI6ICJFbmFibGUgbm92YXRlZCBsZWFzZSByZWltYnVyc2VtZW50IHRyYWNraW5nIiwKICAgICAgICAgICJmdWVsX3ByaWNlX3NvdXJjZSI6ICJGdWVsIHByaWNlIHNvdXJjZSIsCiAgICAgICAgICAiZnVlbF9wcmljZV9tYW51YWwiOiAiTWFudWFsIGZ1ZWwgcHJpY2UgKCQvTCkiCiAgICAgICAgfQogICAgICB9CiAgICB9LAogICAgImVycm9yIjogewogICAgICAiaW52YWxpZF9hdXRoIjogIkludmFsaWQgQW1iZXIgQVBJIGtleSBvciBTaXRlIElELiBQbGVhc2UgY2hlY2sgeW91ciBjcmVkZW50aWFscy4iCiAgICB9CiAgfQp9Cg==
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Amber Electric Setup",
+        "description": "Enter your Amber Electric API Key and Site ID. Powerflow uses the full 48-interval Amber forecast API for genuine predictive charging arbitration.",
+        "data": {
+          "amber_api_key": "API Key",
+          "site_id": "Site ID"
+        }
+      },
+      "solar": {
+        "title": "Solar & Battery Sensors",
+        "description": "Map your solar, load, and battery sensors. If Solcast or Forecast.Solar is installed, the PV forecast sensor will be auto-detected.",
+        "data": {
+          "solar_sensor": "Solar Production Sensor",
+          "load_sensor": "Home Load Sensor",
+          "grid_sensor": "Grid Power Sensor",
+          "battery_type": "Battery Type",
+          "battery_soc_sensor": "Battery SoC Sensor (if generic)",
+          "pw_capacity_kwh": "Powerwall Capacity (kWh)",
+          "target_full_hour": "Target Full-Charge Hour (24h)",
+          "pv_forecast_sensor": "PV Forecast Remaining Today Sensor (optional)"
+        }
+      },
+      "vehicles": {
+        "title": "Vehicle Profiles",
+        "description": "Add up to 4 vehicles. You can add more by ticking 'Add another'.",
+        "data": {
+          "name": "Vehicle Name",
+          "integration": "Integration",
+          "vehicle_id": "Vehicle ID / VIN",
+          "charge_entity_id": "Charge Entity ID",
+          "amps_entity_id": "Charge Current Entity ID",
+          "vin": "VIN (optional, for Wall Connector matching)",
+          "ice_litres_per_100km": "ICE Equivalent (L/100km)",
+          "add_another": "Add another vehicle"
+        }
+      },
+      "rules": {
+        "title": "Charging Rules",
+        "data": {
+          "peak_morning_start": "Peak morning start",
+          "peak_morning_end": "Peak morning end",
+          "peak_evening_start": "Peak evening start",
+          "peak_evening_end": "Peak evening end",
+          "overnight_start": "Overnight window start",
+          "overnight_end": "Overnight window end",
+          "solar_soak_start": "Solar soak start",
+          "solar_soak_end": "Solar soak end",
+          "overnight_soc_limit": "Overnight max SoC (%)",
+          "max_grid_import_kw": "Max grid import (kW)"
+        }
+      },
+      "roi": {
+        "title": "ROI & Fuel Price",
+        "data": {
+          "install_cost": "Solar & battery install cost ($)",
+          "install_date": "Installation date (YYYY-MM-DD)",
+          "carry_in_savings": "Carry-in savings ($)",
+          "novated_lease": "Enable novated lease reimbursement tracking",
+          "fuel_price_source": "Fuel price source",
+          "fuel_price_manual": "Manual fuel price ($/L)"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid Amber API key or Site ID. Please check your credentials."
+    }
+  }
+}

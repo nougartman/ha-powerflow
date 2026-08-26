@@ -1,1 +1,114 @@
-c3RhcnRfY2hhcmdlOgogIG5hbWU6IFN0YXJ0IENoYXJnZQogIGRlc2NyaXB0aW9uOiBTdGFydCBjaGFyZ2luZyBhIFBvd2VyZmxvdy1tYW5hZ2VkIHZlaGljbGUuCiAgZmllbGRzOgogICAgdmVoaWNsZV9pZDoKICAgICAgbmFtZTogVmVoaWNsZSBJRAogICAgICBkZXNjcmlwdGlvbjogVGhlIHZlaGljbGVfaWQgYXMgY29uZmlndXJlZCBpbiB0aGUgaW50ZWdyYXRpb24gc2V0dXAuCiAgICAgIHJlcXVpcmVkOiB0cnVlCiAgICAgIGV4YW1wbGU6ICJob3RfZG9nIgogICAgICBzZWxlY3RvcjoKICAgICAgICB0ZXh0OgoKc3RvcF9jaGFyZ2U6CiAgbmFtZTogU3RvcCBDaGFyZ2UKICBkZXNjcmlwdGlvbjogU3RvcCBjaGFyZ2luZyBhIFBvd2VyZmxvdy1tYW5hZ2VkIHZlaGljbGUuCiAgZmllbGRzOgogICAgdmVoaWNsZV9pZDoKICAgICAgbmFtZTogVmVoaWNsZSBJRAogICAgICBkZXNjcmlwdGlvbjogVGhlIHZlaGljbGVfaWQgYXMgY29uZmlndXJlZC4KICAgICAgcmVxdWlyZWQ6IHRydWUKICAgICAgZXhhbXBsZTogImhvdF9kb2ciCiAgICAgIHNlbGVjdG9yOgogICAgICAgIHRleHQ6CgpzZXRfY2hhcmdlX2N1cnJlbnQ6CiAgbmFtZTogU2V0IENoYXJnZSBDdXJyZW50CiAgZGVzY3JpcHRpb246IFNldCB0aGUgY2hhcmdpbmcgY3VycmVudCAoYW1wcykgZm9yIGEgdmVoaWNsZS4KICBmaWVsZHM6CiAgICB2ZWhpY2xlX2lkOgogICAgICBuYW1lOiBWZWhpY2xlIElECiAgICAgIHJlcXVpcmVkOiB0cnVlCiAgICAgIGV4YW1wbGU6ICJob3RfZG9nIgogICAgICBzZWxlY3RvcjoKICAgICAgICB0ZXh0OgogICAgYW1wczoKICAgICAgbmFtZTogQW1wZXJhZ2UKICAgICAgZGVzY3JpcHRpb246IFRhcmdldCBjaGFyZ2luZyBhbXBzICg2LSAzMikuCiAgICAgIHJlcXVpcmVkOiB0cnVlCiAgICAgIGV4YW1wbGU6IDE2CiAgICAgIHNlbGVjdG9yOgogICAgICAgIG51bWJlcjoKICAgICAgICAgIG1pbjogNgogICAgICAgICAgbWF4OiAzMgogICAgICAgICAgc3RlcDogMQogICAgICAgICAgdW5pdF9vZl9tZWFzdXJlbWVudDogQQoKbG9nX2F3YXlfY2hhcmdlOgogIG5hbWU6IExvZyBBd2F5IENoYXJnZQogIGRlc2NyaXB0aW9uOiA+CiAgICBNYW51YWxseSBsb2cgYSBjaGFyZ2luZyBzZXNzaW9uIHRoYXQgb2NjdXJyZWQgYXdheSBmcm9tIGhvbWUgKGUuZy4gcHVibGljCiAgICBjaGFyZ2VyIG9yIG9mZmljZSkgdG8ga2VlcCByZWltYnVyc2VtZW50IHRyYWNraW5nIGFjY3VyYXRlLgogIGZpZWxkczoKICAgIHZlaGljbGVfaWQ6CiAgICAgIG5hbWU6IFZlaGljbGUgSUQKICAgICAgcmVxdWlyZWQ6IHRydWUKICAgICAgZXhhbXBsZTogImhvdF9kb2ciCiAgICAgIHNlbGVjdG9yOgogICAgICAgIHRleHQ6CiAgICBlbmVyZ3lfYWRkZWRfa3doOgogICAgICBuYW1lOiBFbmVyZ3kgQWRkZWQgKGtXaCkKICAgICAgcmVxdWlyZWQ6IHRydWUKICAgICAgZXhhbXBsZTogMjIuNQogICAgICBzZWxlY3RvcjoKICAgICAgICBudW1iZXI6CiAgICAgICAgICBtaW46IDAKICAgICAgICAgIG1heDogMTIwCiAgICAgICAgICBzdGVwOiAwLjEKICAgICAgICAgIHVuaXRfb2ZfbWVhc3VyZW1lbnQ6IGtXaAogICAgc3RhcnRpbmdfc29jOgogICAgICBuYW1lOiBTdGFydGluZyBTb0MgKCUpCiAgICAgIGV4YW1wbGU6IDIwCiAgICAgIHNlbGVjdG9yOgogICAgICAgIG51bWJlcjoKICAgICAgICAgIG1pbjogMAogICAgICAgICAgbWF4OiAxMDAKICAgIGVuZGluZ19zb2M6CiAgICAgIG5hbWU6IEVuZGluZyBTb0MgKCUpCiAgICAgIGV4YW1wbGU6IDgwCiAgICAgIHNlbGVjdG9yOgogICAgICAgIG51bWJlcjoKICAgICAgICAgIG1pbjogMAogICAgICAgICAgbWF4OiAxMDAKICAgIGdyaWRfY29zdDoKICAgICAgbmFtZTogR3JpZCBDb3N0ICgkKQogICAgICBkZXNjcmlwdGlvbjogVG90YWwgY29zdCBvZiB0aGUgc2Vzc2lvbiBpbiBBVUQgKGZvcm0gcmVjZWlwdCkuCiAgICAgIGV4YW1wbGU6IDguNzUKICAgICAgc2VsZWN0b3I6CiAgICAgICAgbnVtYmVyOgogICAgICAgICAgbWluOiAwCiAgICAgICAgICBtYXg6IDUwMAogICAgICAgICAgc3RlcDogMC4wMQogICAgZW5kZWRfYXQ6CiAgICAgIG5hbWU6IFNlc3Npb24gRW5kZWQgQXQKICAgICAgZGVzY3JpcHRpb246IElTTyA4NjAxIGRhdGV0aW1lIChlLmcuIDIwMjUtMTItMDFUMTg6MzA6MDBaKS4KICAgICAgZXhhbXBsZTogIjIwMjUtMTItMDFUMTg6MzA6MDBaIgogICAgICBzZWxlY3RvcjoKICAgICAgICB0ZXh0OgoKZXhwb3J0X3JlaW1idXJzZW1lbnRfY3N2OgogIG5hbWU6IEV4cG9ydCBSZWltYnVyc2VtZW50IENTVgogIGRlc2NyaXB0aW9uOiA+CiAgICBFeHBvcnQgdGhlIGN1cnJlbnQgYmlsbGluZyBjeWNsZSdzIGNoYXJnaW5nIHNlc3Npb25zIGFzIGEgQ1NWIHJlcG9ydAogICAgZm9yIG5vdmF0ZWQgbGVhc2UgcmVpbWJ1cnNlbWVudC4KICB0YXJnZXQ6CiAgICBlbnRpdHk6IHt9CiAgZmllbGRzOgogICAgdmVoaWNsZV9pZDoKICAgICAgbmFtZTogVmVoaWNsZSBJRAogICAgICByZXF1aXJlZDogdHJ1ZQogICAgICBleGFtcGxlOiAiaG90X2RvZyIKICAgICAgc2VsZWN0b3I6CiAgICAgICAgdGV4dDoKCnJlY2FsY3VsYXRlX2Z1ZWxfc2F2aW5nczoKICBuYW1lOiBSZWNhbGN1bGF0ZSBGdWVsIFNhdmluZ3MKICBkZXNjcmlwdGlvbjogRm9yY2UgYSByZWZyZXNoIG9mIHRoZSBQb3dlcmZsb3cgY29vcmRpbmF0b3IgYW5kIHJlY2FsY3VsYXRlIGZ1ZWwgc2F2aW5ncy4K
+start_charge:
+  name: Start Charge
+  description: Start charging a Powerflow-managed vehicle.
+  fields:
+    vehicle_id:
+      name: Vehicle ID
+      description: The vehicle_id as configured in the integration setup.
+      required: true
+      example: "hot_dog"
+      selector:
+        text:
+
+stop_charge:
+  name: Stop Charge
+  description: Stop charging a Powerflow-managed vehicle.
+  fields:
+    vehicle_id:
+      name: Vehicle ID
+      description: The vehicle_id as configured.
+      required: true
+      example: "hot_dog"
+      selector:
+        text:
+
+set_charge_current:
+  name: Set Charge Current
+  description: Set the charging current (amps) for a vehicle.
+  fields:
+    vehicle_id:
+      name: Vehicle ID
+      required: true
+      example: "hot_dog"
+      selector:
+        text:
+    amps:
+      name: Amperage
+      description: Target charging amps (6-32).
+      required: true
+      example: 16
+      selector:
+        number:
+          min: 6
+          max: 32
+          step: 1
+          unit_of_measurement: A
+
+log_away_charge:
+  name: Log Away Charge
+  description: >
+    Manually log a charging session that occurred away from home (e.g. public
+    charger or office) to keep reimbursement tracking accurate.
+  fields:
+    vehicle_id:
+      name: Vehicle ID
+      required: true
+      example: "hot_dog"
+      selector:
+        text:
+    energy_added_kwh:
+      name: Energy Added (kWh)
+      required: true
+      example: 22.5
+      selector:
+        number:
+          min: 0
+          max: 120
+          step: 0.1
+          unit_of_measurement: kWh
+    starting_soc:
+      name: Starting SoC (%)
+      example: 20
+      selector:
+        number:
+          min: 0
+          max: 100
+    ending_soc:
+      name: Ending SoC (%)
+      example: 80
+      selector:
+        number:
+          min: 0
+          max: 100
+    grid_cost:
+      name: Grid Cost ($)
+      description: Total cost of the session in AUD (from receipt).
+      example: 8.75
+      selector:
+        number:
+          min: 0
+          max: 500
+          step: 0.01
+    ended_at:
+      name: Session Ended At
+      description: ISO 8601 datetime (e.g. 2025-12-01T18:30:00Z).
+      example: "2025-12-01T18:30:00Z"
+      selector:
+        text:
+
+export_reimbursement_csv:
+  name: Export Reimbursement CSV
+  description: >
+    Export the current billing cycle's charging sessions as a CSV report
+    for novated lease reimbursement.
+  fields:
+    vehicle_id:
+      name: Vehicle ID
+      required: true
+      example: "hot_dog"
+      selector:
+        text:
+
+recalculate_fuel_savings:
+  name: Recalculate Fuel Savings
+  description: Force a refresh of the Powerflow coordinator and recalculate fuel savings.
