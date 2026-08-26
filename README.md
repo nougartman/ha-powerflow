@@ -1,1 +1,119 @@
-IyBQb3dlcmZsb3cgL4KY17TCl+KaoQoKWyFbaGFjc19iYWRnZV0oaHR0cHM6Ly9pbWcuc2hpZWxkcy5pby9iYWRnZS9IQUNTLUN1c3RvbS1vcmFuZ2Uuc3ZnKV0oaHR0cHM6Ly9naXRodWIuY29tL2hhY3MvaW50ZWdyYXRpb24pCltbQ0ldKGh0dHBzOi8vZ2l0aHViLmNvbS9ub3VnYXJ0bWFuL2hhLXBvd2VyZmxvdy9hY3Rpb25zL3dvcmtmbG93cy9jaS55bWwvYmFkZ2Uuc3ZnKV0oaHR0cHM6Ly9naXRodWIuY29tL25vdWdhcnRtYW4vaGEtcG93ZXJmbG93L2FjdGlvbnMpCltbTGljZW5zZTogTUlUXShodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL0xpY2Vuc2UtTUlULXllbGxvdy5zdmcpXShodHRwczovL29wZW5zb3VyY2Uub3JnL2xpY2Vuc2VzL01JVCkKClBvd2VyZmxvdyBpcyBhIEhvbWUgQXNzaXN0YW50IGludGVncmF0aW9uIHRoYXQgYWN0cyBhcyBhbiBhZHZhbmNlZCBzb2xhciBFViBjaGFyZ2luZyBhcmJpdHJhdGlvbiBlbmdpbmUuIEl0IG9wdGltaXNlcyBjaGFyZ2luZyB0byB1c2UgZXhjZXNzIHNvbGFyLCBjaGVhcCBvdmVybmlnaHQgZ3JpZCByYXRlcywgYW5kIGF2b2lkcyBwZWFrIHRhcmlmZnMgLS0gdXNpbmcgQW1iZXIgRWxlY3RyaWMncyBmdWxsIDQ4LWludGVydmFsIDI0aCBmb3JlY2FzdCBBUEkuCgpbIVtQb3dlcmZsb3cgcG93ZXIgZmxvdyBkaWFncmFtXShodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vbm91Z2FydG1hbi9oYS1wb3dlcmZsb3cvbWFpbi9kb2NzL3Bvd2VyZmxvdy1kaWFncmFtLnBuZyldCgojIyBXaHkgUG93ZXJmbG93PwoKVGhlIG9mZmljaWFsIEFtYmVyIEhvbWUgQXNzaXN0YW50IGludGVncmF0aW9uIG9ubHkgZXhwb3NlcyB0aGUgY3VycmVudCBwcmljZSBpbnRlcnZhbCAoMzAgbWlucykuIFBvd2VyZmxvdyBjYWxscyB0aGUgQW1iZXIgQVBJIGRpcmVjdGx5IHdpdGggYD9uZXh0PTQ4YCB0byBnZXQgdGhlIGZ1bGwgMjRoIGZvcmVjYXN0LCBlbmFibGluZzoKLSBQcmVkaWN0aXZlIHNvbGFyIHNvYWsgd2luZG93IGRldGVjdGlvbgoKLSBPdmVybmlnaHQgY2hlYXAgd2luZG93IHNjaGVkdWxpbmcKLSAxMmggcHJpY2Ugc3Bpa2Ugd2FybmluZ3MKCiMjIFByZXJlcXVpc2l0ZXMKLSAqKkFtYmVyIEVsZWN0cmljKiogYWNjb3VudCAmIEFQSSBrZXkKLSAqKlRlc2xhIFZlaGljbGUqKiB2aWEgVGVzc2llIG9yIG9mZmljaWFsIEhBIGludGVncmF0aW9uCi0gKihPcHRpb25hbCkqICoqU29sY2FzdCBTb2xhcioqIG9yICoqRm9yZWNhc3QuU29sYXIqKiBmb3IgUFYgZm9yZWNhc3RpbmcKCiMjIEluc3RhbGxhdGlvbgoxLiBPcGVuIEhBQ1MgPiBJbnRlZ3JhdGlvbnMKMi4gQ2xpY2sgMyBkb3RzID4gQ3VzdG9tIHJlcG9zaXRvcmllcwozLiBBZGQgYGh0dHBzOi8vZ2l0aHViLmNvbS9ub3VnYXJ0bWFuL2hhLXBvd2VyZmxvd2AgYXMgYW4gKipJbnRlZ3JhdGlvbioqCjQuIEluc3RhbGwgKipQb3dlcmZsb3cqKiBhbmQgcmVzdGFydCBIb21lIEFzc2lzdGFudAoKIyMgQ29uZmlndXJhdGlvbgpHbyB0byBTZXR0aW5ncyA+IERldmljZXMgJiBTZXJ2aWNlcyA+IEFkZCBJbnRlZ3JhdGlvbiA+ICoqUG93ZXJmbG93KiouCgpGb2xsb3cgdGhlIDUtc3RlcCBzZXR1cCBmbG93OgoKfCBTdGVwIHwgUHVycG9zZSB8Ci8tLS0vLS0tLwp8IDEgfCBBbWJlciBFbGVjdHJpYyBBUEkga2V5ICsgc2l0ZSBJRCAtLSB2YWxpZGF0ZWQgbGl2ZSB8CnwgMiB8IFNvbGFyLCBsb2FkICYgZ3JpZCBwb3dlciBzZW5zb3JzICsgYmF0dGVyeSAvIFBvd2Vyd2FsbCB8CnwgMyB8IFZlaGljbGUgcHJvZmlsZXMgKHVwIHRvIDQpICsgVGVzc2llIG9yIG9mZmljaWFsIFRlc2xhIGludGVncmF0aW9uIHwKfCA0IHwgQ2hhcmdpbmcgcnVsZXM6IHBlYWsgd2luZG93cywgb3Zlcm5pZ2h0IFNvQyBsaW1pdHMsIHNvbGFyIHNvYWsgfAp8IDUgfCBTb2xhciBST0kgdHJhY2tlciArIGZ1ZWwgcHJpY2Ugc291cmNlIChOU1cvQUNUIEZ1ZWxDaGVjaywgbWFudWFsLCBldGMuKSB8CgojIyBGZWF0dXJlcwoKLSBcdUQ4M0RcdURDE2EgKipTbWFydCBBcmJpdHJhdGlvbioqOiBEZWNpZGVzIGNoYXJnaW5nIG1vZGUgYmFzZWQgb24gc29sYXIgZXhjZXNzLCBvdmVybmlnaHQgcmF0ZXMgJiBwZWFrIGxvY2tvdXRzCi0gXHVEODNEXHVEQ0ZGICoqRHluYW1pYyBQYWNpbmcgUmVzZXJ2ZSoqOiBBZGp1c3RzIFBvd2Vyd2FsbCByZXNlcnZlIGR5bmFtaWNhbGx5IHRvIGhpdCAxMDAlIGJ5IHRhcmdldCB0aW1lCi0gXHVENzk2XHVENzlDICoqRmxlZXQgRnVlbCBTYXZpbmdzKio6IFRyYWNrcyBFViBzYXZpbmdzIHZzIElDRSBlcXVpdmFsZW50IHBlciB2ZWhpY2xlCi0gXHVEODNEXHVEQ0M5ICoqU29sYXIgUk9JIFRyYWNrZXIqKjogTW9uaXRvcnMgcGF5YmFjayBwcm9ncmVzcyBvbiBpbnN0YWxsYXRpb24gY29zdAotIFx1RDgzRFx1RENCMyAqKlJlaW1idXJzZW1lbnQgQ1NWIEV4cG9ydCoqOiBFeHBvcnRzIG5vdmF0ZWQgbGVhc2UgcmVpbWJ1cnNlbWVudCBkYXRhCi0gXHVEODNEXHVEQ0IgKipMaXZlIEZ1ZWwgUHJpY2UqKjogTlNXL0FDVCBGdWVsQ2hlY2sgQVBJIG9yIG1hbnVhbCBlbnRyeQoKIyMgU2Vuc29ycyBDcmVhdGVkCgotIGBzZW5zb3IucG93ZXJmbG93X2FtYmVyX2N1cnJlbnRfcHJpY2VgCi0gYHNlbnNvci5wb3dlcmZsb3dfZmxlZXRfZnVlbF9zYXZpbmdzYAotIGBiaW5hcnlfc2Vuc29yLnBvd2VyZmxvd19zb2xhcl9zb2FrX3ByZWRpY3RlZGAKLSBgYmluYXJ5X3NlbnNvci5wb3dlcmZsb3dfc3Bpa2Vfd2FybmluZ18xMmhgCi0gUGVyIHZlaGljbGU6IGBzZW5zb3IucG93ZXJmbG93X3t2ZWhpY2xlfV90YXJnZXRfYW1wc2AsIGBiaW5hcnlfc2Vuc29yLnBvd2VyZmxvd197dmVoaWNsZX1fY2hhcmdlX2Rlc2lyZWRgCgojIyBTZXJ2aWNlcwoKLSBgcG93ZXJmbG93LnN0YXJ0X2NoYXJnZWAKLSBgcG93ZXJmbG93LnN0b3BfY2hhcmdlYAotIGBwb3dlcmZsb3cuc2V0X2NoYXJnZV9jdXJyZW50YAotIGBwb3dlcmZsb3cubG9nX2F3YXlfY2hhcmdlYAotIGBwb3dlcmZsb3cuZXhwb3J0X3JlaW1idXJzZW1lbnRfY3N2YAotIGBwb3dlcmZsb3cucmVjYWxjdWxhdGVfZnVlbF9zYXZpbmdzYAoKIyMgQ29udHJpYnV0aW5nClNlZSBbQ09OVFJJQlVUSU5HLm1kXShDT05UUklCVVRJTkcubWQpLgoKIyMgTGljZW5zZQpNSVQgwqkgMjAyNiBub3VnYXJ0bWFuCg==
+# Powerflow ⚡🔋
+
+[![HACS Custom](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/hacs/integration)
+[![CI](https://github.com/nougartman/ha-powerflow/actions/workflows/ci.yml/badge.svg)](https://github.com/nougartman/ha-powerflow/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+**Powerflow** is a Home Assistant custom integration that acts as an advanced solar + EV charging arbitration engine. It optimises when and how fast your Tesla charges based on Amber Electric pricing, solar excess, and Powerwall state — using the full 48-interval 24h forecast API that the official Amber integration does not expose.
+
+---
+
+## Why Powerflow?
+
+The official Amber HA integration only shows the **current 30-minute interval**. Powerflow calls the Amber API with `?next=48` to get the full 24-hour forecast, enabling:
+
+- Predictive **Solar Soak** window detection (charge hardest when your panels will produce most)
+- **Overnight cheap window** scheduling
+- **12-hour price spike warnings** so the Powerwall isn't depleted before an evening peak
+- Dynamic **Powerwall pacing reserve** — adjusts the reserve target every cycle to hit 100% by your chosen hour
+
+---
+
+## Prerequisites
+
+- **Amber Electric** account & API key ([app.amber.com.au](https://app.amber.com.au))
+- **Tesla Vehicle** controlled via [Tessie](https://tessie.com) or the official Tesla HA integration
+- *(Optional)* **Solcast** or **Forecast.Solar** for PV forecasting — auto-detected on setup
+
+---
+
+## Installation via HACS
+
+1. Open **HACS** → **Integrations**
+2. Click ⋮ → **Custom repositories**
+3. Add `https://github.com/nougartman/ha-powerflow` as category **Integration**
+4. Install **Powerflow** and restart Home Assistant
+
+---
+
+## Configuration
+
+Go to **Settings** → **Devices & Services** → **Add Integration** → search **Powerflow**.
+
+Follow the 5-step setup wizard:
+
+| Step | Purpose |
+|------|---------|
+| 1 | Amber Electric API key + Site ID — validated live against the API |
+| 2 | Solar, load & grid power sensors + battery / Powerwall type |
+| 3 | Vehicle profiles (up to 4) — Tessie or official Tesla integration |
+| 4 | Charging rules: peak windows, overnight SoC limits, solar soak window |
+| 5 | Solar ROI tracker + fuel price source (NSW/ACT FuelCheck, HA sensor, manual) |
+
+---
+
+## Sensors Created
+
+| Entity | Description |
+|--------|-------------|
+| `sensor.powerflow_amber_current_price` | Live Amber price ($/kWh) |
+| `sensor.powerflow_amber_forecast_12h_min` | 12h forecast minimum price |
+| `sensor.powerflow_amber_forecast_12h_max` | 12h forecast maximum price |
+| `sensor.powerflow_fleet_fuel_savings` | Total EV vs ICE fuel savings (AUD) |
+| `sensor.powerflow_fleet_petrol_avoided` | Petrol avoided (L) |
+| `sensor.powerflow_roi_total_saved` | Total solar/battery ROI saved (AUD) |
+| `sensor.powerflow_roi_payback_percent` | Payback progress (%) |
+| `sensor.powerflow_local_e91_fuel_price` | Local ULP91 price (AUD/L) |
+| `binary_sensor.powerflow_solar_soak_predicted` | Solar soak window predicted today |
+| `binary_sensor.powerflow_spike_warning_12h` | Price spike forecast in next 12h |
+| `sensor.powerflow_{vehicle}_target_amps` | Per-vehicle target charge current |
+| `binary_sensor.powerflow_{vehicle}_charge_desired` | Per-vehicle charge command |
+
+---
+
+## Services
+
+| Service | Description |
+|---------|-------------|
+| `powerflow.start_charge` | Wake and start charging a vehicle |
+| `powerflow.stop_charge` | Stop charging a vehicle |
+| `powerflow.set_charge_current` | Set charge amps (6–32A) |
+| `powerflow.log_away_charge` | Manually log a public/away charging session |
+| `powerflow.export_reimbursement_csv` | Export novated lease CSV for current billing cycle |
+| `powerflow.recalculate_fuel_savings` | Force coordinator refresh |
+
+---
+
+## Features
+
+### Smart Arbitration Engine
+Evaluates charging strategy every 5 minutes based on:
+- Amber price descriptor (`extremelyLow`, `low`, `neutral`, `high`, `spike`)
+- Spike status in the 12-hour forecast
+- Solar excess power available right now
+- Time-of-day windows (configurable peak, overnight, solar soak)
+
+### Dual-Vehicle Support
+Up to 4 vehicles, balanced across available amperage — priority vehicle gets `PRIORITY_MAX_AMPS`, secondary gets the remainder (min 6A or nothing).
+
+### Fuel Savings Engine
+Tracks EV charging cost vs equivalent ICE petrol cost per vehicle and fleet. Fuel price is sourced via a 5-tier strategy:
+1. Manual override
+2. HA sensor
+3. NSW/ACT FuelCheck API (live ULP91)
+4. Quarterly historical average (national fallback)
+5. Internal hardcoded last-known value
+
+### Solar ROI Tracker
+Tracks cumulative savings against install cost and projects payback timeline based on monthly average savings rate.
+
+### Novated Lease Reimbursement
+Records each charging session (grid kWh, solar kWh, cost), filters phantom sessions, and exports a CSV for employer reimbursement claims.
+
+---
+
+## Contributing
+See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## License
+MIT © 2026 nougartman
