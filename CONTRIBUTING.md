@@ -1,1 +1,63 @@
-IyBDb250cmlidXRpbmcgdG8gUG93ZXJmbG93CgpDb250cmlidXRpb25zIGFyZSB3ZWxjb21lISBQbGVhc2UgZW5zdXJlIGFueSBjb2RlIGNoYW5nZXMgaW5jbHVkZSBmdWxsIGBhc3luY2AvYGF3YWl0YCBzdXBwb3J0IGFuZCBhcHByb3ByaWF0ZSB0ZXN0cy4KCjEuIEZvcmsgdGhlIHJlcG8uCjIuIENyZWF0ZSBhIGZlYXR1cmUgYnJhbmNoLgozLiBTdWJtaXQgYSBQdWxsIFJlcXVlc3QgdGFyZ2V0aW5nIGBtYWluYC4KCiMjIERldmVsb3BtZW50IFNldHVwCgpgYGBiYXNoCnBpcCBpbnN0YWxsIHB5dGVzdCBweXRlc3QtaG9tZWFzc2lzdGFudC1jdXN0b20tY29tcG9uZW50IHB5dGVzdC1hc3luY2lvIGFpb2h0dHAKcHl0ZXN0IHRlc3RzLyAtdiAtLXRiPXNob3J0CmBgYAoKIyMgQ29kZSBTdHlsZQoKLSBBbGwgUHl0aG9uIG11c3QgdXNlIGBhc3luY2AvYGF3YWl0YCB0aHJvdWdob3V0LgotIFVzZSBgZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9uc2AgYXQgdGhlIHRvcCBvZiBldmVyeSBQeXRob24gZmlsZS4KLSBGb2xsb3cgSG9tZSBBc3Npc3RhbnQgZGV2ZWxvcG1lbnQgZ3VpZGVsaW5lczogaHR0cHM6Ly9kZXZlbG9wZXJzLmhvbWUtYXNzaXN0YW50LmlvLwotIFRhcmdldCBIQSBjb3JlID49IDIwMjQuMS4K
+# Contributing to Powerflow
+
+Contributions are welcome! Please read the guidelines below before opening a PR.
+
+---
+
+## Development Setup
+
+```bash
+# Clone the repo
+git clone https://github.com/nougartman/ha-powerflow.git
+cd ha-powerflow
+
+# Install test dependencies
+pip install pytest pytest-homeassistant-custom-component pytest-asyncio aiohttp
+
+# Run the test suite
+pytest tests/ -v --tb=short
+```
+
+---
+
+## Code Style
+
+- All Python must use `async`/`await` throughout — no blocking calls on the event loop
+- Add `from __future__ import annotations` at the top of every Python file
+- Follow [Home Assistant development guidelines](https://developers.home-assistant.io/)
+- Target HA core >= 2024.1
+
+---
+
+## How to Contribute
+
+1. **Fork** the repository
+2. Create a **feature branch** (`git checkout -b feat/my-feature`)
+3. Write code with appropriate tests in `tests/`
+4. Open a **Pull Request** targeting `main`
+5. CI will automatically run HASSfest validation, HACS validation, and the pytest suite
+
+---
+
+## Pull Request Guidelines
+
+- Keep PRs focused — one feature or fix per PR
+- Include a clear description of what changed and why
+- All new engine logic should have corresponding unit tests
+- Do not modify `hacs.json` or `manifest.json` version fields manually — releases handle this
+
+---
+
+## Reporting Issues
+
+Please open a [GitHub Issue](https://github.com/nougartman/ha-powerflow/issues) with:
+- Your HA version
+- Powerflow version
+- Relevant logs from **Settings → System → Logs** filtered by `powerflow`
+- Steps to reproduce the problem
+
+---
+
+## License
+
+By contributing, you agree that your contributions will be licensed under the [MIT License](LICENSE).
